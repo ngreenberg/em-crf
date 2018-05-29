@@ -1,0 +1,1278 @@
+Loading vocab from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/embeddings/glove.6B/glove.6B.100d.txt
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/cdr/ner_CID_Training_mine_PubTator.txt
+Embeddings coverage: 99.86%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/cdr/ner_CDR_TrainingSet.PubTator.txt
+Embeddings coverage: 99.98%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/cdr/ner_CDR_DevelopmentSet.PubTator.txt
+Embeddings coverage: 100.00%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/cdr/ner_CDR_TestSet.PubTator.txt
+Embeddings coverage: 100.00%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/bc/ner_CDR_train.txt
+Embeddings coverage: 99.97%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/bc/ner_CDR_dev.txt
+Embeddings coverage: 99.98%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/bc/ner_CDR_test.txt
+Embeddings coverage: 99.99%
+
+Loading embeddings from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/embeddings/glove.6B/glove.6B.100d.txt
+Loaded 400000/406331 embeddings (98.44% coverage)
+
+LSTM char embedding model
+embedding dim:  25
+out dim:  50
+Segment evaluation cdr_dev (iteration 0):
+	        F1	Prec	Recall
+Micro (Seg)	nan	0.00	0.00
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	0.00	0.00	0.00
+   Disease	0.00	0.00	0.00
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 134 phrases; correct: 0.
+
+Segment evaluation bc_dev (iteration 0):
+	        F1	Prec	Recall
+Micro (Seg)	0.01	0.16	0.01
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	0.02	0.21	0.01
+   Disease	0.00	0.00	100.00
+      Gene	0.00	0.00	0.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 611 phrases; correct: 1.
+
+Lasted saved at N/A
+
+Segment evaluation cdr_dev (iteration 1):
+	        F1	Prec	Recall
+Micro (Seg)	14.17	36.23	8.81
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	15.47	39.17	9.64
+   Disease	12.67	34.24	7.78
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 2277 phrases; correct: 825.
+
+Segment evaluation bc_dev (iteration 1):
+	        F1	Prec	Recall
+Micro (Seg)	5.25	10.64	3.49
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	8.74	13.12	6.55
+   Disease	0.00	0.00	100.00
+      Gene	0.45	1.99	0.25
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 5077 phrases; correct: 540.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 2):
+	        F1	Prec	Recall
+Micro (Seg)	28.71	28.83	28.59
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	34.37	36.20	32.72
+   Disease	29.93	41.23	23.50
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 9294 phrases; correct: 2679.
+
+Segment evaluation bc_dev (iteration 2):
+	        F1	Prec	Recall
+Micro (Seg)	14.93	12.07	19.57
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	13.31	11.22	16.35
+   Disease	0.00	0.00	100.00
+      Gene	16.99	13.47	22.97
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 25104 phrases; correct: 3030.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 3):
+	        F1	Prec	Recall
+Micro (Seg)	41.23	36.66	47.10
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	48.27	44.90	52.17
+   Disease	39.68	38.59	40.84
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 12039 phrases; correct: 4413.
+
+Segment evaluation bc_dev (iteration 3):
+	        F1	Prec	Recall
+Micro (Seg)	23.99	19.92	30.15
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	27.82	23.16	34.82
+   Disease	0.00	0.00	100.00
+      Gene	22.29	19.97	25.23
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 23431 phrases; correct: 4668.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 4):
+	        F1	Prec	Recall
+Micro (Seg)	50.76	48.70	53.02
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	58.68	57.32	60.09
+   Disease	45.41	46.60	44.27
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10200 phrases; correct: 4967.
+
+Segment evaluation bc_dev (iteration 4):
+	        F1	Prec	Recall
+Micro (Seg)	28.29	25.98	31.04
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	38.05	30.71	49.99
+   Disease	0.00	0.00	100.00
+      Gene	14.72	22.06	11.05
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 18501 phrases; correct: 4806.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 5):
+	        F1	Prec	Recall
+Micro (Seg)	53.03	47.05	60.75
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	65.07	63.21	67.05
+   Disease	52.12	51.29	52.98
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 12098 phrases; correct: 5692.
+
+Segment evaluation bc_dev (iteration 5):
+	        F1	Prec	Recall
+Micro (Seg)	38.71	32.26	48.39
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	44.39	41.89	47.21
+   Disease	0.00	0.00	100.00
+      Gene	38.34	31.22	49.65
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 23224 phrases; correct: 7492.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 6):
+	        F1	Prec	Recall
+Micro (Seg)	56.55	53.89	59.48
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	68.97	70.86	67.18
+   Disease	54.15	59.08	49.98
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10342 phrases; correct: 5573.
+
+Segment evaluation bc_dev (iteration 6):
+	        F1	Prec	Recall
+Micro (Seg)	42.24	37.02	49.18
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	47.79	48.38	47.21
+   Disease	0.00	0.00	100.00
+      Gene	41.19	34.42	51.27
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 20570 phrases; correct: 7614.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 7):
+	        F1	Prec	Recall
+Micro (Seg)	60.15	53.17	69.24
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	74.36	73.47	75.28
+   Disease	59.03	56.51	61.78
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 12200 phrases; correct: 6487.
+
+Segment evaluation bc_dev (iteration 7):
+	        F1	Prec	Recall
+Micro (Seg)	45.59	40.29	52.48
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	52.22	55.27	49.48
+   Disease	0.00	0.00	100.00
+      Gene	45.68	38.74	55.65
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 20165 phrases; correct: 8125.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 8):
+	        F1	Prec	Recall
+Micro (Seg)	65.41	59.27	72.96
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	77.89	75.73	80.18
+   Disease	62.40	60.83	64.05
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 11533 phrases; correct: 6836.
+
+Segment evaluation bc_dev (iteration 8):
+	        F1	Prec	Recall
+Micro (Seg)	46.22	41.73	51.79
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	57.17	50.58	65.75
+   Disease	0.00	0.00	100.00
+      Gene	40.07	43.60	37.06
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 19213 phrases; correct: 8018.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 9):
+	        F1	Prec	Recall
+Micro (Seg)	66.76	59.85	75.46
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	79.74	76.49	83.27
+   Disease	64.55	63.34	65.82
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 11812 phrases; correct: 7070.
+
+Segment evaluation bc_dev (iteration 9):
+	        F1	Prec	Recall
+Micro (Seg)	50.33	45.42	56.44
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	60.45	57.43	63.80
+   Disease	0.00	0.00	100.00
+      Gene	46.63	44.76	48.67
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 19235 phrases; correct: 8737.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 10):
+	        F1	Prec	Recall
+Micro (Seg)	68.95	62.00	77.67
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	81.97	79.40	84.72
+   Disease	67.52	66.13	68.96
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 11738 phrases; correct: 7277.
+
+Segment evaluation bc_dev (iteration 10):
+	        F1	Prec	Recall
+Micro (Seg)	51.58	45.60	59.36
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	62.98	58.93	67.62
+   Disease	0.00	0.00	100.00
+      Gene	47.54	44.80	50.63
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 20151 phrases; correct: 9189.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 11):
+	        F1	Prec	Recall
+Micro (Seg)	70.90	65.86	76.77
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	83.75	81.33	86.32
+   Disease	68.72	72.91	64.98
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10922 phrases; correct: 7193.
+
+Segment evaluation bc_dev (iteration 11):
+	        F1	Prec	Recall
+Micro (Seg)	54.36	50.31	59.12
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	65.54	62.43	68.98
+   Disease	0.00	0.00	100.00
+      Gene	48.22	47.75	48.71
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 18193 phrases; correct: 9152.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 12):
+	        F1	Prec	Recall
+Micro (Seg)	71.80	65.97	78.76
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	84.84	83.14	86.61
+   Disease	70.44	71.87	69.06
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 11185 phrases; correct: 7379.
+
+Segment evaluation bc_dev (iteration 12):
+	        F1	Prec	Recall
+Micro (Seg)	56.56	51.50	62.71
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	66.66	63.64	69.99
+   Disease	0.00	0.00	100.00
+      Gene	52.70	50.56	55.03
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 18849 phrases; correct: 9708.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 13):
+	        F1	Prec	Recall
+Micro (Seg)	73.13	67.89	79.25
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	85.70	86.50	84.91
+   Disease	72.16	72.07	72.26
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10937 phrases; correct: 7425.
+
+Segment evaluation bc_dev (iteration 13):
+	        F1	Prec	Recall
+Micro (Seg)	56.22	52.40	60.64
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	66.74	62.99	70.96
+   Disease	0.00	0.00	100.00
+      Gene	52.08	54.63	49.75
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 17917 phrases; correct: 9388.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 14):
+	        F1	Prec	Recall
+Micro (Seg)	74.11	70.19	78.49
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	86.55	87.89	85.24
+   Disease	73.23	76.59	70.16
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10478 phrases; correct: 7354.
+
+Segment evaluation bc_dev (iteration 14):
+	        F1	Prec	Recall
+Micro (Seg)	58.65	56.14	61.40
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	68.13	70.07	66.29
+   Disease	0.00	0.00	100.00
+      Gene	55.38	54.55	56.23
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 16931 phrases; correct: 9505.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 15):
+	        F1	Prec	Recall
+Micro (Seg)	74.46	68.46	81.61
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	87.43	88.42	86.46
+   Disease	73.22	70.96	75.62
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 11168 phrases; correct: 7646.
+
+Segment evaluation bc_dev (iteration 15):
+	        F1	Prec	Recall
+Micro (Seg)	58.76	54.94	63.15
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	70.01	67.07	73.23
+   Disease	0.00	0.00	100.00
+      Gene	55.37	58.57	52.50
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 17795 phrases; correct: 9776.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 16):
+	        F1	Prec	Recall
+Micro (Seg)	74.46	70.12	79.37
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	88.05	91.38	84.95
+   Disease	74.64	76.95	72.47
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10604 phrases; correct: 7436.
+
+Segment evaluation bc_dev (iteration 16):
+	        F1	Prec	Recall
+Micro (Seg)	60.45	57.67	63.51
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	69.31	75.57	64.01
+   Disease	0.00	0.00	100.00
+      Gene	59.31	56.04	62.98
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 17048 phrases; correct: 9832.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 17):
+	        F1	Prec	Recall
+Micro (Seg)	76.37	70.49	83.33
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	88.97	88.86	89.09
+   Disease	76.17	76.13	76.22
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 11075 phrases; correct: 7807.
+
+Segment evaluation bc_dev (iteration 17):
+	        F1	Prec	Recall
+Micro (Seg)	61.54	57.37	66.36
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	72.13	69.73	74.70
+   Disease	0.00	0.00	100.00
+      Gene	58.93	60.37	57.55
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 17907 phrases; correct: 10273.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 18):
+	        F1	Prec	Recall
+Micro (Seg)	76.09	71.14	81.79
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	88.85	90.62	87.15
+   Disease	76.13	77.12	75.17
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10772 phrases; correct: 7663.
+
+Segment evaluation bc_dev (iteration 18):
+	        F1	Prec	Recall
+Micro (Seg)	63.25	58.90	68.30
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	73.32	72.60	74.05
+   Disease	0.00	0.00	100.00
+      Gene	61.09	59.99	62.22
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 17951 phrases; correct: 10573.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 19):
+	        F1	Prec	Recall
+Micro (Seg)	76.69	72.84	80.97
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	89.46	92.56	86.56
+   Disease	76.53	79.17	74.07
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10414 phrases; correct: 7586.
+
+Segment evaluation bc_dev (iteration 19):
+	        F1	Prec	Recall
+Micro (Seg)	63.53	60.94	66.34
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	73.20	75.48	71.06
+   Disease	0.00	0.00	100.00
+      Gene	61.41	61.47	61.36
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 16852 phrases; correct: 10270.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 20):
+	        F1	Prec	Recall
+Micro (Seg)	76.97	71.47	83.38
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	89.38	90.06	88.72
+   Disease	77.55	78.32	76.79
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10930 phrases; correct: 7812.
+
+Segment evaluation bc_dev (iteration 20):
+	        F1	Prec	Recall
+Micro (Seg)	63.92	58.91	69.87
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	73.83	70.31	77.72
+   Disease	0.00	0.00	100.00
+      Gene	62.02	62.46	61.59
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 18363 phrases; correct: 10817.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 21):
+	        F1	Prec	Recall
+Micro (Seg)	77.96	72.99	83.65
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	90.25	92.34	88.26
+   Disease	77.85	77.74	77.96
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10737 phrases; correct: 7837.
+
+Segment evaluation bc_dev (iteration 21):
+	        F1	Prec	Recall
+Micro (Seg)	64.60	61.41	68.14
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	74.94	73.26	76.70
+   Disease	0.00	0.00	100.00
+      Gene	62.17	65.60	59.09
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 17177 phrases; correct: 10548.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 22):
+	        F1	Prec	Recall
+Micro (Seg)	77.21	71.73	83.58
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	90.10	91.78	88.47
+   Disease	78.29	79.04	77.55
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10917 phrases; correct: 7831.
+
+Segment evaluation bc_dev (iteration 22):
+	        F1	Prec	Recall
+Micro (Seg)	66.42	61.62	72.04
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	75.80	76.93	74.70
+   Disease	0.00	0.00	100.00
+      Gene	65.73	62.57	69.23
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 18101 phrases; correct: 11153.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 23):
+	        F1	Prec	Recall
+Micro (Seg)	78.01	73.74	82.79
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	90.22	93.42	87.23
+   Disease	78.99	80.74	77.31
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10519 phrases; correct: 7757.
+
+Segment evaluation bc_dev (iteration 23):
+	        F1	Prec	Recall
+Micro (Seg)	66.46	63.32	69.94
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	74.85	79.34	70.83
+   Disease	0.00	0.00	100.00
+      Gene	66.36	63.91	68.99
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 17099 phrases; correct: 10827.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 24):
+	        F1	Prec	Recall
+Micro (Seg)	78.47	74.61	82.75
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	90.61	92.85	88.49
+   Disease	78.64	81.86	75.67
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10391 phrases; correct: 7753.
+
+Segment evaluation bc_dev (iteration 24):
+	        F1	Prec	Recall
+Micro (Seg)	66.57	64.50	68.77
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	76.76	75.88	77.66
+   Disease	0.00	0.00	100.00
+      Gene	63.32	67.80	59.39
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 16508 phrases; correct: 10647.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 25):
+	        F1	Prec	Recall
+Micro (Seg)	78.26	72.26	85.33
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	90.42	91.40	89.47
+   Disease	79.55	78.89	80.22
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 11064 phrases; correct: 7995.
+
+Segment evaluation bc_dev (iteration 25):
+	        F1	Prec	Recall
+Micro (Seg)	66.67	61.96	72.15
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	76.40	74.75	78.13
+   Disease	0.00	0.00	100.00
+      Gene	65.97	66.11	65.83
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 18026 phrases; correct: 11169.
+
+Lasted saved at epoch 24, batch 0
+
+Segment evaluation cdr_dev (iteration 26):
+	        F1	Prec	Recall
+Micro (Seg)	78.73	74.52	83.43
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	90.00	93.82	86.48
+   Disease	79.85	80.02	79.68
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10490 phrases; correct: 7817.
+
+Segment evaluation bc_dev (iteration 26):
+	        F1	Prec	Recall
+Micro (Seg)	63.18	62.09	64.31
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	75.37	74.01	76.78
+   Disease	0.00	0.00	100.00
+      Gene	58.81	69.17	51.15
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 16035 phrases; correct: 9956.
+
+Lasted saved at epoch 24, batch 0
+
+Segment evaluation cdr_dev (iteration 27):
+	        F1	Prec	Recall
+Micro (Seg)	78.60	73.10	85.00
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	90.63	93.26	88.14
+   Disease	80.38	79.65	81.13
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10895 phrases; correct: 7964.
+
+Segment evaluation bc_dev (iteration 27):
+	        F1	Prec	Recall
+Micro (Seg)	67.61	62.46	73.70
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	76.41	78.71	74.24
+   Disease	0.00	0.00	100.00
+      Gene	67.80	63.20	73.12
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 18266 phrases; correct: 11409.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 28):
+	        F1	Prec	Recall
+Micro (Seg)	78.91	73.97	84.56
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	90.97	93.84	88.28
+   Disease	80.43	80.91	79.96
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10710 phrases; correct: 7922.
+
+Segment evaluation bc_dev (iteration 28):
+	        F1	Prec	Recall
+Micro (Seg)	68.21	63.83	73.23
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	77.49	78.33	76.67
+   Disease	0.00	0.00	100.00
+      Gene	67.83	66.15	69.61
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 17760 phrases; correct: 11337.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 29):
+	        F1	Prec	Recall
+Micro (Seg)	79.14	74.22	84.77
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	91.38	93.81	89.07
+   Disease	80.44	81.44	79.46
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10701 phrases; correct: 7942.
+
+Segment evaluation bc_dev (iteration 29):
+	        F1	Prec	Recall
+Micro (Seg)	69.34	66.04	72.99
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	78.45	79.36	77.56
+   Disease	0.00	0.00	100.00
+      Gene	68.53	68.89	68.17
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 17112 phrases; correct: 11300.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 30):
+	        F1	Prec	Recall
+Micro (Seg)	78.77	74.29	83.83
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	90.67	93.91	87.64
+   Disease	80.43	81.78	79.13
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10572 phrases; correct: 7854.
+
+Segment evaluation bc_dev (iteration 30):
+	        F1	Prec	Recall
+Micro (Seg)	69.33	65.14	74.08
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	78.08	78.58	77.58
+   Disease	0.00	0.00	100.00
+      Gene	69.10	67.85	70.39
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 17606 phrases; correct: 11469.
+
+Lasted saved at epoch 29, batch 0
+
+Segment evaluation cdr_dev (iteration 31):
+	        F1	Prec	Recall
+Micro (Seg)	79.04	75.26	83.23
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	90.59	95.06	86.52
+   Disease	80.73	82.36	79.17
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10362 phrases; correct: 7798.
+
+Segment evaluation bc_dev (iteration 31):
+	        F1	Prec	Recall
+Micro (Seg)	68.44	66.87	70.08
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	77.33	80.66	74.26
+   Disease	0.00	0.00	100.00
+      Gene	68.77	72.18	65.66
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 16224 phrases; correct: 10849.
+
+Lasted saved at epoch 29, batch 0
+
+Segment evaluation cdr_dev (iteration 32):
+	        F1	Prec	Recall
+Micro (Seg)	79.55	74.15	85.79
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	91.47	93.82	89.22
+   Disease	81.29	81.02	81.56
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10840 phrases; correct: 8038.
+
+Segment evaluation bc_dev (iteration 32):
+	        F1	Prec	Recall
+Micro (Seg)	70.17	65.61	75.41
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	79.04	78.91	79.17
+   Disease	0.00	0.00	100.00
+      Gene	70.63	69.83	71.44
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 17793 phrases; correct: 11674.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 33):
+	        F1	Prec	Recall
+Micro (Seg)	79.82	74.72	85.65
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	91.66	94.71	88.80
+   Disease	81.09	80.41	81.77
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10740 phrases; correct: 8025.
+
+Segment evaluation bc_dev (iteration 33):
+	        F1	Prec	Recall
+Micro (Seg)	70.05	66.91	73.49
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	79.51	79.78	79.23
+   Disease	0.00	0.00	100.00
+      Gene	70.17	73.15	67.43
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 17003 phrases; correct: 11377.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 34):
+	        F1	Prec	Recall
+Micro (Seg)	79.93	75.45	84.98
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	91.85	94.43	89.41
+   Disease	81.39	83.37	79.51
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10553 phrases; correct: 7962.
+
+Segment evaluation bc_dev (iteration 34):
+	        F1	Prec	Recall
+Micro (Seg)	71.13	67.88	74.70
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	79.51	81.28	77.82
+   Disease	0.00	0.00	100.00
+      Gene	71.36	71.32	71.41
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 17038 phrases; correct: 11565.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp1_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 35):
+	        F1	Prec	Recall
+Micro (Seg)	79.55	74.65	85.13
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	91.43	95.29	87.87
+   Disease	81.21	80.67	81.75
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10684 phrases; correct: 7976.
+
+Segment evaluation bc_dev (iteration 35):
+	        F1	Prec	Recall
+Micro (Seg)	70.21	66.43	74.44
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	79.90	81.46	78.39
+   Disease	0.00	0.00	100.00
+      Gene	70.52	70.78	70.27
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 17347 phrases; correct: 11524.
+
+Lasted saved at epoch 34, batch 0
+
+Segment evaluation cdr_dev (iteration 36):
+	        F1	Prec	Recall
+Micro (Seg)	79.87	76.02	84.13
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	91.17	96.10	86.71
+   Disease	82.21	83.53	80.94
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10369 phrases; correct: 7882.
+
+Segment evaluation bc_dev (iteration 36):
+	        F1	Prec	Recall
+Micro (Seg)	70.53	68.17	73.07
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	79.70	83.93	75.87
+   Disease	0.00	0.00	100.00
+      Gene	70.56	71.03	70.11
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 16595 phrases; correct: 11312.
+
+Lasted saved at epoch 34, batch 0
+
+Segment evaluation cdr_dev (iteration 37):
+	        F1	Prec	Recall
+Micro (Seg)	79.58	74.38	85.57
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	91.66	94.58	88.91
+   Disease	81.62	81.79	81.44
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10779 phrases; correct: 8017.
+
+Segment evaluation bc_dev (iteration 37):
+	        F1	Prec	Recall
+Micro (Seg)	71.02	66.63	76.03
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	79.53	80.62	78.48
+   Disease	0.00	0.00	100.00
+      Gene	71.90	70.41	73.44
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 17664 phrases; correct: 11770.
+
+Lasted saved at epoch 34, batch 0
+
+Segment evaluation cdr_dev (iteration 38):
+	        F1	Prec	Recall
+Micro (Seg)	80.02	75.19	85.51
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	92.06	95.21	89.11
+   Disease	81.57	82.10	81.06
+      Gene	0.00	0.00	100.00
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10654 phrases; correct: 8011.
+
+Segment evaluation bc_dev (iteration 38):
+	        F1	Prec	Recall
+Micro (Seg)	71.88	68.35	75.78
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	81.04	83.05	79.12
+   Disease	0.00	0.00	100.00
+      Gene	72.24	72.21	72.26
+   Species	0.00	0.00	100.00
+ProteinMutation	0.00	0.00	100.00
+DNAMutation	0.00	0.00	100.00
+       SNP	0.00	0.00	100.00
+Processed 228341 tokens with 15481 phrases; found: 17164 phrases; correct: 11732.
+srun: Force Terminated job 3629141
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 3629141.0 ON node093 CANCELLED AT 2018-04-13T15:31:35 ***
+srun: error: node093: task 0: Terminated

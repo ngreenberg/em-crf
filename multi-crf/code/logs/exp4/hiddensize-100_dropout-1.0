@@ -1,0 +1,1340 @@
+srun: job 3531056 queued and waiting for resources
+srun: job 3531056 has been allocated resources
+Loading vocab from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/embeddings/glove.6B/glove.6B.100d.txt
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/cdr/ner_CID_Training_mine_PubTator.txt
+Embeddings coverage: 99.86%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/cdr/ner_CDR_TrainingSet.PubTator.txt
+Embeddings coverage: 99.98%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/cdr/ner_CDR_DevelopmentSet.PubTator.txt
+Embeddings coverage: 100.00%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/cdr/ner_CDR_TestSet.PubTator.txt
+Embeddings coverage: 100.00%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/bc/ner_CDR_train.txt
+Embeddings coverage: 99.97%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/bc/ner_CDR_dev.txt
+Embeddings coverage: 99.98%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/bc/ner_CDR_test.txt
+Embeddings coverage: 99.99%
+
+Loading embeddings from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/embeddings/glove.6B/glove.6B.100d.txt
+Loaded 400000/406331 embeddings (98.44% coverage)
+
+LSTM char embedding model
+embedding dim:  25
+out dim:  50
+Segment evaluation cdr_dev (iteration 0):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp4_100_1.0.ckpt
+
+Segment evaluation cdr_dev (iteration 1):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 2):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 3):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 4):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 5):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 6):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 7):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 8):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 9):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 10):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 11):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 12):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 13):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 14):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 15):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 16):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 17):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 18):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 19):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 20):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 21):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 22):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 23):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 24):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 25):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 26):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 27):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 28):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 29):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 30):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 31):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 32):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 33):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 34):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 35):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 36):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 37):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 38):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 39):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 40):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 41):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 42):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 43):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 44):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 45):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 46):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 47):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 48):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 49):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 50):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 51):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 52):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 53):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 54):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 55):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 56):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 57):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 58):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 59):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 60):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 61):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 62):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 63):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 64):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 65):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 66):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 67):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 68):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 69):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 70):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 71):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 72):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 73):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 74):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 75):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 76):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 77):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 78):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 79):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 80):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 81):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 82):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 83):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 84):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 85):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 86):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 87):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 88):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 89):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 90):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 91):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 92):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 93):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 94):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 95):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 96):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 97):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 98):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 99):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 100):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Segment evaluation cdr_dev (iteration 101):
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Lasted saved at epoch 0, batch 0
+
+Training complete. Loading best model
+
+Model loaded from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp4_100_1.0.ckpt
+Best model results:
+Segment evaluation cdr_train_weak:
+	        F1	Prec	Recall
+Micro (Seg)	2.42	1.31	15.29
+Macro (Seg)	2.54	1.31	39.78
+-------
+   Disease	2.54	1.31	39.78
+         O	0.00	0.00	100.00
+  Chemical	0.00	0.00	0.00
+   Species	0.00	0.00	0.00
+      Gene	0.00	0.00	0.00
+ProteinMutation	0.00	0.00	0.00
+DNAMutation	0.00	0.00	0.00
+       SNP	0.00	0.00	0.00
+Processed 4508694 tokens with 387546 phrases; found: 4508694 phrases; correct: 59239.
+
+Segment evaluation cdr_train_gold:
+	        F1	Prec	Recall
+Micro (Seg)	3.80	2.04	27.53
+Macro (Seg)	3.93	2.04	50.52
+-------
+  Chemical	3.93	2.04	50.52
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122251 tokens with 9075 phrases; found: 122251 phrases; correct: 2498.
+
+Segment evaluation bc_train:
+	        F1	Prec	Recall
+Micro (Seg)	1.63	0.87	12.81
+Macro (Seg)	1.68	0.87	25.36
+-------
+  Chemical	1.68	0.87	25.36
+         O	0.00	0.00	100.00
+      Gene	0.00	0.00	0.00
+Processed 369395 tokens with 25107 phrases; found: 369395 phrases; correct: 3217.
+
+Segment evaluation cdr_dev:
+	        F1	Prec	Recall
+Micro (Seg)	4.18	2.25	29.39
+Macro (Seg)	4.32	2.25	53.20
+-------
+  Chemical	4.32	2.25	53.20
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 122368 tokens with 9369 phrases; found: 122368 phrases; correct: 2754.
+
+Segment evaluation bc_dev:
+	        F1	Prec	Recall
+Micro (Seg)	1.64	0.87	12.88
+Macro (Seg)	1.69	0.87	25.08
+-------
+  Chemical	1.69	0.87	25.08
+         O	0.00	0.00	100.00
+      Gene	0.00	0.00	0.00
+Processed 228341 tokens with 15481 phrases; found: 228341 phrases; correct: 1994.
+
+Segment evaluation cdr_test:
+	        F1	Prec	Recall
+Micro (Seg)	3.66	1.96	26.82
+Macro (Seg)	3.77	1.96	49.08
+-------
+  Chemical	3.77	1.96	49.08
+         O	0.00	0.00	100.00
+   Disease	0.00	0.00	0.00
+Processed 127861 tokens with 9356 phrases; found: 127861 phrases; correct: 2509.
+
+Segment evaluation bc_test:
+	        F1	Prec	Recall
+Micro (Seg)	1.46	0.78	11.29
+Macro (Seg)	1.51	0.78	21.85
+-------
+  Chemical	1.51	0.78	21.85
+         O	0.00	0.00	100.00
+      Gene	0.00	0.00	0.00
+Processed 289928 tokens with 20044 phrases; found: 289928 phrases; correct: 2262.
+
+/home/ngreenberg/miniconda3/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+/home/ngreenberg/miniconda3/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:96: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+/home/ngreenberg/miniconda3/lib/python3.6/site-packages/numpy/core/_methods.py:26: RuntimeWarning: invalid value encountered in reduce
+  return umr_maximum(a, axis, None, out, keepdims)

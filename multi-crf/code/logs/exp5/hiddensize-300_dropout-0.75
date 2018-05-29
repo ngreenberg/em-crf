@@ -1,0 +1,6356 @@
+srun: job 3531064 queued and waiting for resources
+srun: job 3531064 has been allocated resources
+Loading vocab from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/embeddings/glove.6B/glove.6B.100d.txt
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/cdr/ner_CID_Training_mine_PubTator.txt
+Embeddings coverage: 99.86%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/cdr/ner_CDR_TrainingSet.PubTator.txt
+Embeddings coverage: 99.98%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/cdr/ner_CDR_DevelopmentSet.PubTator.txt
+Embeddings coverage: 100.00%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/cdr/ner_CDR_TestSet.PubTator.txt
+Embeddings coverage: 100.00%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/bc/ner_CDR_train.txt
+Embeddings coverage: 99.97%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/bc/ner_CDR_dev.txt
+Embeddings coverage: 99.98%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/bc/ner_CDR_test.txt
+Embeddings coverage: 99.99%
+
+Loading embeddings from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/embeddings/glove.6B/glove.6B.100d.txt
+Loaded 400000/406331 embeddings (98.44% coverage)
+
+LSTM char embedding model
+embedding dim:  25
+out dim:  50
+Segment evaluation bc_dev (iteration 0):
+	        F1	Prec	Recall
+Micro (Seg)	0.05	0.09	0.03
+Macro (Seg)	0.06	0.14	0.04
+-------
+  Chemical	0.06	0.14	0.04
+         O	0.00	0.00	100.00
+      Gene	0.04	0.05	0.03
+Processed 228341 tokens with 15481 phrases; found: 5846 phrases; correct: 5.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 1):
+	        F1	Prec	Recall
+Micro (Seg)	0.06	0.38	0.03
+Macro (Seg)	nan	0.00	0.00
+-------
+  Chemical	0.00	0.00	0.00
+         O	0.00	0.00	100.00
+      Gene	0.12	0.67	0.07
+Processed 228341 tokens with 15481 phrases; found: 1312 phrases; correct: 5.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 2):
+	        F1	Prec	Recall
+Micro (Seg)	4.44	3.88	5.20
+Macro (Seg)	0.22	0.22	0.23
+-------
+  Chemical	0.22	0.22	0.23
+         O	0.00	0.00	100.00
+      Gene	7.91	6.36	10.45
+Processed 228341 tokens with 15481 phrases; found: 20748 phrases; correct: 805.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 3):
+	        F1	Prec	Recall
+Micro (Seg)	10.58	10.29	10.89
+Macro (Seg)	1.85	2.33	1.53
+-------
+  Chemical	1.85	2.33	1.53
+         O	0.00	0.00	100.00
+      Gene	16.75	14.04	20.77
+Processed 228341 tokens with 15481 phrases; found: 16379 phrases; correct: 1686.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 4):
+	        F1	Prec	Recall
+Micro (Seg)	14.95	13.73	16.39
+Macro (Seg)	5.17	5.82	4.65
+-------
+  Chemical	5.17	5.82	4.65
+         O	0.00	0.00	100.00
+      Gene	22.07	17.89	28.79
+Processed 228341 tokens with 15481 phrases; found: 18480 phrases; correct: 2538.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 5):
+	        F1	Prec	Recall
+Micro (Seg)	22.84	20.53	25.73
+Macro (Seg)	17.78	18.76	16.89
+-------
+  Chemical	17.78	18.76	16.89
+         O	0.00	0.00	100.00
+      Gene	26.70	21.56	35.06
+Processed 228341 tokens with 15481 phrases; found: 19402 phrases; correct: 3983.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 6):
+	        F1	Prec	Recall
+Micro (Seg)	29.93	27.41	32.96
+Macro (Seg)	27.72	28.97	26.58
+-------
+  Chemical	27.72	28.97	26.58
+         O	0.00	0.00	100.00
+      Gene	31.72	26.41	39.70
+Processed 228341 tokens with 15481 phrases; found: 18617 phrases; correct: 5103.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 7):
+	        F1	Prec	Recall
+Micro (Seg)	36.32	33.24	40.04
+Macro (Seg)	36.42	37.52	35.38
+-------
+  Chemical	36.42	37.52	35.38
+         O	0.00	0.00	100.00
+      Gene	36.24	30.36	44.95
+Processed 228341 tokens with 15481 phrases; found: 18646 phrases; correct: 6198.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 8):
+	        F1	Prec	Recall
+Micro (Seg)	40.96	38.11	44.27
+Macro (Seg)	41.38	43.86	39.16
+-------
+  Chemical	41.38	43.86	39.16
+         O	0.00	0.00	100.00
+      Gene	40.61	34.36	49.66
+Processed 228341 tokens with 15481 phrases; found: 17983 phrases; correct: 6853.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 9):
+	        F1	Prec	Recall
+Micro (Seg)	45.95	44.32	47.71
+Macro (Seg)	49.98	52.50	47.69
+-------
+  Chemical	49.98	52.50	47.69
+         O	0.00	0.00	100.00
+      Gene	42.36	38.07	47.74
+Processed 228341 tokens with 15481 phrases; found: 16664 phrases; correct: 7386.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 10):
+	        F1	Prec	Recall
+Micro (Seg)	50.14	48.41	52.00
+Macro (Seg)	54.14	58.50	50.39
+-------
+  Chemical	54.14	58.50	50.39
+         O	0.00	0.00	100.00
+      Gene	46.72	41.34	53.70
+Processed 228341 tokens with 15481 phrases; found: 16630 phrases; correct: 8050.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 11):
+	        F1	Prec	Recall
+Micro (Seg)	53.36	53.15	53.58
+Macro (Seg)	59.05	60.74	57.46
+-------
+  Chemical	59.05	60.74	57.46
+         O	0.00	0.00	100.00
+      Gene	47.72	46.09	49.48
+Processed 228341 tokens with 15481 phrases; found: 15605 phrases; correct: 8294.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 12):
+	        F1	Prec	Recall
+Micro (Seg)	56.44	54.33	58.73
+Macro (Seg)	61.74	61.28	62.21
+-------
+  Chemical	61.74	61.28	62.21
+         O	0.00	0.00	100.00
+      Gene	51.20	47.85	55.05
+Processed 228341 tokens with 15481 phrases; found: 16736 phrases; correct: 9092.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 13):
+	        F1	Prec	Recall
+Micro (Seg)	58.69	57.80	59.60
+Macro (Seg)	64.03	68.68	59.97
+-------
+  Chemical	64.03	68.68	59.97
+         O	0.00	0.00	100.00
+      Gene	53.87	49.43	59.20
+Processed 228341 tokens with 15481 phrases; found: 15961 phrases; correct: 9226.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 14):
+	        F1	Prec	Recall
+Micro (Seg)	60.41	58.03	62.99
+Macro (Seg)	65.91	63.90	68.05
+-------
+  Chemical	65.91	63.90	68.05
+         O	0.00	0.00	100.00
+      Gene	54.72	52.08	57.64
+Processed 228341 tokens with 15481 phrases; found: 16802 phrases; correct: 9751.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 15):
+	        F1	Prec	Recall
+Micro (Seg)	60.63	60.54	60.73
+Macro (Seg)	65.08	72.89	58.78
+-------
+  Chemical	65.08	72.89	58.78
+         O	0.00	0.00	100.00
+      Gene	56.80	51.85	62.79
+Processed 228341 tokens with 15481 phrases; found: 15531 phrases; correct: 9402.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 16):
+	        F1	Prec	Recall
+Micro (Seg)	61.41	59.84	63.07
+Macro (Seg)	65.91	71.63	61.03
+-------
+  Chemical	65.91	71.63	61.03
+         O	0.00	0.00	100.00
+      Gene	57.54	51.47	65.22
+Processed 228341 tokens with 15481 phrases; found: 16317 phrases; correct: 9764.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 17):
+	        F1	Prec	Recall
+Micro (Seg)	63.71	62.56	64.90
+Macro (Seg)	68.80	71.73	66.10
+-------
+  Chemical	68.80	71.73	66.10
+         O	0.00	0.00	100.00
+      Gene	58.92	54.87	63.63
+Processed 228341 tokens with 15481 phrases; found: 16060 phrases; correct: 10047.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 18):
+	        F1	Prec	Recall
+Micro (Seg)	64.92	62.68	67.32
+Macro (Seg)	70.41	71.08	69.75
+-------
+  Chemical	70.41	71.08	69.75
+         O	0.00	0.00	100.00
+      Gene	59.64	55.26	64.76
+Processed 228341 tokens with 15481 phrases; found: 16626 phrases; correct: 10422.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 19):
+	        F1	Prec	Recall
+Micro (Seg)	65.11	63.37	66.94
+Macro (Seg)	70.23	71.11	69.37
+-------
+  Chemical	70.23	71.11	69.37
+         O	0.00	0.00	100.00
+      Gene	60.12	56.39	64.37
+Processed 228341 tokens with 15481 phrases; found: 16353 phrases; correct: 10363.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 20):
+	        F1	Prec	Recall
+Micro (Seg)	65.53	64.30	66.80
+Macro (Seg)	70.33	75.15	66.09
+-------
+  Chemical	70.33	75.15	66.09
+         O	0.00	0.00	100.00
+      Gene	61.21	55.95	67.56
+Processed 228341 tokens with 15481 phrases; found: 16085 phrases; correct: 10342.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 21):
+	        F1	Prec	Recall
+Micro (Seg)	66.95	66.07	67.84
+Macro (Seg)	72.09	73.67	70.58
+-------
+  Chemical	72.09	73.67	70.58
+         O	0.00	0.00	100.00
+      Gene	61.88	59.08	64.96
+Processed 228341 tokens with 15481 phrases; found: 15896 phrases; correct: 10503.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 22):
+	        F1	Prec	Recall
+Micro (Seg)	67.58	66.39	68.81
+Macro (Seg)	72.49	74.03	71.02
+-------
+  Chemical	72.49	74.03	71.02
+         O	0.00	0.00	100.00
+      Gene	62.79	59.48	66.49
+Processed 228341 tokens with 15481 phrases; found: 16045 phrases; correct: 10653.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 23):
+	        F1	Prec	Recall
+Micro (Seg)	68.19	67.58	68.81
+Macro (Seg)	73.21	73.70	72.73
+-------
+  Chemical	73.21	73.70	72.73
+         O	0.00	0.00	100.00
+      Gene	63.06	61.52	64.68
+Processed 228341 tokens with 15481 phrases; found: 15763 phrases; correct: 10653.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 24):
+	        F1	Prec	Recall
+Micro (Seg)	68.64	66.50	70.91
+Macro (Seg)	73.58	71.52	75.76
+-------
+  Chemical	73.58	71.52	75.76
+         O	0.00	0.00	100.00
+      Gene	63.45	61.27	65.79
+Processed 228341 tokens with 15481 phrases; found: 16508 phrases; correct: 10978.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 25):
+	        F1	Prec	Recall
+Micro (Seg)	69.39	67.39	71.53
+Macro (Seg)	74.13	73.17	75.12
+-------
+  Chemical	74.13	73.17	75.12
+         O	0.00	0.00	100.00
+      Gene	64.57	61.68	67.73
+Processed 228341 tokens with 15481 phrases; found: 16432 phrases; correct: 11073.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 26):
+	        F1	Prec	Recall
+Micro (Seg)	69.92	69.47	70.38
+Macro (Seg)	74.60	75.84	73.40
+-------
+  Chemical	74.60	75.84	73.40
+         O	0.00	0.00	100.00
+      Gene	65.20	63.33	67.19
+Processed 228341 tokens with 15481 phrases; found: 15684 phrases; correct: 10895.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 27):
+	        F1	Prec	Recall
+Micro (Seg)	69.58	69.70	69.46
+Macro (Seg)	73.88	78.01	70.18
+-------
+  Chemical	73.88	78.01	70.18
+         O	0.00	0.00	100.00
+      Gene	65.46	62.52	68.70
+Processed 228341 tokens with 15481 phrases; found: 15428 phrases; correct: 10753.
+
+Lasted saved at epoch 26, batch 0
+
+Segment evaluation bc_dev (iteration 28):
+	        F1	Prec	Recall
+Micro (Seg)	70.52	69.13	71.97
+Macro (Seg)	75.21	75.48	74.94
+-------
+  Chemical	75.21	75.48	74.94
+         O	0.00	0.00	100.00
+      Gene	65.80	63.03	68.82
+Processed 228341 tokens with 15481 phrases; found: 16117 phrases; correct: 11141.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 29):
+	        F1	Prec	Recall
+Micro (Seg)	70.52	69.11	71.98
+Macro (Seg)	75.06	77.60	72.68
+-------
+  Chemical	75.06	77.60	72.68
+         O	0.00	0.00	100.00
+      Gene	66.20	61.83	71.24
+Processed 228341 tokens with 15481 phrases; found: 16123 phrases; correct: 11143.
+
+Lasted saved at epoch 28, batch 0
+
+Segment evaluation bc_dev (iteration 30):
+	        F1	Prec	Recall
+Micro (Seg)	71.39	70.39	72.42
+Macro (Seg)	76.00	77.16	74.88
+-------
+  Chemical	76.00	77.16	74.88
+         O	0.00	0.00	100.00
+      Gene	66.80	64.02	69.83
+Processed 228341 tokens with 15481 phrases; found: 15929 phrases; correct: 11212.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 31):
+	        F1	Prec	Recall
+Micro (Seg)	71.31	70.07	72.59
+Macro (Seg)	75.80	77.39	74.28
+-------
+  Chemical	75.80	77.39	74.28
+         O	0.00	0.00	100.00
+      Gene	66.92	63.43	70.81
+Processed 228341 tokens with 15481 phrases; found: 16038 phrases; correct: 11238.
+
+Lasted saved at epoch 30, batch 0
+
+Segment evaluation bc_dev (iteration 32):
+	        F1	Prec	Recall
+Micro (Seg)	71.43	69.93	72.99
+Macro (Seg)	75.91	77.57	74.33
+-------
+  Chemical	75.91	77.57	74.33
+         O	0.00	0.00	100.00
+      Gene	67.08	63.12	71.57
+Processed 228341 tokens with 15481 phrases; found: 16157 phrases; correct: 11299.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 33):
+	        F1	Prec	Recall
+Micro (Seg)	72.55	71.96	73.16
+Macro (Seg)	76.80	77.24	76.36
+-------
+  Chemical	76.80	77.24	76.36
+         O	0.00	0.00	100.00
+      Gene	68.20	66.69	69.78
+Processed 228341 tokens with 15481 phrases; found: 15740 phrases; correct: 11326.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 34):
+	        F1	Prec	Recall
+Micro (Seg)	72.49	72.44	72.53
+Macro (Seg)	76.63	79.66	73.82
+-------
+  Chemical	76.63	79.66	73.82
+         O	0.00	0.00	100.00
+      Gene	68.44	65.90	71.17
+Processed 228341 tokens with 15481 phrases; found: 15501 phrases; correct: 11229.
+
+Lasted saved at epoch 33, batch 0
+
+Segment evaluation bc_dev (iteration 35):
+	        F1	Prec	Recall
+Micro (Seg)	72.26	71.82	72.70
+Macro (Seg)	76.37	79.69	73.32
+-------
+  Chemical	76.37	79.69	73.32
+         O	0.00	0.00	100.00
+      Gene	68.31	64.94	72.05
+Processed 228341 tokens with 15481 phrases; found: 15671 phrases; correct: 11255.
+
+Lasted saved at epoch 33, batch 0
+
+Segment evaluation bc_dev (iteration 36):
+	        F1	Prec	Recall
+Micro (Seg)	73.27	72.46	74.10
+Macro (Seg)	77.52	77.47	77.57
+-------
+  Chemical	77.52	77.47	77.57
+         O	0.00	0.00	100.00
+      Gene	68.88	67.38	70.44
+Processed 228341 tokens with 15481 phrases; found: 15833 phrases; correct: 11472.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 37):
+	        F1	Prec	Recall
+Micro (Seg)	73.17	72.16	74.21
+Macro (Seg)	77.50	74.71	80.52
+-------
+  Chemical	77.50	74.71	80.52
+         O	0.00	0.00	100.00
+      Gene	68.37	69.20	67.56
+Processed 228341 tokens with 15481 phrases; found: 15921 phrases; correct: 11489.
+
+Lasted saved at epoch 36, batch 0
+
+Segment evaluation bc_dev (iteration 38):
+	        F1	Prec	Recall
+Micro (Seg)	73.65	73.70	73.59
+Macro (Seg)	78.07	77.33	78.82
+-------
+  Chemical	78.07	77.33	78.82
+         O	0.00	0.00	100.00
+      Gene	68.88	69.71	68.08
+Processed 228341 tokens with 15481 phrases; found: 15458 phrases; correct: 11393.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 39):
+	        F1	Prec	Recall
+Micro (Seg)	73.87	72.77	75.01
+Macro (Seg)	78.08	78.44	77.72
+-------
+  Chemical	78.08	78.44	77.72
+         O	0.00	0.00	100.00
+      Gene	69.60	67.24	72.14
+Processed 228341 tokens with 15481 phrases; found: 15957 phrases; correct: 11612.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 40):
+	        F1	Prec	Recall
+Micro (Seg)	73.82	72.94	74.73
+Macro (Seg)	77.77	79.34	76.26
+-------
+  Chemical	77.77	79.34	76.26
+         O	0.00	0.00	100.00
+      Gene	69.92	66.99	73.11
+Processed 228341 tokens with 15481 phrases; found: 15861 phrases; correct: 11569.
+
+Lasted saved at epoch 39, batch 0
+
+Segment evaluation bc_dev (iteration 41):
+	        F1	Prec	Recall
+Micro (Seg)	74.51	73.54	75.51
+Macro (Seg)	78.61	77.39	79.87
+-------
+  Chemical	78.61	77.39	79.87
+         O	0.00	0.00	100.00
+      Gene	70.16	69.43	70.91
+Processed 228341 tokens with 15481 phrases; found: 15896 phrases; correct: 11690.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 42):
+	        F1	Prec	Recall
+Micro (Seg)	73.83	72.79	74.89
+Macro (Seg)	77.73	79.87	75.70
+-------
+  Chemical	77.73	79.87	75.70
+         O	0.00	0.00	100.00
+      Gene	70.04	66.44	74.04
+Processed 228341 tokens with 15481 phrases; found: 15927 phrases; correct: 11594.
+
+Lasted saved at epoch 41, batch 0
+
+Segment evaluation bc_dev (iteration 43):
+	        F1	Prec	Recall
+Micro (Seg)	74.35	72.73	76.05
+Macro (Seg)	78.39	79.14	77.65
+-------
+  Chemical	78.39	79.14	77.65
+         O	0.00	0.00	100.00
+      Gene	70.36	66.77	74.36
+Processed 228341 tokens with 15481 phrases; found: 16187 phrases; correct: 11773.
+
+Lasted saved at epoch 41, batch 0
+
+Segment evaluation bc_dev (iteration 44):
+	        F1	Prec	Recall
+Micro (Seg)	74.83	73.49	76.22
+Macro (Seg)	79.10	78.85	79.35
+-------
+  Chemical	79.10	78.85	79.35
+         O	0.00	0.00	100.00
+      Gene	70.47	68.17	72.93
+Processed 228341 tokens with 15481 phrases; found: 16056 phrases; correct: 11800.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 45):
+	        F1	Prec	Recall
+Micro (Seg)	74.94	74.30	75.58
+Macro (Seg)	78.90	80.89	77.02
+-------
+  Chemical	78.90	80.89	77.02
+         O	0.00	0.00	100.00
+      Gene	71.01	68.21	74.05
+Processed 228341 tokens with 15481 phrases; found: 15746 phrases; correct: 11700.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 46):
+	        F1	Prec	Recall
+Micro (Seg)	75.40	74.03	76.83
+Macro (Seg)	79.33	78.61	80.06
+-------
+  Chemical	79.33	78.61	80.06
+         O	0.00	0.00	100.00
+      Gene	71.34	69.38	73.42
+Processed 228341 tokens with 15481 phrases; found: 16066 phrases; correct: 11894.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 47):
+	        F1	Prec	Recall
+Micro (Seg)	75.34	73.90	76.84
+Macro (Seg)	79.29	78.67	79.92
+-------
+  Chemical	79.29	78.67	79.92
+         O	0.00	0.00	100.00
+      Gene	71.28	69.10	73.59
+Processed 228341 tokens with 15481 phrases; found: 16097 phrases; correct: 11896.
+
+Lasted saved at epoch 46, batch 0
+
+Segment evaluation bc_dev (iteration 48):
+	        F1	Prec	Recall
+Micro (Seg)	76.04	75.34	76.76
+Macro (Seg)	79.76	79.64	79.87
+-------
+  Chemical	79.76	79.64	79.87
+         O	0.00	0.00	100.00
+      Gene	72.18	70.94	73.47
+Processed 228341 tokens with 15481 phrases; found: 15773 phrases; correct: 11883.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 49):
+	        F1	Prec	Recall
+Micro (Seg)	75.27	73.84	76.77
+Macro (Seg)	79.14	81.06	77.31
+-------
+  Chemical	79.14	81.06	77.31
+         O	0.00	0.00	100.00
+      Gene	71.53	67.41	76.19
+Processed 228341 tokens with 15481 phrases; found: 16094 phrases; correct: 11884.
+
+Lasted saved at epoch 48, batch 0
+
+Segment evaluation bc_dev (iteration 50):
+	        F1	Prec	Recall
+Micro (Seg)	76.16	75.45	76.88
+Macro (Seg)	79.88	81.00	78.79
+-------
+  Chemical	79.88	81.00	78.79
+         O	0.00	0.00	100.00
+      Gene	72.41	70.11	74.86
+Processed 228341 tokens with 15481 phrases; found: 15775 phrases; correct: 11902.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 51):
+	        F1	Prec	Recall
+Micro (Seg)	76.04	75.33	76.75
+Macro (Seg)	79.87	81.87	77.97
+-------
+  Chemical	79.87	81.87	77.97
+         O	0.00	0.00	100.00
+      Gene	72.25	69.30	75.46
+Processed 228341 tokens with 15481 phrases; found: 15773 phrases; correct: 11882.
+
+Lasted saved at epoch 50, batch 0
+
+Segment evaluation bc_dev (iteration 52):
+	        F1	Prec	Recall
+Micro (Seg)	76.24	75.22	77.29
+Macro (Seg)	80.03	80.41	79.66
+-------
+  Chemical	80.03	80.41	79.66
+         O	0.00	0.00	100.00
+      Gene	72.38	70.12	74.80
+Processed 228341 tokens with 15481 phrases; found: 15909 phrases; correct: 11966.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 53):
+	        F1	Prec	Recall
+Micro (Seg)	76.17	74.66	77.73
+Macro (Seg)	79.83	78.55	81.16
+-------
+  Chemical	79.83	78.55	81.16
+         O	0.00	0.00	100.00
+      Gene	72.33	70.62	74.12
+Processed 228341 tokens with 15481 phrases; found: 16118 phrases; correct: 12034.
+
+Lasted saved at epoch 52, batch 0
+
+Segment evaluation bc_dev (iteration 54):
+	        F1	Prec	Recall
+Micro (Seg)	76.76	75.71	77.84
+Macro (Seg)	80.56	80.92	80.21
+-------
+  Chemical	80.56	80.92	80.21
+         O	0.00	0.00	100.00
+      Gene	72.88	70.59	75.33
+Processed 228341 tokens with 15481 phrases; found: 15917 phrases; correct: 12050.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 55):
+	        F1	Prec	Recall
+Micro (Seg)	76.75	75.72	77.81
+Macro (Seg)	80.44	80.77	80.11
+-------
+  Chemical	80.44	80.77	80.11
+         O	0.00	0.00	100.00
+      Gene	72.99	70.75	75.38
+Processed 228341 tokens with 15481 phrases; found: 15909 phrases; correct: 12046.
+
+Lasted saved at epoch 54, batch 0
+
+Segment evaluation bc_dev (iteration 56):
+	        F1	Prec	Recall
+Micro (Seg)	76.69	76.23	77.17
+Macro (Seg)	80.40	81.56	79.27
+-------
+  Chemical	80.40	81.56	79.27
+         O	0.00	0.00	100.00
+      Gene	72.94	71.04	74.94
+Processed 228341 tokens with 15481 phrases; found: 15672 phrases; correct: 11946.
+
+Lasted saved at epoch 54, batch 0
+
+Segment evaluation bc_dev (iteration 57):
+	        F1	Prec	Recall
+Micro (Seg)	76.78	75.50	78.12
+Macro (Seg)	80.59	80.80	80.38
+-------
+  Chemical	80.59	80.80	80.38
+         O	0.00	0.00	100.00
+      Gene	72.92	70.32	75.73
+Processed 228341 tokens with 15481 phrases; found: 16018 phrases; correct: 12093.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 58):
+	        F1	Prec	Recall
+Micro (Seg)	76.44	74.97	77.97
+Macro (Seg)	80.22	81.21	79.26
+-------
+  Chemical	80.22	81.21	79.26
+         O	0.00	0.00	100.00
+      Gene	72.70	69.16	76.62
+Processed 228341 tokens with 15481 phrases; found: 16102 phrases; correct: 12071.
+
+Lasted saved at epoch 57, batch 0
+
+Segment evaluation bc_dev (iteration 59):
+	        F1	Prec	Recall
+Micro (Seg)	76.76	75.87	77.67
+Macro (Seg)	80.51	82.51	78.59
+-------
+  Chemical	80.51	82.51	78.59
+         O	0.00	0.00	100.00
+      Gene	73.08	69.79	76.70
+Processed 228341 tokens with 15481 phrases; found: 15848 phrases; correct: 12024.
+
+Lasted saved at epoch 57, batch 0
+
+Segment evaluation bc_dev (iteration 60):
+	        F1	Prec	Recall
+Micro (Seg)	77.31	76.14	78.52
+Macro (Seg)	80.92	81.63	80.23
+-------
+  Chemical	80.92	81.63	80.23
+         O	0.00	0.00	100.00
+      Gene	73.67	70.87	76.71
+Processed 228341 tokens with 15481 phrases; found: 15965 phrases; correct: 12155.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 61):
+	        F1	Prec	Recall
+Micro (Seg)	77.41	76.86	77.96
+Macro (Seg)	81.00	82.83	79.25
+-------
+  Chemical	81.00	82.83	79.25
+         O	0.00	0.00	100.00
+      Gene	73.83	71.25	76.60
+Processed 228341 tokens with 15481 phrases; found: 15703 phrases; correct: 12069.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 62):
+	        F1	Prec	Recall
+Micro (Seg)	77.50	76.53	78.49
+Macro (Seg)	81.32	81.51	81.13
+-------
+  Chemical	81.32	81.51	81.13
+         O	0.00	0.00	100.00
+      Gene	73.58	71.58	75.70
+Processed 228341 tokens with 15481 phrases; found: 15878 phrases; correct: 12151.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 63):
+	        F1	Prec	Recall
+Micro (Seg)	77.69	76.32	79.12
+Macro (Seg)	81.46	81.43	81.50
+-------
+  Chemical	81.46	81.43	81.50
+         O	0.00	0.00	100.00
+      Gene	73.86	71.30	76.60
+Processed 228341 tokens with 15481 phrases; found: 16048 phrases; correct: 12248.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 64):
+	        F1	Prec	Recall
+Micro (Seg)	77.93	76.89	79.00
+Macro (Seg)	81.67	82.79	80.57
+-------
+  Chemical	81.67	82.79	80.57
+         O	0.00	0.00	100.00
+      Gene	74.20	71.30	77.35
+Processed 228341 tokens with 15481 phrases; found: 15906 phrases; correct: 12230.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 65):
+	        F1	Prec	Recall
+Micro (Seg)	78.14	77.48	78.81
+Macro (Seg)	81.85	81.78	81.92
+-------
+  Chemical	81.85	81.78	81.92
+         O	0.00	0.00	100.00
+      Gene	74.28	73.08	75.53
+Processed 228341 tokens with 15481 phrases; found: 15747 phrases; correct: 12201.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 66):
+	        F1	Prec	Recall
+Micro (Seg)	78.28	78.32	78.23
+Macro (Seg)	81.87	82.98	80.79
+-------
+  Chemical	81.87	82.98	80.79
+         O	0.00	0.00	100.00
+      Gene	74.58	73.65	75.53
+Processed 228341 tokens with 15481 phrases; found: 15463 phrases; correct: 12111.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 67):
+	        F1	Prec	Recall
+Micro (Seg)	78.42	77.74	79.12
+Macro (Seg)	81.78	81.35	82.21
+-------
+  Chemical	81.78	81.35	82.21
+         O	0.00	0.00	100.00
+      Gene	74.90	73.97	75.85
+Processed 228341 tokens with 15481 phrases; found: 15756 phrases; correct: 12248.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 68):
+	        F1	Prec	Recall
+Micro (Seg)	78.59	77.50	79.70
+Macro (Seg)	81.99	80.74	83.27
+-------
+  Chemical	81.99	80.74	83.27
+         O	0.00	0.00	100.00
+      Gene	74.99	74.07	75.93
+Processed 228341 tokens with 15481 phrases; found: 15919 phrases; correct: 12338.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 69):
+	        F1	Prec	Recall
+Micro (Seg)	78.36	77.22	79.54
+Macro (Seg)	81.81	81.60	82.03
+-------
+  Chemical	81.81	81.60	82.03
+         O	0.00	0.00	100.00
+      Gene	74.81	72.82	76.91
+Processed 228341 tokens with 15481 phrases; found: 15945 phrases; correct: 12313.
+
+Lasted saved at epoch 68, batch 0
+
+Segment evaluation bc_dev (iteration 70):
+	        F1	Prec	Recall
+Micro (Seg)	78.78	77.94	79.64
+Macro (Seg)	82.22	82.64	81.80
+-------
+  Chemical	82.22	82.64	81.80
+         O	0.00	0.00	100.00
+      Gene	75.27	73.28	77.36
+Processed 228341 tokens with 15481 phrases; found: 15819 phrases; correct: 12329.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 71):
+	        F1	Prec	Recall
+Micro (Seg)	78.75	78.17	79.34
+Macro (Seg)	82.14	80.08	84.30
+-------
+  Chemical	82.14	80.08	84.30
+         O	0.00	0.00	100.00
+      Gene	75.03	75.99	74.09
+Processed 228341 tokens with 15481 phrases; found: 15712 phrases; correct: 12282.
+
+Lasted saved at epoch 70, batch 0
+
+Segment evaluation bc_dev (iteration 72):
+	        F1	Prec	Recall
+Micro (Seg)	79.30	78.37	80.26
+Macro (Seg)	82.73	82.44	83.02
+-------
+  Chemical	82.73	82.44	83.02
+         O	0.00	0.00	100.00
+      Gene	75.75	74.21	77.35
+Processed 228341 tokens with 15481 phrases; found: 15855 phrases; correct: 12425.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 73):
+	        F1	Prec	Recall
+Micro (Seg)	79.45	79.52	79.38
+Macro (Seg)	82.70	83.60	81.81
+-------
+  Chemical	82.70	83.60	81.81
+         O	0.00	0.00	100.00
+      Gene	76.09	75.38	76.82
+Processed 228341 tokens with 15481 phrases; found: 15454 phrases; correct: 12289.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 74):
+	        F1	Prec	Recall
+Micro (Seg)	79.30	79.09	79.50
+Macro (Seg)	82.60	82.63	82.58
+-------
+  Chemical	82.60	82.63	82.58
+         O	0.00	0.00	100.00
+      Gene	75.82	75.40	76.24
+Processed 228341 tokens with 15481 phrases; found: 15560 phrases; correct: 12307.
+
+Lasted saved at epoch 73, batch 0
+
+Segment evaluation bc_dev (iteration 75):
+	        F1	Prec	Recall
+Micro (Seg)	79.78	78.64	80.95
+Macro (Seg)	83.19	83.45	82.93
+-------
+  Chemical	83.19	83.45	82.93
+         O	0.00	0.00	100.00
+      Gene	76.31	73.91	78.86
+Processed 228341 tokens with 15481 phrases; found: 15936 phrases; correct: 12532.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 76):
+	        F1	Prec	Recall
+Micro (Seg)	79.97	79.05	80.91
+Macro (Seg)	83.48	85.02	81.99
+-------
+  Chemical	83.48	85.02	81.99
+         O	0.00	0.00	100.00
+      Gene	76.47	73.44	79.76
+Processed 228341 tokens with 15481 phrases; found: 15845 phrases; correct: 12525.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 77):
+	        F1	Prec	Recall
+Micro (Seg)	80.28	80.03	80.53
+Macro (Seg)	83.66	83.68	83.64
+-------
+  Chemical	83.66	83.68	83.64
+         O	0.00	0.00	100.00
+      Gene	76.74	76.24	77.25
+Processed 228341 tokens with 15481 phrases; found: 15577 phrases; correct: 12467.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 78):
+	        F1	Prec	Recall
+Micro (Seg)	80.19	79.39	81.00
+Macro (Seg)	83.63	82.99	84.28
+-------
+  Chemical	83.63	82.99	84.28
+         O	0.00	0.00	100.00
+      Gene	76.57	75.62	77.53
+Processed 228341 tokens with 15481 phrases; found: 15794 phrases; correct: 12539.
+
+Lasted saved at epoch 77, batch 0
+
+Segment evaluation bc_dev (iteration 79):
+	        F1	Prec	Recall
+Micro (Seg)	80.63	79.74	81.55
+Macro (Seg)	83.92	84.68	83.17
+-------
+  Chemical	83.92	84.68	83.17
+         O	0.00	0.00	100.00
+      Gene	77.31	74.93	79.84
+Processed 228341 tokens with 15481 phrases; found: 15833 phrases; correct: 12625.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 80):
+	        F1	Prec	Recall
+Micro (Seg)	80.59	79.56	81.65
+Macro (Seg)	83.81	82.91	84.72
+-------
+  Chemical	83.81	82.91	84.72
+         O	0.00	0.00	100.00
+      Gene	77.22	76.05	78.42
+Processed 228341 tokens with 15481 phrases; found: 15889 phrases; correct: 12641.
+
+Lasted saved at epoch 79, batch 0
+
+Segment evaluation bc_dev (iteration 81):
+	        F1	Prec	Recall
+Micro (Seg)	80.59	80.43	80.75
+Macro (Seg)	83.62	86.02	81.35
+-------
+  Chemical	83.62	86.02	81.35
+         O	0.00	0.00	100.00
+      Gene	77.58	75.19	80.12
+Processed 228341 tokens with 15481 phrases; found: 15543 phrases; correct: 12501.
+
+Lasted saved at epoch 79, batch 0
+
+Segment evaluation bc_dev (iteration 82):
+	        F1	Prec	Recall
+Micro (Seg)	81.08	80.66	81.50
+Macro (Seg)	84.23	86.45	82.11
+-------
+  Chemical	84.23	86.45	82.11
+         O	0.00	0.00	100.00
+      Gene	77.95	75.25	80.85
+Processed 228341 tokens with 15481 phrases; found: 15643 phrases; correct: 12617.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 83):
+	        F1	Prec	Recall
+Micro (Seg)	81.15	80.52	81.78
+Macro (Seg)	84.32	85.35	83.31
+-------
+  Chemical	84.32	85.35	83.31
+         O	0.00	0.00	100.00
+      Gene	77.93	75.82	80.18
+Processed 228341 tokens with 15481 phrases; found: 15724 phrases; correct: 12661.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 84):
+	        F1	Prec	Recall
+Micro (Seg)	81.25	80.62	81.89
+Macro (Seg)	84.32	83.03	85.65
+-------
+  Chemical	84.32	83.03	85.65
+         O	0.00	0.00	100.00
+      Gene	77.96	77.99	77.93
+Processed 228341 tokens with 15481 phrases; found: 15726 phrases; correct: 12678.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 85):
+	        F1	Prec	Recall
+Micro (Seg)	81.47	80.77	82.18
+Macro (Seg)	84.68	84.86	84.50
+-------
+  Chemical	84.68	84.86	84.50
+         O	0.00	0.00	100.00
+      Gene	78.15	76.63	79.74
+Processed 228341 tokens with 15481 phrases; found: 15753 phrases; correct: 12723.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 86):
+	        F1	Prec	Recall
+Micro (Seg)	81.44	81.05	81.84
+Macro (Seg)	84.39	84.75	84.04
+-------
+  Chemical	84.39	84.75	84.04
+         O	0.00	0.00	100.00
+      Gene	78.38	77.27	79.51
+Processed 228341 tokens with 15481 phrases; found: 15632 phrases; correct: 12669.
+
+Lasted saved at epoch 85, batch 0
+
+Segment evaluation bc_dev (iteration 87):
+	        F1	Prec	Recall
+Micro (Seg)	81.75	81.83	81.67
+Macro (Seg)	84.64	83.51	85.80
+-------
+  Chemical	84.64	83.51	85.80
+         O	0.00	0.00	100.00
+      Gene	78.61	79.95	77.32
+Processed 228341 tokens with 15481 phrases; found: 15451 phrases; correct: 12644.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 88):
+	        F1	Prec	Recall
+Micro (Seg)	81.88	81.37	82.39
+Macro (Seg)	84.75	84.17	85.35
+-------
+  Chemical	84.75	84.17	85.35
+         O	0.00	0.00	100.00
+      Gene	78.84	78.41	79.27
+Processed 228341 tokens with 15481 phrases; found: 15675 phrases; correct: 12755.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 89):
+	        F1	Prec	Recall
+Micro (Seg)	81.91	81.94	81.87
+Macro (Seg)	84.88	86.92	82.93
+-------
+  Chemical	84.88	86.92	82.93
+         O	0.00	0.00	100.00
+      Gene	78.91	77.14	80.76
+Processed 228341 tokens with 15481 phrases; found: 15469 phrases; correct: 12675.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 90):
+	        F1	Prec	Recall
+Micro (Seg)	81.99	82.47	81.51
+Macro (Seg)	84.84	87.55	82.29
+-------
+  Chemical	84.84	87.55	82.29
+         O	0.00	0.00	100.00
+      Gene	79.12	77.62	80.68
+Processed 228341 tokens with 15481 phrases; found: 15300 phrases; correct: 12618.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 91):
+	        F1	Prec	Recall
+Micro (Seg)	81.83	80.72	82.97
+Macro (Seg)	84.84	84.62	85.06
+-------
+  Chemical	84.84	84.62	85.06
+         O	0.00	0.00	100.00
+      Gene	78.72	76.78	80.77
+Processed 228341 tokens with 15481 phrases; found: 15914 phrases; correct: 12845.
+
+Lasted saved at epoch 90, batch 0
+
+Segment evaluation bc_dev (iteration 92):
+	        F1	Prec	Recall
+Micro (Seg)	81.84	81.17	82.52
+Macro (Seg)	84.86	86.18	83.57
+-------
+  Chemical	84.86	86.18	83.57
+         O	0.00	0.00	100.00
+      Gene	78.80	76.36	81.41
+Processed 228341 tokens with 15481 phrases; found: 15738 phrases; correct: 12775.
+
+Lasted saved at epoch 90, batch 0
+
+Segment evaluation bc_dev (iteration 93):
+	        F1	Prec	Recall
+Micro (Seg)	81.95	81.42	82.48
+Macro (Seg)	84.78	83.84	85.75
+-------
+  Chemical	84.78	83.84	85.75
+         O	0.00	0.00	100.00
+      Gene	78.93	78.82	79.03
+Processed 228341 tokens with 15481 phrases; found: 15682 phrases; correct: 12769.
+
+Lasted saved at epoch 90, batch 0
+
+Segment evaluation bc_dev (iteration 94):
+	        F1	Prec	Recall
+Micro (Seg)	82.28	81.74	82.84
+Macro (Seg)	85.30	85.54	85.06
+-------
+  Chemical	85.30	85.54	85.06
+         O	0.00	0.00	100.00
+      Gene	79.16	77.88	80.49
+Processed 228341 tokens with 15481 phrases; found: 15689 phrases; correct: 12824.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 95):
+	        F1	Prec	Recall
+Micro (Seg)	82.31	81.60	83.03
+Macro (Seg)	85.24	85.38	85.09
+-------
+  Chemical	85.24	85.38	85.09
+         O	0.00	0.00	100.00
+      Gene	79.28	77.77	80.85
+Processed 228341 tokens with 15481 phrases; found: 15753 phrases; correct: 12854.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 96):
+	        F1	Prec	Recall
+Micro (Seg)	82.23	81.69	82.79
+Macro (Seg)	85.36	87.09	83.69
+-------
+  Chemical	85.36	87.09	83.69
+         O	0.00	0.00	100.00
+      Gene	79.11	76.56	81.84
+Processed 228341 tokens with 15481 phrases; found: 15689 phrases; correct: 12816.
+
+Lasted saved at epoch 95, batch 0
+
+Segment evaluation bc_dev (iteration 97):
+	        F1	Prec	Recall
+Micro (Seg)	82.25	81.62	82.90
+Macro (Seg)	85.26	86.53	84.03
+-------
+  Chemical	85.26	86.53	84.03
+         O	0.00	0.00	100.00
+      Gene	79.22	76.88	81.72
+Processed 228341 tokens with 15481 phrases; found: 15725 phrases; correct: 12834.
+
+Lasted saved at epoch 95, batch 0
+
+Segment evaluation bc_dev (iteration 98):
+	        F1	Prec	Recall
+Micro (Seg)	82.15	81.62	82.68
+Macro (Seg)	85.19	87.49	83.02
+-------
+  Chemical	85.19	87.49	83.02
+         O	0.00	0.00	100.00
+      Gene	79.13	76.18	82.33
+Processed 228341 tokens with 15481 phrases; found: 15683 phrases; correct: 12800.
+
+Lasted saved at epoch 95, batch 0
+
+Segment evaluation bc_dev (iteration 99):
+	        F1	Prec	Recall
+Micro (Seg)	82.31	81.66	82.97
+Macro (Seg)	85.27	86.56	84.03
+-------
+  Chemical	85.27	86.56	84.03
+         O	0.00	0.00	100.00
+      Gene	79.32	76.93	81.85
+Processed 228341 tokens with 15481 phrases; found: 15729 phrases; correct: 12844.
+
+Lasted saved at epoch 95, batch 0
+
+Segment evaluation bc_dev (iteration 100):
+	        F1	Prec	Recall
+Micro (Seg)	82.04	81.85	82.22
+Macro (Seg)	85.06	87.60	82.67
+-------
+  Chemical	85.06	87.60	82.67
+         O	0.00	0.00	100.00
+      Gene	79.04	76.49	81.76
+Processed 228341 tokens with 15481 phrases; found: 15551 phrases; correct: 12729.
+
+Lasted saved at epoch 95, batch 0
+
+Segment evaluation bc_dev (iteration 101):
+	        F1	Prec	Recall
+Micro (Seg)	82.30	81.49	83.12
+Macro (Seg)	85.43	86.63	84.26
+-------
+  Chemical	85.43	86.63	84.26
+         O	0.00	0.00	100.00
+      Gene	79.15	76.56	81.91
+Processed 228341 tokens with 15481 phrases; found: 15791 phrases; correct: 12868.
+
+Lasted saved at epoch 95, batch 0
+
+Segment evaluation bc_dev (iteration 102):
+	        F1	Prec	Recall
+Micro (Seg)	82.57	82.70	82.45
+Macro (Seg)	85.56	87.53	83.67
+-------
+  Chemical	85.56	87.53	83.67
+         O	0.00	0.00	100.00
+      Gene	79.56	78.02	81.16
+Processed 228341 tokens with 15481 phrases; found: 15434 phrases; correct: 12764.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 103):
+	        F1	Prec	Recall
+Micro (Seg)	82.60	82.37	82.84
+Macro (Seg)	85.58	85.82	85.33
+-------
+  Chemical	85.58	85.82	85.33
+         O	0.00	0.00	100.00
+      Gene	79.51	78.82	80.20
+Processed 228341 tokens with 15481 phrases; found: 15568 phrases; correct: 12824.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 104):
+	        F1	Prec	Recall
+Micro (Seg)	82.83	82.84	82.82
+Macro (Seg)	85.77	86.94	84.64
+-------
+  Chemical	85.77	86.94	84.64
+         O	0.00	0.00	100.00
+      Gene	79.81	78.74	80.91
+Processed 228341 tokens with 15481 phrases; found: 15478 phrases; correct: 12822.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 105):
+	        F1	Prec	Recall
+Micro (Seg)	82.50	80.92	84.13
+Macro (Seg)	85.64	85.55	85.74
+-------
+  Chemical	85.64	85.55	85.74
+         O	0.00	0.00	100.00
+      Gene	79.29	76.39	82.43
+Processed 228341 tokens with 15481 phrases; found: 16094 phrases; correct: 13024.
+
+Lasted saved at epoch 104, batch 0
+
+Segment evaluation bc_dev (iteration 106):
+	        F1	Prec	Recall
+Micro (Seg)	82.73	82.60	82.86
+Macro (Seg)	85.65	87.84	83.57
+-------
+  Chemical	85.65	87.84	83.57
+         O	0.00	0.00	100.00
+      Gene	79.80	77.63	82.10
+Processed 228341 tokens with 15481 phrases; found: 15529 phrases; correct: 12827.
+
+Lasted saved at epoch 104, batch 0
+
+Segment evaluation bc_dev (iteration 107):
+	        F1	Prec	Recall
+Micro (Seg)	82.86	83.71	82.03
+Macro (Seg)	85.59	88.32	83.03
+-------
+  Chemical	85.59	88.32	83.03
+         O	0.00	0.00	100.00
+      Gene	80.09	79.23	80.97
+Processed 228341 tokens with 15481 phrases; found: 15171 phrases; correct: 12699.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 108):
+	        F1	Prec	Recall
+Micro (Seg)	82.37	81.68	83.06
+Macro (Seg)	85.57	89.16	82.26
+-------
+  Chemical	85.57	89.16	82.26
+         O	0.00	0.00	100.00
+      Gene	79.29	75.15	83.91
+Processed 228341 tokens with 15481 phrases; found: 15743 phrases; correct: 12859.
+
+Lasted saved at epoch 107, batch 0
+
+Segment evaluation bc_dev (iteration 109):
+	        F1	Prec	Recall
+Micro (Seg)	82.80	81.53	84.12
+Macro (Seg)	85.87	86.38	85.36
+-------
+  Chemical	85.87	86.38	85.36
+         O	0.00	0.00	100.00
+      Gene	79.71	76.83	82.82
+Processed 228341 tokens with 15481 phrases; found: 15974 phrases; correct: 13023.
+
+Lasted saved at epoch 107, batch 0
+
+Segment evaluation bc_dev (iteration 110):
+	        F1	Prec	Recall
+Micro (Seg)	83.15	82.26	84.06
+Macro (Seg)	86.21	86.81	85.62
+-------
+  Chemical	86.21	86.81	85.62
+         O	0.00	0.00	100.00
+      Gene	80.04	77.79	82.42
+Processed 228341 tokens with 15481 phrases; found: 15820 phrases; correct: 13014.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 111):
+	        F1	Prec	Recall
+Micro (Seg)	83.23	82.17	84.30
+Macro (Seg)	86.02	85.41	86.64
+-------
+  Chemical	86.02	85.41	86.64
+         O	0.00	0.00	100.00
+      Gene	80.31	78.84	81.84
+Processed 228341 tokens with 15481 phrases; found: 15882 phrases; correct: 13051.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 112):
+	        F1	Prec	Recall
+Micro (Seg)	83.46	83.16	83.75
+Macro (Seg)	86.36	87.29	85.45
+-------
+  Chemical	86.36	87.29	85.45
+         O	0.00	0.00	100.00
+      Gene	80.48	79.04	81.97
+Processed 228341 tokens with 15481 phrases; found: 15592 phrases; correct: 12966.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 113):
+	        F1	Prec	Recall
+Micro (Seg)	83.14	82.70	83.58
+Macro (Seg)	85.96	86.59	85.35
+-------
+  Chemical	85.96	86.59	85.35
+         O	0.00	0.00	100.00
+      Gene	80.23	78.81	81.72
+Processed 228341 tokens with 15481 phrases; found: 15645 phrases; correct: 12939.
+
+Lasted saved at epoch 112, batch 0
+
+Segment evaluation bc_dev (iteration 114):
+	        F1	Prec	Recall
+Micro (Seg)	83.38	82.60	84.19
+Macro (Seg)	86.13	85.66	86.62
+-------
+  Chemical	86.13	85.66	86.62
+         O	0.00	0.00	100.00
+      Gene	80.51	79.42	81.62
+Processed 228341 tokens with 15481 phrases; found: 15779 phrases; correct: 13033.
+
+Lasted saved at epoch 112, batch 0
+
+Segment evaluation bc_dev (iteration 115):
+	        F1	Prec	Recall
+Micro (Seg)	83.18	81.94	84.46
+Macro (Seg)	86.16	86.46	85.86
+-------
+  Chemical	86.16	86.46	85.86
+         O	0.00	0.00	100.00
+      Gene	80.16	77.52	82.98
+Processed 228341 tokens with 15481 phrases; found: 15956 phrases; correct: 13075.
+
+Lasted saved at epoch 112, batch 0
+
+Segment evaluation bc_dev (iteration 116):
+	        F1	Prec	Recall
+Micro (Seg)	83.56	83.14	83.99
+Macro (Seg)	86.32	87.23	85.43
+-------
+  Chemical	86.32	87.23	85.43
+         O	0.00	0.00	100.00
+      Gene	80.73	79.08	82.46
+Processed 228341 tokens with 15481 phrases; found: 15639 phrases; correct: 13002.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 117):
+	        F1	Prec	Recall
+Micro (Seg)	83.28	82.33	84.25
+Macro (Seg)	86.13	86.31	85.95
+-------
+  Chemical	86.13	86.31	85.95
+         O	0.00	0.00	100.00
+      Gene	80.35	78.35	82.46
+Processed 228341 tokens with 15481 phrases; found: 15843 phrases; correct: 13043.
+
+Lasted saved at epoch 116, batch 0
+
+Segment evaluation bc_dev (iteration 118):
+	        F1	Prec	Recall
+Micro (Seg)	83.04	82.14	83.96
+Macro (Seg)	85.73	84.64	86.84
+-------
+  Chemical	85.73	84.64	86.84
+         O	0.00	0.00	100.00
+      Gene	80.19	79.48	80.92
+Processed 228341 tokens with 15481 phrases; found: 15824 phrases; correct: 12998.
+
+Lasted saved at epoch 116, batch 0
+
+Segment evaluation bc_dev (iteration 119):
+	        F1	Prec	Recall
+Micro (Seg)	83.65	83.36	83.94
+Macro (Seg)	86.39	87.63	85.18
+-------
+  Chemical	86.39	87.63	85.18
+         O	0.00	0.00	100.00
+      Gene	80.86	79.17	82.62
+Processed 228341 tokens with 15481 phrases; found: 15587 phrases; correct: 12994.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 120):
+	        F1	Prec	Recall
+Micro (Seg)	83.76	83.59	83.92
+Macro (Seg)	86.52	88.11	84.98
+-------
+  Chemical	86.52	88.11	84.98
+         O	0.00	0.00	100.00
+      Gene	80.96	79.20	82.80
+Processed 228341 tokens with 15481 phrases; found: 15542 phrases; correct: 12992.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 121):
+	        F1	Prec	Recall
+Micro (Seg)	83.65	83.30	84.01
+Macro (Seg)	86.59	88.46	84.79
+-------
+  Chemical	86.59	88.46	84.79
+         O	0.00	0.00	100.00
+      Gene	80.71	78.38	83.18
+Processed 228341 tokens with 15481 phrases; found: 15612 phrases; correct: 13005.
+
+Lasted saved at epoch 120, batch 0
+
+Segment evaluation bc_dev (iteration 122):
+	        F1	Prec	Recall
+Micro (Seg)	84.07	83.16	84.99
+Macro (Seg)	86.66	85.84	87.48
+-------
+  Chemical	86.66	85.84	87.48
+         O	0.00	0.00	100.00
+      Gene	81.34	80.34	82.37
+Processed 228341 tokens with 15481 phrases; found: 15823 phrases; correct: 13158.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 123):
+	        F1	Prec	Recall
+Micro (Seg)	83.89	83.32	84.47
+Macro (Seg)	86.58	86.47	86.68
+-------
+  Chemical	86.58	86.47	86.68
+         O	0.00	0.00	100.00
+      Gene	81.10	80.08	82.14
+Processed 228341 tokens with 15481 phrases; found: 15694 phrases; correct: 13077.
+
+Lasted saved at epoch 122, batch 0
+
+Segment evaluation bc_dev (iteration 124):
+	        F1	Prec	Recall
+Micro (Seg)	83.68	82.77	84.61
+Macro (Seg)	86.55	87.80	85.35
+-------
+  Chemical	86.55	87.80	85.35
+         O	0.00	0.00	100.00
+      Gene	80.80	77.97	83.84
+Processed 228341 tokens with 15481 phrases; found: 15826 phrases; correct: 13099.
+
+Lasted saved at epoch 122, batch 0
+
+Segment evaluation bc_dev (iteration 125):
+	        F1	Prec	Recall
+Micro (Seg)	83.65	83.02	84.29
+Macro (Seg)	86.74	88.67	84.88
+-------
+  Chemical	86.74	88.67	84.88
+         O	0.00	0.00	100.00
+      Gene	80.58	77.71	83.67
+Processed 228341 tokens with 15481 phrases; found: 15718 phrases; correct: 13049.
+
+Lasted saved at epoch 122, batch 0
+
+Segment evaluation bc_dev (iteration 126):
+	        F1	Prec	Recall
+Micro (Seg)	84.00	83.21	84.81
+Macro (Seg)	86.69	86.64	86.73
+-------
+  Chemical	86.69	86.64	86.73
+         O	0.00	0.00	100.00
+      Gene	81.22	79.72	82.78
+Processed 228341 tokens with 15481 phrases; found: 15778 phrases; correct: 13129.
+
+Lasted saved at epoch 122, batch 0
+
+Segment evaluation bc_dev (iteration 127):
+	        F1	Prec	Recall
+Micro (Seg)	83.79	83.81	83.77
+Macro (Seg)	86.52	88.08	85.02
+-------
+  Chemical	86.52	88.08	85.02
+         O	0.00	0.00	100.00
+      Gene	81.00	79.61	82.45
+Processed 228341 tokens with 15481 phrases; found: 15473 phrases; correct: 12968.
+
+Lasted saved at epoch 122, batch 0
+
+Segment evaluation bc_dev (iteration 128):
+	        F1	Prec	Recall
+Micro (Seg)	84.23	83.69	84.78
+Macro (Seg)	86.90	86.87	86.93
+-------
+  Chemical	86.90	86.87	86.93
+         O	0.00	0.00	100.00
+      Gene	81.46	80.43	82.51
+Processed 228341 tokens with 15481 phrases; found: 15682 phrases; correct: 13125.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 129):
+	        F1	Prec	Recall
+Micro (Seg)	84.01	83.16	84.88
+Macro (Seg)	86.57	86.98	86.16
+-------
+  Chemical	86.57	86.98	86.16
+         O	0.00	0.00	100.00
+      Gene	81.39	79.37	83.52
+Processed 228341 tokens with 15481 phrases; found: 15800 phrases; correct: 13140.
+
+Lasted saved at epoch 128, batch 0
+
+Segment evaluation bc_dev (iteration 130):
+	        F1	Prec	Recall
+Micro (Seg)	84.10	83.69	84.52
+Macro (Seg)	86.75	88.17	85.38
+-------
+  Chemical	86.75	88.17	85.38
+         O	0.00	0.00	100.00
+      Gene	81.42	79.35	83.60
+Processed 228341 tokens with 15481 phrases; found: 15633 phrases; correct: 13084.
+
+Lasted saved at epoch 128, batch 0
+
+Segment evaluation bc_dev (iteration 131):
+	        F1	Prec	Recall
+Micro (Seg)	84.22	83.92	84.51
+Macro (Seg)	86.81	87.73	85.90
+-------
+  Chemical	86.81	87.73	85.90
+         O	0.00	0.00	100.00
+      Gene	81.56	80.13	83.04
+Processed 228341 tokens with 15481 phrases; found: 15589 phrases; correct: 13083.
+
+Lasted saved at epoch 128, batch 0
+
+Segment evaluation bc_dev (iteration 132):
+	        F1	Prec	Recall
+Micro (Seg)	83.86	83.18	84.54
+Macro (Seg)	86.62	87.34	85.91
+-------
+  Chemical	86.62	87.34	85.91
+         O	0.00	0.00	100.00
+      Gene	81.04	79.08	83.10
+Processed 228341 tokens with 15481 phrases; found: 15734 phrases; correct: 13088.
+
+Lasted saved at epoch 128, batch 0
+
+Segment evaluation bc_dev (iteration 133):
+	        F1	Prec	Recall
+Micro (Seg)	84.19	83.25	85.16
+Macro (Seg)	86.89	87.02	86.75
+-------
+  Chemical	86.89	87.02	86.75
+         O	0.00	0.00	100.00
+      Gene	81.42	79.48	83.47
+Processed 228341 tokens with 15481 phrases; found: 15835 phrases; correct: 13183.
+
+Lasted saved at epoch 128, batch 0
+
+Segment evaluation bc_dev (iteration 134):
+	        F1	Prec	Recall
+Micro (Seg)	84.11	82.96	85.30
+Macro (Seg)	86.65	86.09	87.21
+-------
+  Chemical	86.65	86.09	87.21
+         O	0.00	0.00	100.00
+      Gene	81.48	79.75	83.30
+Processed 228341 tokens with 15481 phrases; found: 15919 phrases; correct: 13206.
+
+Lasted saved at epoch 128, batch 0
+
+Segment evaluation bc_dev (iteration 135):
+	        F1	Prec	Recall
+Micro (Seg)	84.24	83.33	85.18
+Macro (Seg)	86.99	87.66	86.33
+-------
+  Chemical	86.99	87.66	86.33
+         O	0.00	0.00	100.00
+      Gene	81.45	79.09	83.96
+Processed 228341 tokens with 15481 phrases; found: 15824 phrases; correct: 13186.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 136):
+	        F1	Prec	Recall
+Micro (Seg)	84.31	83.98	84.65
+Macro (Seg)	87.03	87.87	86.21
+-------
+  Chemical	87.03	87.87	86.21
+         O	0.00	0.00	100.00
+      Gene	81.51	80.09	82.99
+Processed 228341 tokens with 15481 phrases; found: 15604 phrases; correct: 13104.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 137):
+	        F1	Prec	Recall
+Micro (Seg)	84.51	84.86	84.15
+Macro (Seg)	87.14	87.63	86.67
+-------
+  Chemical	87.14	87.63	86.67
+         O	0.00	0.00	100.00
+      Gene	81.73	81.96	81.50
+Processed 228341 tokens with 15481 phrases; found: 15352 phrases; correct: 13028.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 138):
+	        F1	Prec	Recall
+Micro (Seg)	84.41	84.15	84.68
+Macro (Seg)	87.11	88.42	85.84
+-------
+  Chemical	87.11	88.42	85.84
+         O	0.00	0.00	100.00
+      Gene	81.67	79.95	83.47
+Processed 228341 tokens with 15481 phrases; found: 15580 phrases; correct: 13110.
+
+Lasted saved at epoch 137, batch 0
+
+Segment evaluation bc_dev (iteration 139):
+	        F1	Prec	Recall
+Micro (Seg)	84.34	83.80	84.90
+Macro (Seg)	86.99	86.74	87.23
+-------
+  Chemical	86.99	86.74	87.23
+         O	0.00	0.00	100.00
+      Gene	81.58	80.74	82.43
+Processed 228341 tokens with 15481 phrases; found: 15684 phrases; correct: 13143.
+
+Lasted saved at epoch 137, batch 0
+
+Segment evaluation bc_dev (iteration 140):
+	        F1	Prec	Recall
+Micro (Seg)	84.01	83.66	84.37
+Macro (Seg)	86.83	89.35	84.44
+-------
+  Chemical	86.83	89.35	84.44
+         O	0.00	0.00	100.00
+      Gene	81.23	78.37	84.30
+Processed 228341 tokens with 15481 phrases; found: 15614 phrases; correct: 13062.
+
+Lasted saved at epoch 137, batch 0
+
+Segment evaluation bc_dev (iteration 141):
+	        F1	Prec	Recall
+Micro (Seg)	84.46	84.09	84.85
+Macro (Seg)	87.11	88.29	85.95
+-------
+  Chemical	87.11	88.29	85.95
+         O	0.00	0.00	100.00
+      Gene	81.78	79.95	83.68
+Processed 228341 tokens with 15481 phrases; found: 15621 phrases; correct: 13135.
+
+Lasted saved at epoch 137, batch 0
+
+Segment evaluation bc_dev (iteration 142):
+	        F1	Prec	Recall
+Micro (Seg)	84.28	83.68	84.88
+Macro (Seg)	86.91	86.95	86.88
+-------
+  Chemical	86.91	86.95	86.88
+         O	0.00	0.00	100.00
+      Gene	81.54	80.34	82.78
+Processed 228341 tokens with 15481 phrases; found: 15704 phrases; correct: 13141.
+
+Lasted saved at epoch 137, batch 0
+
+Segment evaluation bc_dev (iteration 143):
+	        F1	Prec	Recall
+Micro (Seg)	84.48	83.87	85.09
+Macro (Seg)	87.11	87.15	87.08
+-------
+  Chemical	87.11	87.15	87.08
+         O	0.00	0.00	100.00
+      Gene	81.74	80.52	82.99
+Processed 228341 tokens with 15481 phrases; found: 15706 phrases; correct: 13173.
+
+Lasted saved at epoch 137, batch 0
+
+Segment evaluation bc_dev (iteration 144):
+	        F1	Prec	Recall
+Micro (Seg)	84.41	83.67	85.17
+Macro (Seg)	86.96	88.09	85.86
+-------
+  Chemical	86.96	88.09	85.86
+         O	0.00	0.00	100.00
+      Gene	81.84	79.40	84.44
+Processed 228341 tokens with 15481 phrases; found: 15758 phrases; correct: 13185.
+
+Lasted saved at epoch 137, batch 0
+
+Segment evaluation bc_dev (iteration 145):
+	        F1	Prec	Recall
+Micro (Seg)	84.47	83.72	85.25
+Macro (Seg)	86.95	87.14	86.75
+-------
+  Chemical	86.95	87.14	86.75
+         O	0.00	0.00	100.00
+      Gene	81.92	80.27	83.65
+Processed 228341 tokens with 15481 phrases; found: 15764 phrases; correct: 13197.
+
+Lasted saved at epoch 137, batch 0
+
+Segment evaluation bc_dev (iteration 146):
+	        F1	Prec	Recall
+Micro (Seg)	84.49	84.08	84.90
+Macro (Seg)	87.05	87.22	86.88
+-------
+  Chemical	87.05	87.22	86.88
+         O	0.00	0.00	100.00
+      Gene	81.82	80.85	82.80
+Processed 228341 tokens with 15481 phrases; found: 15632 phrases; correct: 13143.
+
+Lasted saved at epoch 137, batch 0
+
+Segment evaluation bc_dev (iteration 147):
+	        F1	Prec	Recall
+Micro (Seg)	84.38	83.41	85.38
+Macro (Seg)	87.00	86.53	87.48
+-------
+  Chemical	87.00	86.53	87.48
+         O	0.00	0.00	100.00
+      Gene	81.65	80.21	83.15
+Processed 228341 tokens with 15481 phrases; found: 15845 phrases; correct: 13217.
+
+Lasted saved at epoch 137, batch 0
+
+Segment evaluation bc_dev (iteration 148):
+	        F1	Prec	Recall
+Micro (Seg)	84.28	83.45	85.12
+Macro (Seg)	86.89	87.22	86.57
+-------
+  Chemical	86.89	87.22	86.57
+         O	0.00	0.00	100.00
+      Gene	81.60	79.69	83.60
+Processed 228341 tokens with 15481 phrases; found: 15791 phrases; correct: 13178.
+
+Lasted saved at epoch 137, batch 0
+
+Segment evaluation bc_dev (iteration 149):
+	        F1	Prec	Recall
+Micro (Seg)	84.51	83.57	85.47
+Macro (Seg)	87.06	87.41	86.72
+-------
+  Chemical	87.06	87.41	86.72
+         O	0.00	0.00	100.00
+      Gene	81.89	79.76	84.15
+Processed 228341 tokens with 15481 phrases; found: 15832 phrases; correct: 13231.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 150):
+	        F1	Prec	Recall
+Micro (Seg)	84.70	84.65	84.74
+Macro (Seg)	87.31	88.32	86.33
+-------
+  Chemical	87.31	88.32	86.33
+         O	0.00	0.00	100.00
+      Gene	82.00	80.96	83.07
+Processed 228341 tokens with 15481 phrases; found: 15498 phrases; correct: 13119.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 151):
+	        F1	Prec	Recall
+Micro (Seg)	84.73	84.14	85.32
+Macro (Seg)	87.31	87.75	86.87
+-------
+  Chemical	87.31	87.75	86.87
+         O	0.00	0.00	100.00
+      Gene	82.07	80.51	83.69
+Processed 228341 tokens with 15481 phrases; found: 15699 phrases; correct: 13209.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 152):
+	        F1	Prec	Recall
+Micro (Seg)	84.53	83.93	85.14
+Macro (Seg)	87.19	88.35	86.06
+-------
+  Chemical	87.19	88.35	86.06
+         O	0.00	0.00	100.00
+      Gene	81.83	79.62	84.16
+Processed 228341 tokens with 15481 phrases; found: 15704 phrases; correct: 13180.
+
+Lasted saved at epoch 151, batch 0
+
+Segment evaluation bc_dev (iteration 153):
+	        F1	Prec	Recall
+Micro (Seg)	84.92	84.70	85.15
+Macro (Seg)	87.48	89.03	85.97
+-------
+  Chemical	87.48	89.03	85.97
+         O	0.00	0.00	100.00
+      Gene	82.34	80.48	84.28
+Processed 228341 tokens with 15481 phrases; found: 15563 phrases; correct: 13182.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 154):
+	        F1	Prec	Recall
+Micro (Seg)	84.84	84.70	84.98
+Macro (Seg)	87.42	88.63	86.25
+-------
+  Chemical	87.42	88.63	86.25
+         O	0.00	0.00	100.00
+      Gene	82.19	80.80	83.64
+Processed 228341 tokens with 15481 phrases; found: 15533 phrases; correct: 13156.
+
+Lasted saved at epoch 153, batch 0
+
+Segment evaluation bc_dev (iteration 155):
+	        F1	Prec	Recall
+Micro (Seg)	84.92	85.12	84.72
+Macro (Seg)	87.59	88.62	86.58
+-------
+  Chemical	87.59	88.62	86.58
+         O	0.00	0.00	100.00
+      Gene	82.15	81.56	82.75
+Processed 228341 tokens with 15481 phrases; found: 15408 phrases; correct: 13115.
+
+Lasted saved at epoch 153, batch 0
+
+Segment evaluation bc_dev (iteration 156):
+	        F1	Prec	Recall
+Micro (Seg)	84.96	85.45	84.48
+Macro (Seg)	87.36	88.80	85.97
+-------
+  Chemical	87.36	88.80	85.97
+         O	0.00	0.00	100.00
+      Gene	82.48	82.06	82.91
+Processed 228341 tokens with 15481 phrases; found: 15306 phrases; correct: 13079.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 157):
+	        F1	Prec	Recall
+Micro (Seg)	85.00	84.89	85.11
+Macro (Seg)	87.56	88.85	86.30
+-------
+  Chemical	87.56	88.85	86.30
+         O	0.00	0.00	100.00
+      Gene	82.38	80.96	83.85
+Processed 228341 tokens with 15481 phrases; found: 15522 phrases; correct: 13176.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 158):
+	        F1	Prec	Recall
+Micro (Seg)	85.02	84.83	85.22
+Macro (Seg)	87.55	88.10	87.01
+-------
+  Chemical	87.55	88.10	87.01
+         O	0.00	0.00	100.00
+      Gene	82.40	81.49	83.34
+Processed 228341 tokens with 15481 phrases; found: 15553 phrases; correct: 13193.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 159):
+	        F1	Prec	Recall
+Micro (Seg)	84.92	84.33	85.50
+Macro (Seg)	87.42	87.78	87.07
+-------
+  Chemical	87.42	87.78	87.07
+         O	0.00	0.00	100.00
+      Gene	82.33	80.86	83.85
+Processed 228341 tokens with 15481 phrases; found: 15696 phrases; correct: 13237.
+
+Lasted saved at epoch 158, batch 0
+
+Segment evaluation bc_dev (iteration 160):
+	        F1	Prec	Recall
+Micro (Seg)	84.85	84.15	85.57
+Macro (Seg)	87.50	87.54	87.46
+-------
+  Chemical	87.50	87.54	87.46
+         O	0.00	0.00	100.00
+      Gene	82.11	80.69	83.57
+Processed 228341 tokens with 15481 phrases; found: 15743 phrases; correct: 13247.
+
+Lasted saved at epoch 158, batch 0
+
+Segment evaluation bc_dev (iteration 161):
+	        F1	Prec	Recall
+Micro (Seg)	85.04	84.91	85.16
+Macro (Seg)	87.59	88.11	87.07
+-------
+  Chemical	87.59	88.11	87.07
+         O	0.00	0.00	100.00
+      Gene	82.38	81.64	83.14
+Processed 228341 tokens with 15481 phrases; found: 15525 phrases; correct: 13183.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 162):
+	        F1	Prec	Recall
+Micro (Seg)	84.96	84.19	85.74
+Macro (Seg)	87.56	88.89	86.26
+-------
+  Chemical	87.56	88.89	86.26
+         O	0.00	0.00	100.00
+      Gene	82.35	79.68	85.19
+Processed 228341 tokens with 15481 phrases; found: 15767 phrases; correct: 13274.
+
+Lasted saved at epoch 161, batch 0
+
+Segment evaluation bc_dev (iteration 163):
+	        F1	Prec	Recall
+Micro (Seg)	85.08	84.37	85.80
+Macro (Seg)	87.57	88.24	86.92
+-------
+  Chemical	87.57	88.24	86.92
+         O	0.00	0.00	100.00
+      Gene	82.53	80.54	84.62
+Processed 228341 tokens with 15481 phrases; found: 15744 phrases; correct: 13283.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 164):
+	        F1	Prec	Recall
+Micro (Seg)	84.52	83.58	85.49
+Macro (Seg)	87.17	87.96	86.39
+-------
+  Chemical	87.17	87.96	86.39
+         O	0.00	0.00	100.00
+      Gene	81.85	79.33	84.53
+Processed 228341 tokens with 15481 phrases; found: 15833 phrases; correct: 13234.
+
+Lasted saved at epoch 163, batch 0
+
+Segment evaluation bc_dev (iteration 165):
+	        F1	Prec	Recall
+Micro (Seg)	84.90	84.60	85.19
+Macro (Seg)	87.45	88.71	86.23
+-------
+  Chemical	87.45	88.71	86.23
+         O	0.00	0.00	100.00
+      Gene	82.29	80.55	84.11
+Processed 228341 tokens with 15481 phrases; found: 15590 phrases; correct: 13189.
+
+Lasted saved at epoch 163, batch 0
+
+Segment evaluation bc_dev (iteration 166):
+	        F1	Prec	Recall
+Micro (Seg)	84.99	84.23	85.76
+Macro (Seg)	87.59	88.10	87.08
+-------
+  Chemical	87.59	88.10	87.08
+         O	0.00	0.00	100.00
+      Gene	82.32	80.38	84.36
+Processed 228341 tokens with 15481 phrases; found: 15762 phrases; correct: 13276.
+
+Lasted saved at epoch 163, batch 0
+
+Segment evaluation bc_dev (iteration 167):
+	        F1	Prec	Recall
+Micro (Seg)	85.03	84.01	86.08
+Macro (Seg)	87.45	86.67	88.25
+-------
+  Chemical	87.45	86.67	88.25
+         O	0.00	0.00	100.00
+      Gene	82.49	81.23	83.79
+Processed 228341 tokens with 15481 phrases; found: 15863 phrases; correct: 13326.
+
+Lasted saved at epoch 163, batch 0
+
+Segment evaluation bc_dev (iteration 168):
+	        F1	Prec	Recall
+Micro (Seg)	84.93	84.46	85.40
+Macro (Seg)	87.46	87.90	87.02
+-------
+  Chemical	87.46	87.90	87.02
+         O	0.00	0.00	100.00
+      Gene	82.31	80.97	83.69
+Processed 228341 tokens with 15481 phrases; found: 15654 phrases; correct: 13221.
+
+Lasted saved at epoch 163, batch 0
+
+Segment evaluation bc_dev (iteration 169):
+	        F1	Prec	Recall
+Micro (Seg)	85.22	84.42	86.03
+Macro (Seg)	87.73	87.27	88.19
+-------
+  Chemical	87.73	87.27	88.19
+         O	0.00	0.00	100.00
+      Gene	82.59	81.46	83.75
+Processed 228341 tokens with 15481 phrases; found: 15776 phrases; correct: 13318.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 170):
+	        F1	Prec	Recall
+Micro (Seg)	84.93	84.19	85.67
+Macro (Seg)	87.70	88.48	86.93
+-------
+  Chemical	87.70	88.48	86.93
+         O	0.00	0.00	100.00
+      Gene	82.10	79.98	84.34
+Processed 228341 tokens with 15481 phrases; found: 15753 phrases; correct: 13263.
+
+Lasted saved at epoch 169, batch 0
+
+Segment evaluation bc_dev (iteration 171):
+	        F1	Prec	Recall
+Micro (Seg)	85.16	84.48	85.85
+Macro (Seg)	87.73	88.10	87.36
+-------
+  Chemical	87.73	88.10	87.36
+         O	0.00	0.00	100.00
+      Gene	82.52	80.85	84.27
+Processed 228341 tokens with 15481 phrases; found: 15732 phrases; correct: 13291.
+
+Lasted saved at epoch 169, batch 0
+
+Segment evaluation bc_dev (iteration 172):
+	        F1	Prec	Recall
+Micro (Seg)	85.28	84.85	85.72
+Macro (Seg)	87.96	88.84	87.11
+-------
+  Chemical	87.96	88.84	87.11
+         O	0.00	0.00	100.00
+      Gene	82.53	80.88	84.25
+Processed 228341 tokens with 15481 phrases; found: 15640 phrases; correct: 13270.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 173):
+	        F1	Prec	Recall
+Micro (Seg)	85.04	84.08	86.02
+Macro (Seg)	87.59	86.52	88.68
+-------
+  Chemical	87.59	86.52	88.68
+         O	0.00	0.00	100.00
+      Gene	82.34	81.49	83.20
+Processed 228341 tokens with 15481 phrases; found: 15837 phrases; correct: 13316.
+
+Lasted saved at epoch 172, batch 0
+
+Segment evaluation bc_dev (iteration 174):
+	        F1	Prec	Recall
+Micro (Seg)	85.47	85.39	85.56
+Macro (Seg)	87.89	88.26	87.53
+-------
+  Chemical	87.89	88.26	87.53
+         O	0.00	0.00	100.00
+      Gene	82.95	82.43	83.47
+Processed 228341 tokens with 15481 phrases; found: 15511 phrases; correct: 13245.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 175):
+	        F1	Prec	Recall
+Micro (Seg)	85.19	84.25	86.14
+Macro (Seg)	87.66	86.94	88.39
+-------
+  Chemical	87.66	86.94	88.39
+         O	0.00	0.00	100.00
+      Gene	82.59	81.45	83.77
+Processed 228341 tokens with 15481 phrases; found: 15829 phrases; correct: 13336.
+
+Lasted saved at epoch 174, batch 0
+
+Segment evaluation bc_dev (iteration 176):
+	        F1	Prec	Recall
+Micro (Seg)	85.26	84.81	85.71
+Macro (Seg)	87.79	88.24	87.33
+-------
+  Chemical	87.79	88.24	87.33
+         O	0.00	0.00	100.00
+      Gene	82.65	81.34	84.00
+Processed 228341 tokens with 15481 phrases; found: 15645 phrases; correct: 13269.
+
+Lasted saved at epoch 174, batch 0
+
+Segment evaluation bc_dev (iteration 177):
+	        F1	Prec	Recall
+Micro (Seg)	85.63	85.42	85.83
+Macro (Seg)	88.04	87.90	88.18
+-------
+  Chemical	88.04	87.90	88.18
+         O	0.00	0.00	100.00
+      Gene	83.09	82.81	83.36
+Processed 228341 tokens with 15481 phrases; found: 15556 phrases; correct: 13288.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 178):
+	        F1	Prec	Recall
+Micro (Seg)	85.30	85.19	85.41
+Macro (Seg)	87.76	88.28	87.25
+-------
+  Chemical	87.76	88.28	87.25
+         O	0.00	0.00	100.00
+      Gene	82.74	82.02	83.47
+Processed 228341 tokens with 15481 phrases; found: 15521 phrases; correct: 13222.
+
+Lasted saved at epoch 177, batch 0
+
+Segment evaluation bc_dev (iteration 179):
+	        F1	Prec	Recall
+Micro (Seg)	85.37	85.31	85.43
+Macro (Seg)	87.92	88.87	86.99
+-------
+  Chemical	87.92	88.87	86.99
+         O	0.00	0.00	100.00
+      Gene	82.74	81.72	83.77
+Processed 228341 tokens with 15481 phrases; found: 15502 phrases; correct: 13225.
+
+Lasted saved at epoch 177, batch 0
+
+Segment evaluation bc_dev (iteration 180):
+	        F1	Prec	Recall
+Micro (Seg)	85.40	84.74	86.06
+Macro (Seg)	87.87	88.44	87.31
+-------
+  Chemical	87.87	88.44	87.31
+         O	0.00	0.00	100.00
+      Gene	82.86	81.05	84.74
+Processed 228341 tokens with 15481 phrases; found: 15722 phrases; correct: 13323.
+
+Lasted saved at epoch 177, batch 0
+
+Segment evaluation bc_dev (iteration 181):
+	        F1	Prec	Recall
+Micro (Seg)	85.70	85.15	86.25
+Macro (Seg)	87.98	88.24	87.71
+-------
+  Chemical	87.98	88.24	87.71
+         O	0.00	0.00	100.00
+      Gene	83.34	82.01	84.72
+Processed 228341 tokens with 15481 phrases; found: 15682 phrases; correct: 13353.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 182):
+	        F1	Prec	Recall
+Micro (Seg)	85.62	84.72	86.53
+Macro (Seg)	88.20	87.99	88.42
+-------
+  Chemical	88.20	87.99	88.42
+         O	0.00	0.00	100.00
+      Gene	82.93	81.39	84.53
+Processed 228341 tokens with 15481 phrases; found: 15810 phrases; correct: 13395.
+
+Lasted saved at epoch 181, batch 0
+
+Segment evaluation bc_dev (iteration 183):
+	        F1	Prec	Recall
+Micro (Seg)	85.33	84.94	85.72
+Macro (Seg)	87.85	89.06	86.67
+-------
+  Chemical	87.85	89.06	86.67
+         O	0.00	0.00	100.00
+      Gene	82.77	80.90	84.72
+Processed 228341 tokens with 15481 phrases; found: 15622 phrases; correct: 13270.
+
+Lasted saved at epoch 181, batch 0
+
+Segment evaluation bc_dev (iteration 184):
+	        F1	Prec	Recall
+Micro (Seg)	85.69	85.23	86.15
+Macro (Seg)	88.04	87.68	88.39
+-------
+  Chemical	88.04	87.68	88.39
+         O	0.00	0.00	100.00
+      Gene	83.22	82.66	83.79
+Processed 228341 tokens with 15481 phrases; found: 15648 phrases; correct: 13337.
+
+Lasted saved at epoch 181, batch 0
+
+Segment evaluation bc_dev (iteration 185):
+	        F1	Prec	Recall
+Micro (Seg)	85.71	85.83	85.58
+Macro (Seg)	88.12	88.95	87.31
+-------
+  Chemical	88.12	88.95	87.31
+         O	0.00	0.00	100.00
+      Gene	83.20	82.64	83.76
+Processed 228341 tokens with 15481 phrases; found: 15436 phrases; correct: 13249.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 186):
+	        F1	Prec	Recall
+Micro (Seg)	85.52	85.33	85.72
+Macro (Seg)	88.01	88.81	87.23
+-------
+  Chemical	88.01	88.81	87.23
+         O	0.00	0.00	100.00
+      Gene	82.95	81.82	84.12
+Processed 228341 tokens with 15481 phrases; found: 15552 phrases; correct: 13270.
+
+Lasted saved at epoch 185, batch 0
+
+Segment evaluation bc_dev (iteration 187):
+	        F1	Prec	Recall
+Micro (Seg)	85.71	85.49	85.92
+Macro (Seg)	88.20	88.38	88.03
+-------
+  Chemical	88.20	88.38	88.03
+         O	0.00	0.00	100.00
+      Gene	83.10	82.50	83.71
+Processed 228341 tokens with 15481 phrases; found: 15559 phrases; correct: 13302.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 188):
+	        F1	Prec	Recall
+Micro (Seg)	85.56	85.08	86.05
+Macro (Seg)	88.01	88.02	88.00
+-------
+  Chemical	88.01	88.02	88.00
+         O	0.00	0.00	100.00
+      Gene	83.01	82.05	83.99
+Processed 228341 tokens with 15481 phrases; found: 15657 phrases; correct: 13321.
+
+Lasted saved at epoch 187, batch 0
+
+Segment evaluation bc_dev (iteration 189):
+	        F1	Prec	Recall
+Micro (Seg)	85.38	85.22	85.53
+Macro (Seg)	87.90	87.69	88.10
+-------
+  Chemical	87.90	87.69	88.10
+         O	0.00	0.00	100.00
+      Gene	82.71	82.61	82.82
+Processed 228341 tokens with 15481 phrases; found: 15537 phrases; correct: 13241.
+
+Lasted saved at epoch 187, batch 0
+
+Segment evaluation bc_dev (iteration 190):
+	        F1	Prec	Recall
+Micro (Seg)	85.59	85.46	85.72
+Macro (Seg)	88.09	87.31	88.88
+-------
+  Chemical	88.09	87.31	88.88
+         O	0.00	0.00	100.00
+      Gene	82.92	83.45	82.39
+Processed 228341 tokens with 15481 phrases; found: 15529 phrases; correct: 13271.
+
+Lasted saved at epoch 187, batch 0
+
+Segment evaluation bc_dev (iteration 191):
+	        F1	Prec	Recall
+Micro (Seg)	85.59	84.99	86.20
+Macro (Seg)	87.91	88.75	87.08
+-------
+  Chemical	87.91	88.75	87.08
+         O	0.00	0.00	100.00
+      Gene	83.22	81.28	85.26
+Processed 228341 tokens with 15481 phrases; found: 15701 phrases; correct: 13344.
+
+Lasted saved at epoch 187, batch 0
+
+Segment evaluation bc_dev (iteration 192):
+	        F1	Prec	Recall
+Micro (Seg)	85.77	85.82	85.71
+Macro (Seg)	88.10	88.13	88.08
+-------
+  Chemical	88.10	88.13	88.08
+         O	0.00	0.00	100.00
+      Gene	83.30	83.38	83.22
+Processed 228341 tokens with 15481 phrases; found: 15461 phrases; correct: 13269.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 193):
+	        F1	Prec	Recall
+Micro (Seg)	85.85	85.55	86.15
+Macro (Seg)	88.26	89.45	87.11
+-------
+  Chemical	88.26	89.45	87.11
+         O	0.00	0.00	100.00
+      Gene	83.39	81.71	85.14
+Processed 228341 tokens with 15481 phrases; found: 15589 phrases; correct: 13337.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 194):
+	        F1	Prec	Recall
+Micro (Seg)	85.73	84.99	86.48
+Macro (Seg)	87.96	87.24	88.69
+-------
+  Chemical	87.96	87.24	88.69
+         O	0.00	0.00	100.00
+      Gene	83.37	82.61	84.15
+Processed 228341 tokens with 15481 phrases; found: 15753 phrases; correct: 13388.
+
+Lasted saved at epoch 193, batch 0
+
+Segment evaluation bc_dev (iteration 195):
+	        F1	Prec	Recall
+Micro (Seg)	85.80	85.93	85.68
+Macro (Seg)	88.03	88.67	87.41
+-------
+  Chemical	88.03	88.67	87.41
+         O	0.00	0.00	100.00
+      Gene	83.48	83.10	83.85
+Processed 228341 tokens with 15481 phrases; found: 15436 phrases; correct: 13264.
+
+Lasted saved at epoch 193, batch 0
+
+Segment evaluation bc_dev (iteration 196):
+	        F1	Prec	Recall
+Micro (Seg)	85.78	85.71	85.85
+Macro (Seg)	88.27	88.97	87.58
+-------
+  Chemical	88.27	88.97	87.58
+         O	0.00	0.00	100.00
+      Gene	83.19	82.38	84.01
+Processed 228341 tokens with 15481 phrases; found: 15506 phrases; correct: 13290.
+
+Lasted saved at epoch 193, batch 0
+
+Segment evaluation bc_dev (iteration 197):
+	        F1	Prec	Recall
+Micro (Seg)	85.65	85.34	85.97
+Macro (Seg)	88.06	88.88	87.26
+-------
+  Chemical	88.06	88.88	87.26
+         O	0.00	0.00	100.00
+      Gene	83.17	81.79	84.61
+Processed 228341 tokens with 15481 phrases; found: 15596 phrases; correct: 13309.
+
+Lasted saved at epoch 193, batch 0
+
+Segment evaluation bc_dev (iteration 198):
+	        F1	Prec	Recall
+Micro (Seg)	85.82	85.25	86.38
+Macro (Seg)	88.12	88.08	88.15
+-------
+  Chemical	88.12	88.08	88.15
+         O	0.00	0.00	100.00
+      Gene	83.42	82.34	84.52
+Processed 228341 tokens with 15481 phrases; found: 15686 phrases; correct: 13373.
+
+Lasted saved at epoch 193, batch 0
+
+Segment evaluation bc_dev (iteration 199):
+	        F1	Prec	Recall
+Micro (Seg)	85.62	85.36	85.89
+Macro (Seg)	88.03	88.93	87.14
+-------
+  Chemical	88.03	88.93	87.14
+         O	0.00	0.00	100.00
+      Gene	83.15	81.78	84.57
+Processed 228341 tokens with 15481 phrases; found: 15578 phrases; correct: 13297.
+
+Lasted saved at epoch 193, batch 0
+
+Segment evaluation bc_dev (iteration 200):
+	        F1	Prec	Recall
+Micro (Seg)	85.81	85.39	86.23
+Macro (Seg)	88.16	88.25	88.08
+-------
+  Chemical	88.16	88.25	88.08
+         O	0.00	0.00	100.00
+      Gene	83.35	82.43	84.29
+Processed 228341 tokens with 15481 phrases; found: 15635 phrases; correct: 13350.
+
+Lasted saved at epoch 193, batch 0
+
+Segment evaluation bc_dev (iteration 201):
+	        F1	Prec	Recall
+Micro (Seg)	85.85	85.45	86.25
+Macro (Seg)	88.26	88.08	88.45
+-------
+  Chemical	88.26	88.08	88.45
+         O	0.00	0.00	100.00
+      Gene	83.31	82.70	83.93
+Processed 228341 tokens with 15481 phrases; found: 15627 phrases; correct: 13353.
+
+Lasted saved at epoch 193, batch 0
+
+Segment evaluation bc_dev (iteration 202):
+	        F1	Prec	Recall
+Micro (Seg)	85.89	85.65	86.14
+Macro (Seg)	88.18	88.65	87.72
+-------
+  Chemical	88.18	88.65	87.72
+         O	0.00	0.00	100.00
+      Gene	83.52	82.59	84.46
+Processed 228341 tokens with 15481 phrases; found: 15569 phrases; correct: 13335.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 203):
+	        F1	Prec	Recall
+Micro (Seg)	85.90	85.14	86.67
+Macro (Seg)	88.24	88.24	88.24
+-------
+  Chemical	88.24	88.24	88.24
+         O	0.00	0.00	100.00
+      Gene	83.47	81.99	85.01
+Processed 228341 tokens with 15481 phrases; found: 15758 phrases; correct: 13417.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 204):
+	        F1	Prec	Recall
+Micro (Seg)	85.87	86.66	85.10
+Macro (Seg)	88.10	88.89	87.33
+-------
+  Chemical	88.10	88.89	87.33
+         O	0.00	0.00	100.00
+      Gene	83.51	84.31	82.74
+Processed 228341 tokens with 15481 phrases; found: 15202 phrases; correct: 13174.
+
+Lasted saved at epoch 203, batch 0
+
+Segment evaluation bc_dev (iteration 205):
+	        F1	Prec	Recall
+Micro (Seg)	85.80	85.53	86.07
+Macro (Seg)	88.26	89.29	87.25
+-------
+  Chemical	88.26	89.29	87.25
+         O	0.00	0.00	100.00
+      Gene	83.27	81.78	84.82
+Processed 228341 tokens with 15481 phrases; found: 15579 phrases; correct: 13324.
+
+Lasted saved at epoch 203, batch 0
+
+Segment evaluation bc_dev (iteration 206):
+	        F1	Prec	Recall
+Micro (Seg)	85.85	85.26	86.44
+Macro (Seg)	88.10	87.48	88.73
+-------
+  Chemical	88.10	87.48	88.73
+         O	0.00	0.00	100.00
+      Gene	83.47	82.91	84.03
+Processed 228341 tokens with 15481 phrases; found: 15696 phrases; correct: 13382.
+
+Lasted saved at epoch 203, batch 0
+
+Segment evaluation bc_dev (iteration 207):
+	        F1	Prec	Recall
+Micro (Seg)	85.95	85.44	86.47
+Macro (Seg)	88.27	88.37	88.18
+-------
+  Chemical	88.27	88.37	88.18
+         O	0.00	0.00	100.00
+      Gene	83.53	82.43	84.66
+Processed 228341 tokens with 15481 phrases; found: 15668 phrases; correct: 13386.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 208):
+	        F1	Prec	Recall
+Micro (Seg)	85.84	86.09	85.59
+Macro (Seg)	88.04	89.43	86.70
+-------
+  Chemical	88.04	89.43	86.70
+         O	0.00	0.00	100.00
+      Gene	83.57	82.75	84.41
+Processed 228341 tokens with 15481 phrases; found: 15390 phrases; correct: 13250.
+
+Lasted saved at epoch 207, batch 0
+
+Segment evaluation bc_dev (iteration 209):
+	        F1	Prec	Recall
+Micro (Seg)	85.59	84.92	86.27
+Macro (Seg)	88.09	88.22	87.96
+-------
+  Chemical	88.09	88.22	87.96
+         O	0.00	0.00	100.00
+      Gene	83.01	81.58	84.49
+Processed 228341 tokens with 15481 phrases; found: 15727 phrases; correct: 13356.
+
+Lasted saved at epoch 207, batch 0
+
+Segment evaluation bc_dev (iteration 210):
+	        F1	Prec	Recall
+Micro (Seg)	85.82	85.04	86.60
+Macro (Seg)	88.19	87.48	88.92
+-------
+  Chemical	88.19	87.48	88.92
+         O	0.00	0.00	100.00
+      Gene	83.31	82.48	84.16
+Processed 228341 tokens with 15481 phrases; found: 15765 phrases; correct: 13407.
+
+Lasted saved at epoch 207, batch 0
+
+Segment evaluation bc_dev (iteration 211):
+	        F1	Prec	Recall
+Micro (Seg)	85.69	85.21	86.18
+Macro (Seg)	88.15	88.63	87.67
+-------
+  Chemical	88.15	88.63	87.67
+         O	0.00	0.00	100.00
+      Gene	83.15	81.75	84.60
+Processed 228341 tokens with 15481 phrases; found: 15657 phrases; correct: 13341.
+
+Lasted saved at epoch 207, batch 0
+
+Segment evaluation bc_dev (iteration 212):
+	        F1	Prec	Recall
+Micro (Seg)	85.87	84.87	86.88
+Macro (Seg)	88.18	87.80	88.57
+-------
+  Chemical	88.18	87.80	88.57
+         O	0.00	0.00	100.00
+      Gene	83.46	81.87	85.10
+Processed 228341 tokens with 15481 phrases; found: 15847 phrases; correct: 13450.
+
+Lasted saved at epoch 207, batch 0
+
+Segment evaluation bc_dev (iteration 213):
+	        F1	Prec	Recall
+Micro (Seg)	86.06	85.34	86.78
+Macro (Seg)	88.24	86.53	90.03
+-------
+  Chemical	88.24	86.53	90.03
+         O	0.00	0.00	100.00
+      Gene	83.70	84.03	83.36
+Processed 228341 tokens with 15481 phrases; found: 15742 phrases; correct: 13435.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 214):
+	        F1	Prec	Recall
+Micro (Seg)	86.01	85.91	86.12
+Macro (Seg)	88.28	88.62	87.94
+-------
+  Chemical	88.28	88.62	87.94
+         O	0.00	0.00	100.00
+      Gene	83.65	83.11	84.20
+Processed 228341 tokens with 15481 phrases; found: 15519 phrases; correct: 13332.
+
+Lasted saved at epoch 213, batch 0
+
+Segment evaluation bc_dev (iteration 215):
+	        F1	Prec	Recall
+Micro (Seg)	85.83	85.36	86.30
+Macro (Seg)	88.23	89.26	87.22
+-------
+  Chemical	88.23	89.26	87.22
+         O	0.00	0.00	100.00
+      Gene	83.38	81.52	85.33
+Processed 228341 tokens with 15481 phrases; found: 15651 phrases; correct: 13360.
+
+Lasted saved at epoch 213, batch 0
+
+Segment evaluation bc_dev (iteration 216):
+	        F1	Prec	Recall
+Micro (Seg)	86.14	85.56	86.73
+Macro (Seg)	88.35	87.68	89.04
+-------
+  Chemical	88.35	87.68	89.04
+         O	0.00	0.00	100.00
+      Gene	83.80	83.33	84.28
+Processed 228341 tokens with 15481 phrases; found: 15691 phrases; correct: 13426.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 217):
+	        F1	Prec	Recall
+Micro (Seg)	85.95	85.48	86.43
+Macro (Seg)	88.24	88.44	88.04
+-------
+  Chemical	88.24	88.44	88.04
+         O	0.00	0.00	100.00
+      Gene	83.58	82.46	84.73
+Processed 228341 tokens with 15481 phrases; found: 15652 phrases; correct: 13380.
+
+Lasted saved at epoch 216, batch 0
+
+Segment evaluation bc_dev (iteration 218):
+	        F1	Prec	Recall
+Micro (Seg)	85.95	85.51	86.40
+Macro (Seg)	88.23	89.33	87.16
+-------
+  Chemical	88.23	89.33	87.16
+         O	0.00	0.00	100.00
+      Gene	83.63	81.76	85.59
+Processed 228341 tokens with 15481 phrases; found: 15641 phrases; correct: 13375.
+
+Lasted saved at epoch 216, batch 0
+
+Segment evaluation bc_dev (iteration 219):
+	        F1	Prec	Recall
+Micro (Seg)	86.23	85.79	86.67
+Macro (Seg)	88.53	88.67	88.39
+-------
+  Chemical	88.53	88.67	88.39
+         O	0.00	0.00	100.00
+      Gene	83.84	82.84	84.86
+Processed 228341 tokens with 15481 phrases; found: 15640 phrases; correct: 13418.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 220):
+	        F1	Prec	Recall
+Micro (Seg)	86.21	86.02	86.39
+Macro (Seg)	88.53	89.58	87.50
+-------
+  Chemical	88.53	89.58	87.50
+         O	0.00	0.00	100.00
+      Gene	83.82	82.47	85.22
+Processed 228341 tokens with 15481 phrases; found: 15547 phrases; correct: 13374.
+
+Lasted saved at epoch 219, batch 0
+
+Segment evaluation bc_dev (iteration 221):
+	        F1	Prec	Recall
+Micro (Seg)	86.02	85.91	86.12
+Macro (Seg)	88.38	89.01	87.75
+-------
+  Chemical	88.38	89.01	87.75
+         O	0.00	0.00	100.00
+      Gene	83.57	82.75	84.40
+Processed 228341 tokens with 15481 phrases; found: 15518 phrases; correct: 13332.
+
+Lasted saved at epoch 219, batch 0
+
+Segment evaluation bc_dev (iteration 222):
+	        F1	Prec	Recall
+Micro (Seg)	86.21	86.21	86.22
+Macro (Seg)	88.26	88.99	87.53
+-------
+  Chemical	88.26	88.99	87.53
+         O	0.00	0.00	100.00
+      Gene	84.09	83.37	84.82
+Processed 228341 tokens with 15481 phrases; found: 15482 phrases; correct: 13347.
+
+Lasted saved at epoch 219, batch 0
+
+Segment evaluation bc_dev (iteration 223):
+	        F1	Prec	Recall
+Micro (Seg)	86.17	85.90	86.45
+Macro (Seg)	88.48	89.08	87.87
+-------
+  Chemical	88.48	89.08	87.87
+         O	0.00	0.00	100.00
+      Gene	83.79	82.67	84.94
+Processed 228341 tokens with 15481 phrases; found: 15580 phrases; correct: 13383.
+
+Lasted saved at epoch 219, batch 0
+
+Segment evaluation bc_dev (iteration 224):
+	        F1	Prec	Recall
+Micro (Seg)	86.14	85.73	86.56
+Macro (Seg)	88.28	88.47	88.10
+-------
+  Chemical	88.28	88.47	88.10
+         O	0.00	0.00	100.00
+      Gene	83.91	82.92	84.93
+Processed 228341 tokens with 15481 phrases; found: 15630 phrases; correct: 13400.
+
+Lasted saved at epoch 219, batch 0
+
+Segment evaluation bc_dev (iteration 225):
+	        F1	Prec	Recall
+Micro (Seg)	86.12	85.52	86.74
+Macro (Seg)	88.26	88.27	88.25
+-------
+  Chemical	88.26	88.27	88.25
+         O	0.00	0.00	100.00
+      Gene	83.90	82.69	85.14
+Processed 228341 tokens with 15481 phrases; found: 15702 phrases; correct: 13428.
+
+Lasted saved at epoch 219, batch 0
+
+Segment evaluation bc_dev (iteration 226):
+	        F1	Prec	Recall
+Micro (Seg)	86.31	85.94	86.69
+Macro (Seg)	88.57	88.70	88.44
+-------
+  Chemical	88.57	88.70	88.44
+         O	0.00	0.00	100.00
+      Gene	83.96	83.09	84.85
+Processed 228341 tokens with 15481 phrases; found: 15617 phrases; correct: 13421.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 227):
+	        F1	Prec	Recall
+Micro (Seg)	86.13	86.03	86.23
+Macro (Seg)	88.31	89.36	87.28
+-------
+  Chemical	88.31	89.36	87.28
+         O	0.00	0.00	100.00
+      Gene	83.89	82.69	85.13
+Processed 228341 tokens with 15481 phrases; found: 15518 phrases; correct: 13350.
+
+Lasted saved at epoch 226, batch 0
+
+Segment evaluation bc_dev (iteration 228):
+	        F1	Prec	Recall
+Micro (Seg)	86.12	85.40	86.85
+Macro (Seg)	88.29	87.47	89.12
+-------
+  Chemical	88.29	87.47	89.12
+         O	0.00	0.00	100.00
+      Gene	83.83	83.20	84.46
+Processed 228341 tokens with 15481 phrases; found: 15745 phrases; correct: 13446.
+
+Lasted saved at epoch 226, batch 0
+
+Segment evaluation bc_dev (iteration 229):
+	        F1	Prec	Recall
+Micro (Seg)	86.08	86.24	85.92
+Macro (Seg)	88.28	89.67	86.93
+-------
+  Chemical	88.28	89.67	86.93
+         O	0.00	0.00	100.00
+      Gene	83.81	82.80	84.85
+Processed 228341 tokens with 15481 phrases; found: 15424 phrases; correct: 13301.
+
+Lasted saved at epoch 226, batch 0
+
+Segment evaluation bc_dev (iteration 230):
+	        F1	Prec	Recall
+Micro (Seg)	86.07	85.64	86.51
+Macro (Seg)	88.39	88.92	87.86
+-------
+  Chemical	88.39	88.92	87.86
+         O	0.00	0.00	100.00
+      Gene	83.68	82.32	85.09
+Processed 228341 tokens with 15481 phrases; found: 15639 phrases; correct: 13393.
+
+Lasted saved at epoch 226, batch 0
+
+Segment evaluation bc_dev (iteration 231):
+	        F1	Prec	Recall
+Micro (Seg)	86.19	85.99	86.40
+Macro (Seg)	88.39	88.80	87.99
+-------
+  Chemical	88.39	88.80	87.99
+         O	0.00	0.00	100.00
+      Gene	83.90	83.09	84.72
+Processed 228341 tokens with 15481 phrases; found: 15555 phrases; correct: 13375.
+
+Lasted saved at epoch 226, batch 0
+
+Segment evaluation bc_dev (iteration 232):
+	        F1	Prec	Recall
+Micro (Seg)	86.34	85.91	86.78
+Macro (Seg)	88.56	88.30	88.83
+-------
+  Chemical	88.56	88.30	88.83
+         O	0.00	0.00	100.00
+      Gene	84.00	83.40	84.61
+Processed 228341 tokens with 15481 phrases; found: 15638 phrases; correct: 13434.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 233):
+	        F1	Prec	Recall
+Micro (Seg)	86.29	86.25	86.33
+Macro (Seg)	88.40	88.57	88.23
+-------
+  Chemical	88.40	88.57	88.23
+         O	0.00	0.00	100.00
+      Gene	84.08	83.83	84.33
+Processed 228341 tokens with 15481 phrases; found: 15495 phrases; correct: 13365.
+
+Lasted saved at epoch 232, batch 0
+
+Segment evaluation bc_dev (iteration 234):
+	        F1	Prec	Recall
+Micro (Seg)	86.27	86.34	86.21
+Macro (Seg)	88.37	87.77	88.98
+-------
+  Chemical	88.37	87.77	88.98
+         O	0.00	0.00	100.00
+      Gene	84.02	84.78	83.28
+Processed 228341 tokens with 15481 phrases; found: 15458 phrases; correct: 13346.
+
+Lasted saved at epoch 232, batch 0
+
+Segment evaluation bc_dev (iteration 235):
+	        F1	Prec	Recall
+Micro (Seg)	86.17	85.44	86.93
+Macro (Seg)	88.29	88.55	88.04
+-------
+  Chemical	88.29	88.55	88.04
+         O	0.00	0.00	100.00
+      Gene	83.99	82.30	85.75
+Processed 228341 tokens with 15481 phrases; found: 15751 phrases; correct: 13457.
+
+Lasted saved at epoch 232, batch 0
+
+Segment evaluation bc_dev (iteration 236):
+	        F1	Prec	Recall
+Micro (Seg)	86.23	85.95	86.51
+Macro (Seg)	88.54	89.18	87.91
+-------
+  Chemical	88.54	89.18	87.91
+         O	0.00	0.00	100.00
+      Gene	83.84	82.69	85.04
+Processed 228341 tokens with 15481 phrases; found: 15582 phrases; correct: 13393.
+
+Lasted saved at epoch 232, batch 0
+
+Segment evaluation bc_dev (iteration 237):
+	        F1	Prec	Recall
+Micro (Seg)	86.24	86.29	86.18
+Macro (Seg)	88.34	88.96	87.74
+-------
+  Chemical	88.34	88.96	87.74
+         O	0.00	0.00	100.00
+      Gene	84.04	83.55	84.54
+Processed 228341 tokens with 15481 phrases; found: 15462 phrases; correct: 13342.
+
+Lasted saved at epoch 232, batch 0
+
+Segment evaluation bc_dev (iteration 238):
+	        F1	Prec	Recall
+Micro (Seg)	86.27	86.05	86.49
+Macro (Seg)	88.48	88.71	88.25
+-------
+  Chemical	88.48	88.71	88.25
+         O	0.00	0.00	100.00
+      Gene	83.96	83.30	84.64
+Processed 228341 tokens with 15481 phrases; found: 15561 phrases; correct: 13390.
+
+Lasted saved at epoch 232, batch 0
+
+Segment evaluation bc_dev (iteration 239):
+	        F1	Prec	Recall
+Micro (Seg)	86.15	85.81	86.49
+Macro (Seg)	88.43	89.31	87.57
+-------
+  Chemical	88.43	89.31	87.57
+         O	0.00	0.00	100.00
+      Gene	83.81	82.32	85.35
+Processed 228341 tokens with 15481 phrases; found: 15604 phrases; correct: 13390.
+
+Lasted saved at epoch 232, batch 0
+
+Segment evaluation bc_dev (iteration 240):
+	        F1	Prec	Recall
+Micro (Seg)	86.33	85.89	86.76
+Macro (Seg)	88.68	88.90	88.45
+-------
+  Chemical	88.68	88.90	88.45
+         O	0.00	0.00	100.00
+      Gene	83.88	82.82	84.98
+Processed 228341 tokens with 15481 phrases; found: 15638 phrases; correct: 13432.
+
+Lasted saved at epoch 232, batch 0
+
+Segment evaluation bc_dev (iteration 241):
+	        F1	Prec	Recall
+Micro (Seg)	86.25	85.57	86.94
+Macro (Seg)	88.68	88.84	88.53
+-------
+  Chemical	88.68	88.84	88.53
+         O	0.00	0.00	100.00
+      Gene	83.73	82.26	85.26
+Processed 228341 tokens with 15481 phrases; found: 15728 phrases; correct: 13459.
+
+Lasted saved at epoch 232, batch 0
+
+Segment evaluation bc_dev (iteration 242):
+	        F1	Prec	Recall
+Micro (Seg)	86.12	86.15	86.09
+Macro (Seg)	88.39	89.97	86.87
+-------
+  Chemical	88.39	89.97	86.87
+         O	0.00	0.00	100.00
+      Gene	83.81	82.39	85.27
+Processed 228341 tokens with 15481 phrases; found: 15471 phrases; correct: 13328.
+
+Lasted saved at epoch 232, batch 0
+
+Segment evaluation bc_dev (iteration 243):
+	        F1	Prec	Recall
+Micro (Seg)	86.18	85.74	86.63
+Macro (Seg)	88.49	87.76	89.23
+-------
+  Chemical	88.49	87.76	89.23
+         O	0.00	0.00	100.00
+      Gene	83.72	83.57	83.88
+Processed 228341 tokens with 15481 phrases; found: 15642 phrases; correct: 13411.
+
+Lasted saved at epoch 232, batch 0
+
+Segment evaluation bc_dev (iteration 244):
+	        F1	Prec	Recall
+Micro (Seg)	86.29	86.17	86.42
+Macro (Seg)	88.48	89.11	87.86
+-------
+  Chemical	88.48	89.11	87.86
+         O	0.00	0.00	100.00
+      Gene	84.02	83.18	84.89
+Processed 228341 tokens with 15481 phrases; found: 15525 phrases; correct: 13378.
+
+Lasted saved at epoch 232, batch 0
+
+Segment evaluation bc_dev (iteration 245):
+	        F1	Prec	Recall
+Micro (Seg)	86.25	85.93	86.58
+Macro (Seg)	88.46	89.25	87.69
+-------
+  Chemical	88.46	89.25	87.69
+         O	0.00	0.00	100.00
+      Gene	83.98	82.60	85.41
+Processed 228341 tokens with 15481 phrases; found: 15598 phrases; correct: 13403.
+
+Lasted saved at epoch 232, batch 0
+
+Segment evaluation bc_dev (iteration 246):
+	        F1	Prec	Recall
+Micro (Seg)	86.23	85.88	86.58
+Macro (Seg)	88.41	89.36	87.48
+-------
+  Chemical	88.41	89.36	87.48
+         O	0.00	0.00	100.00
+      Gene	83.99	82.42	85.62
+Processed 228341 tokens with 15481 phrases; found: 15606 phrases; correct: 13403.
+
+Lasted saved at epoch 232, batch 0
+
+Segment evaluation bc_dev (iteration 247):
+	        F1	Prec	Recall
+Micro (Seg)	86.14	85.30	87.00
+Macro (Seg)	88.37	87.60	89.14
+-------
+  Chemical	88.37	87.60	89.14
+         O	0.00	0.00	100.00
+      Gene	83.80	82.88	84.73
+Processed 228341 tokens with 15481 phrases; found: 15789 phrases; correct: 13468.
+
+Lasted saved at epoch 232, batch 0
+
+Segment evaluation bc_dev (iteration 248):
+	        F1	Prec	Recall
+Micro (Seg)	86.29	85.57	87.01
+Macro (Seg)	88.44	87.79	89.11
+-------
+  Chemical	88.44	87.79	89.11
+         O	0.00	0.00	100.00
+      Gene	84.01	83.24	84.80
+Processed 228341 tokens with 15481 phrases; found: 15741 phrases; correct: 13470.
+
+Lasted saved at epoch 232, batch 0
+
+Segment evaluation bc_dev (iteration 249):
+	        F1	Prec	Recall
+Micro (Seg)	86.51	86.32	86.70
+Macro (Seg)	88.59	89.26	87.92
+-------
+  Chemical	88.59	89.26	87.92
+         O	0.00	0.00	100.00
+      Gene	84.35	83.33	85.41
+Processed 228341 tokens with 15481 phrases; found: 15550 phrases; correct: 13422.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 250):
+	        F1	Prec	Recall
+Micro (Seg)	86.36	85.71	87.02
+Macro (Seg)	88.71	88.71	88.72
+-------
+  Chemical	88.71	88.71	88.72
+         O	0.00	0.00	100.00
+      Gene	83.92	82.64	85.23
+Processed 228341 tokens with 15481 phrases; found: 15718 phrases; correct: 13472.
+
+Lasted saved at epoch 249, batch 0
+
+Segment evaluation bc_dev (iteration 251):
+	        F1	Prec	Recall
+Micro (Seg)	86.37	86.01	86.73
+Macro (Seg)	88.49	88.21	88.77
+-------
+  Chemical	88.49	88.21	88.77
+         O	0.00	0.00	100.00
+      Gene	84.14	83.69	84.58
+Processed 228341 tokens with 15481 phrases; found: 15611 phrases; correct: 13427.
+
+Lasted saved at epoch 249, batch 0
+
+Segment evaluation bc_dev (iteration 252):
+	        F1	Prec	Recall
+Micro (Seg)	86.23	86.07	86.39
+Macro (Seg)	88.50	89.13	87.87
+-------
+  Chemical	88.50	89.13	87.87
+         O	0.00	0.00	100.00
+      Gene	83.88	82.95	84.82
+Processed 228341 tokens with 15481 phrases; found: 15539 phrases; correct: 13374.
+
+Lasted saved at epoch 249, batch 0
+
+Segment evaluation bc_dev (iteration 253):
+	        F1	Prec	Recall
+Micro (Seg)	86.42	86.05	86.79
+Macro (Seg)	88.60	88.70	88.50
+-------
+  Chemical	88.60	88.70	88.50
+         O	0.00	0.00	100.00
+      Gene	84.13	83.30	84.98
+Processed 228341 tokens with 15481 phrases; found: 15615 phrases; correct: 13436.
+
+Lasted saved at epoch 249, batch 0
+
+Segment evaluation bc_dev (iteration 254):
+	        F1	Prec	Recall
+Micro (Seg)	86.52	86.31	86.73
+Macro (Seg)	88.56	87.83	89.31
+-------
+  Chemical	88.56	87.83	89.31
+         O	0.00	0.00	100.00
+      Gene	84.34	84.68	84.01
+Processed 228341 tokens with 15481 phrases; found: 15556 phrases; correct: 13427.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 255):
+	        F1	Prec	Recall
+Micro (Seg)	86.55	86.43	86.67
+Macro (Seg)	88.56	88.83	88.30
+-------
+  Chemical	88.56	88.83	88.30
+         O	0.00	0.00	100.00
+      Gene	84.45	83.94	84.96
+Processed 228341 tokens with 15481 phrases; found: 15525 phrases; correct: 13418.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 256):
+	        F1	Prec	Recall
+Micro (Seg)	86.60	86.73	86.48
+Macro (Seg)	88.69	89.18	88.21
+-------
+  Chemical	88.69	89.18	88.21
+         O	0.00	0.00	100.00
+      Gene	84.41	84.18	84.65
+Processed 228341 tokens with 15481 phrases; found: 15437 phrases; correct: 13388.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 257):
+	        F1	Prec	Recall
+Micro (Seg)	86.48	86.15	86.82
+Macro (Seg)	88.64	88.59	88.69
+-------
+  Chemical	88.64	88.59	88.69
+         O	0.00	0.00	100.00
+      Gene	84.22	83.61	84.85
+Processed 228341 tokens with 15481 phrases; found: 15602 phrases; correct: 13441.
+
+Lasted saved at epoch 256, batch 0
+
+Segment evaluation bc_dev (iteration 258):
+	        F1	Prec	Recall
+Micro (Seg)	86.40	85.68	87.13
+Macro (Seg)	88.48	88.69	88.26
+-------
+  Chemical	88.48	88.69	88.26
+         O	0.00	0.00	100.00
+      Gene	84.25	82.64	85.92
+Processed 228341 tokens with 15481 phrases; found: 15742 phrases; correct: 13488.
+
+Lasted saved at epoch 256, batch 0
+
+Segment evaluation bc_dev (iteration 259):
+	        F1	Prec	Recall
+Micro (Seg)	86.70	86.37	87.04
+Macro (Seg)	88.80	88.30	89.31
+-------
+  Chemical	88.80	88.30	89.31
+         O	0.00	0.00	100.00
+      Gene	84.47	84.31	84.64
+Processed 228341 tokens with 15481 phrases; found: 15601 phrases; correct: 13474.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 260):
+	        F1	Prec	Recall
+Micro (Seg)	86.53	86.56	86.50
+Macro (Seg)	88.53	89.27	87.80
+-------
+  Chemical	88.53	89.27	87.80
+         O	0.00	0.00	100.00
+      Gene	84.46	83.79	85.13
+Processed 228341 tokens with 15481 phrases; found: 15470 phrases; correct: 13391.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 261):
+	        F1	Prec	Recall
+Micro (Seg)	86.47	86.29	86.65
+Macro (Seg)	88.66	88.93	88.40
+-------
+  Chemical	88.66	88.93	88.40
+         O	0.00	0.00	100.00
+      Gene	84.18	83.56	84.81
+Processed 228341 tokens with 15481 phrases; found: 15547 phrases; correct: 13415.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 262):
+	        F1	Prec	Recall
+Micro (Seg)	86.37	85.97	86.78
+Macro (Seg)	88.48	89.23	87.74
+-------
+  Chemical	88.48	89.23	87.74
+         O	0.00	0.00	100.00
+      Gene	84.21	82.71	85.77
+Processed 228341 tokens with 15481 phrases; found: 15626 phrases; correct: 13434.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 263):
+	        F1	Prec	Recall
+Micro (Seg)	86.45	86.06	86.85
+Macro (Seg)	88.56	88.66	88.45
+-------
+  Chemical	88.56	88.66	88.45
+         O	0.00	0.00	100.00
+      Gene	84.26	83.38	85.15
+Processed 228341 tokens with 15481 phrases; found: 15622 phrases; correct: 13445.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 264):
+	        F1	Prec	Recall
+Micro (Seg)	86.55	86.15	86.95
+Macro (Seg)	88.69	88.49	88.89
+-------
+  Chemical	88.69	88.49	88.89
+         O	0.00	0.00	100.00
+      Gene	84.29	83.70	84.89
+Processed 228341 tokens with 15481 phrases; found: 15624 phrases; correct: 13460.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 265):
+	        F1	Prec	Recall
+Micro (Seg)	86.29	86.08	86.50
+Macro (Seg)	88.43	89.08	87.80
+-------
+  Chemical	88.43	89.08	87.80
+         O	0.00	0.00	100.00
+      Gene	84.07	83.03	85.13
+Processed 228341 tokens with 15481 phrases; found: 15557 phrases; correct: 13391.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 266):
+	        F1	Prec	Recall
+Micro (Seg)	86.54	85.93	87.16
+Macro (Seg)	88.78	88.71	88.84
+-------
+  Chemical	88.78	88.71	88.84
+         O	0.00	0.00	100.00
+      Gene	84.22	83.08	85.39
+Processed 228341 tokens with 15481 phrases; found: 15703 phrases; correct: 13494.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 267):
+	        F1	Prec	Recall
+Micro (Seg)	86.27	85.48	87.07
+Macro (Seg)	88.55	88.67	88.43
+-------
+  Chemical	88.55	88.67	88.43
+         O	0.00	0.00	100.00
+      Gene	83.91	82.25	85.63
+Processed 228341 tokens with 15481 phrases; found: 15769 phrases; correct: 13479.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 268):
+	        F1	Prec	Recall
+Micro (Seg)	86.47	86.23	86.70
+Macro (Seg)	88.63	88.76	88.50
+-------
+  Chemical	88.63	88.76	88.50
+         O	0.00	0.00	100.00
+      Gene	84.20	83.61	84.80
+Processed 228341 tokens with 15481 phrases; found: 15565 phrases; correct: 13422.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 269):
+	        F1	Prec	Recall
+Micro (Seg)	86.61	86.36	86.87
+Macro (Seg)	88.73	89.18	88.29
+-------
+  Chemical	88.73	89.18	88.29
+         O	0.00	0.00	100.00
+      Gene	84.41	83.48	85.37
+Processed 228341 tokens with 15481 phrases; found: 15572 phrases; correct: 13448.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 270):
+	        F1	Prec	Recall
+Micro (Seg)	86.36	85.36	87.39
+Macro (Seg)	88.48	87.68	89.28
+-------
+  Chemical	88.48	87.68	89.28
+         O	0.00	0.00	100.00
+      Gene	84.14	82.93	85.39
+Processed 228341 tokens with 15481 phrases; found: 15850 phrases; correct: 13529.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 271):
+	        F1	Prec	Recall
+Micro (Seg)	86.40	86.42	86.39
+Macro (Seg)	88.37	87.92	88.83
+-------
+  Chemical	88.37	87.92	88.83
+         O	0.00	0.00	100.00
+      Gene	84.30	84.79	83.81
+Processed 228341 tokens with 15481 phrases; found: 15476 phrases; correct: 13374.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 272):
+	        F1	Prec	Recall
+Micro (Seg)	86.49	86.25	86.73
+Macro (Seg)	88.62	88.87	88.38
+-------
+  Chemical	88.62	88.87	88.38
+         O	0.00	0.00	100.00
+      Gene	84.25	83.54	84.98
+Processed 228341 tokens with 15481 phrases; found: 15567 phrases; correct: 13426.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 273):
+	        F1	Prec	Recall
+Micro (Seg)	86.32	85.87	86.76
+Macro (Seg)	88.49	88.21	88.77
+-------
+  Chemical	88.49	88.21	88.77
+         O	0.00	0.00	100.00
+      Gene	84.03	83.42	84.65
+Processed 228341 tokens with 15481 phrases; found: 15642 phrases; correct: 13432.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 274):
+	        F1	Prec	Recall
+Micro (Seg)	86.44	86.42	86.47
+Macro (Seg)	88.61	88.88	88.34
+-------
+  Chemical	88.61	88.88	88.34
+         O	0.00	0.00	100.00
+      Gene	84.18	83.87	84.49
+Processed 228341 tokens with 15481 phrases; found: 15489 phrases; correct: 13386.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 275):
+	        F1	Prec	Recall
+Micro (Seg)	86.55	86.49	86.62
+Macro (Seg)	88.72	89.36	88.09
+-------
+  Chemical	88.72	89.36	88.09
+         O	0.00	0.00	100.00
+      Gene	84.31	83.56	85.06
+Processed 228341 tokens with 15481 phrases; found: 15503 phrases; correct: 13409.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 276):
+	        F1	Prec	Recall
+Micro (Seg)	86.52	86.00	87.05
+Macro (Seg)	88.74	88.46	89.02
+-------
+  Chemical	88.74	88.46	89.02
+         O	0.00	0.00	100.00
+      Gene	84.20	83.44	84.97
+Processed 228341 tokens with 15481 phrases; found: 15669 phrases; correct: 13476.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 277):
+	        F1	Prec	Recall
+Micro (Seg)	86.35	86.44	86.25
+Macro (Seg)	88.50	88.94	88.08
+-------
+  Chemical	88.50	88.94	88.08
+         O	0.00	0.00	100.00
+      Gene	84.09	83.85	84.33
+Processed 228341 tokens with 15481 phrases; found: 15447 phrases; correct: 13353.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 278):
+	        F1	Prec	Recall
+Micro (Seg)	86.29	85.84	86.75
+Macro (Seg)	88.53	89.12	87.95
+-------
+  Chemical	88.53	89.12	87.95
+         O	0.00	0.00	100.00
+      Gene	83.98	82.54	85.47
+Processed 228341 tokens with 15481 phrases; found: 15645 phrases; correct: 13429.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 279):
+	        F1	Prec	Recall
+Micro (Seg)	86.64	86.52	86.76
+Macro (Seg)	88.74	88.60	88.88
+-------
+  Chemical	88.74	88.60	88.88
+         O	0.00	0.00	100.00
+      Gene	84.42	84.32	84.53
+Processed 228341 tokens with 15481 phrases; found: 15525 phrases; correct: 13432.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 280):
+	        F1	Prec	Recall
+Micro (Seg)	86.34	86.09	86.60
+Macro (Seg)	88.65	89.56	87.76
+-------
+  Chemical	88.65	89.56	87.76
+         O	0.00	0.00	100.00
+      Gene	83.97	82.61	85.37
+Processed 228341 tokens with 15481 phrases; found: 15572 phrases; correct: 13406.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 281):
+	        F1	Prec	Recall
+Micro (Seg)	86.44	85.78	87.11
+Macro (Seg)	88.61	88.10	89.13
+-------
+  Chemical	88.61	88.10	89.13
+         O	0.00	0.00	100.00
+      Gene	84.16	83.36	84.98
+Processed 228341 tokens with 15481 phrases; found: 15721 phrases; correct: 13486.
+
+Lasted saved at epoch 259, batch 0
+
+Segment evaluation bc_dev (iteration 282):
+	        F1	Prec	Recall
+Micro (Seg)	86.71	86.83	86.60
+Macro (Seg)	88.78	89.23	88.34
+-------
+  Chemical	88.78	89.23	88.34
+         O	0.00	0.00	100.00
+      Gene	84.55	84.34	84.76
+Processed 228341 tokens with 15481 phrases; found: 15439 phrases; correct: 13406.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 283):
+	        F1	Prec	Recall
+Micro (Seg)	86.72	86.91	86.52
+Macro (Seg)	88.91	89.12	88.70
+-------
+  Chemical	88.91	89.12	88.70
+         O	0.00	0.00	100.00
+      Gene	84.40	84.58	84.21
+Processed 228341 tokens with 15481 phrases; found: 15411 phrases; correct: 13394.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 284):
+	        F1	Prec	Recall
+Micro (Seg)	86.68	86.73	86.62
+Macro (Seg)	88.86	89.59	88.14
+-------
+  Chemical	88.86	89.59	88.14
+         O	0.00	0.00	100.00
+      Gene	84.41	83.80	85.02
+Processed 228341 tokens with 15481 phrases; found: 15462 phrases; correct: 13410.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 285):
+	        F1	Prec	Recall
+Micro (Seg)	86.39	85.92	86.86
+Macro (Seg)	88.62	88.45	88.79
+-------
+  Chemical	88.62	88.45	88.79
+         O	0.00	0.00	100.00
+      Gene	84.05	83.29	84.82
+Processed 228341 tokens with 15481 phrases; found: 15651 phrases; correct: 13447.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 286):
+	        F1	Prec	Recall
+Micro (Seg)	86.44	86.23	86.66
+Macro (Seg)	88.61	88.69	88.54
+-------
+  Chemical	88.61	88.69	88.54
+         O	0.00	0.00	100.00
+      Gene	84.17	83.67	84.68
+Processed 228341 tokens with 15481 phrases; found: 15559 phrases; correct: 13416.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 287):
+	        F1	Prec	Recall
+Micro (Seg)	86.40	85.57	87.25
+Macro (Seg)	88.82	88.93	88.70
+-------
+  Chemical	88.82	88.93	88.70
+         O	0.00	0.00	100.00
+      Gene	83.91	82.19	85.71
+Processed 228341 tokens with 15481 phrases; found: 15784 phrases; correct: 13507.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 288):
+	        F1	Prec	Recall
+Micro (Seg)	86.39	86.37	86.40
+Macro (Seg)	88.50	88.61	88.39
+-------
+  Chemical	88.50	88.61	88.39
+         O	0.00	0.00	100.00
+      Gene	84.17	84.03	84.30
+Processed 228341 tokens with 15481 phrases; found: 15486 phrases; correct: 13376.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 289):
+	        F1	Prec	Recall
+Micro (Seg)	86.31	86.04	86.59
+Macro (Seg)	88.55	88.80	88.29
+-------
+  Chemical	88.55	88.80	88.29
+         O	0.00	0.00	100.00
+      Gene	83.99	83.19	84.80
+Processed 228341 tokens with 15481 phrases; found: 15580 phrases; correct: 13405.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 290):
+	        F1	Prec	Recall
+Micro (Seg)	86.45	86.17	86.73
+Macro (Seg)	88.74	89.03	88.47
+-------
+  Chemical	88.74	89.03	88.47
+         O	0.00	0.00	100.00
+      Gene	84.05	83.23	84.89
+Processed 228341 tokens with 15481 phrases; found: 15581 phrases; correct: 13426.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 291):
+	        F1	Prec	Recall
+Micro (Seg)	86.53	86.63	86.42
+Macro (Seg)	88.76	90.08	87.48
+-------
+  Chemical	88.76	90.08	87.48
+         O	0.00	0.00	100.00
+      Gene	84.23	83.19	85.30
+Processed 228341 tokens with 15481 phrases; found: 15443 phrases; correct: 13379.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 292):
+	        F1	Prec	Recall
+Micro (Seg)	86.46	86.39	86.53
+Macro (Seg)	88.71	89.07	88.35
+-------
+  Chemical	88.71	89.07	88.35
+         O	0.00	0.00	100.00
+      Gene	84.10	83.61	84.60
+Processed 228341 tokens with 15481 phrases; found: 15506 phrases; correct: 13395.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 293):
+	        F1	Prec	Recall
+Micro (Seg)	86.46	86.20	86.71
+Macro (Seg)	88.62	89.07	88.18
+-------
+  Chemical	88.62	89.07	88.18
+         O	0.00	0.00	100.00
+      Gene	84.21	83.27	85.17
+Processed 228341 tokens with 15481 phrases; found: 15573 phrases; correct: 13424.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 294):
+	        F1	Prec	Recall
+Micro (Seg)	86.43	86.46	86.40
+Macro (Seg)	88.69	89.97	87.45
+-------
+  Chemical	88.69	89.97	87.45
+         O	0.00	0.00	100.00
+      Gene	84.10	82.95	85.29
+Processed 228341 tokens with 15481 phrases; found: 15470 phrases; correct: 13375.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 295):
+	        F1	Prec	Recall
+Micro (Seg)	86.59	86.13	87.06
+Macro (Seg)	88.75	88.77	88.73
+-------
+  Chemical	88.75	88.77	88.73
+         O	0.00	0.00	100.00
+      Gene	84.34	83.41	85.30
+Processed 228341 tokens with 15481 phrases; found: 15648 phrases; correct: 13478.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 296):
+	        F1	Prec	Recall
+Micro (Seg)	86.19	86.19	86.19
+Macro (Seg)	88.37	90.64	86.21
+-------
+  Chemical	88.37	90.64	86.21
+         O	0.00	0.00	100.00
+      Gene	84.00	81.94	86.16
+Processed 228341 tokens with 15481 phrases; found: 15481 phrases; correct: 13343.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 297):
+	        F1	Prec	Recall
+Micro (Seg)	86.39	86.20	86.59
+Macro (Seg)	88.58	88.55	88.62
+-------
+  Chemical	88.58	88.55	88.62
+         O	0.00	0.00	100.00
+      Gene	84.09	83.74	84.45
+Processed 228341 tokens with 15481 phrases; found: 15551 phrases; correct: 13405.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 298):
+	        F1	Prec	Recall
+Micro (Seg)	86.39	86.06	86.73
+Macro (Seg)	88.61	89.14	88.09
+-------
+  Chemical	88.61	89.14	88.09
+         O	0.00	0.00	100.00
+      Gene	84.09	82.93	85.29
+Processed 228341 tokens with 15481 phrases; found: 15601 phrases; correct: 13426.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 299):
+	        F1	Prec	Recall
+Micro (Seg)	86.60	86.81	86.38
+Macro (Seg)	88.72	89.43	88.03
+-------
+  Chemical	88.72	89.43	88.03
+         O	0.00	0.00	100.00
+      Gene	84.37	84.11	84.64
+Processed 228341 tokens with 15481 phrases; found: 15403 phrases; correct: 13372.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 300):
+	        F1	Prec	Recall
+Micro (Seg)	86.43	86.11	86.75
+Macro (Seg)	88.76	89.34	88.18
+-------
+  Chemical	88.76	89.34	88.18
+         O	0.00	0.00	100.00
+      Gene	84.02	82.84	85.23
+Processed 228341 tokens with 15481 phrases; found: 15595 phrases; correct: 13429.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 301):
+	        F1	Prec	Recall
+Micro (Seg)	86.67	86.44	86.91
+Macro (Seg)	88.97	89.30	88.64
+-------
+  Chemical	88.97	89.30	88.64
+         O	0.00	0.00	100.00
+      Gene	84.27	83.49	85.08
+Processed 228341 tokens with 15481 phrases; found: 15565 phrases; correct: 13454.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 302):
+	        F1	Prec	Recall
+Micro (Seg)	86.38	86.37	86.38
+Macro (Seg)	88.59	89.83	87.37
+-------
+  Chemical	88.59	89.83	87.37
+         O	0.00	0.00	100.00
+      Gene	84.11	82.92	85.34
+Processed 228341 tokens with 15481 phrases; found: 15483 phrases; correct: 13373.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 303):
+	        F1	Prec	Recall
+Micro (Seg)	86.43	86.23	86.64
+Macro (Seg)	88.60	89.61	87.62
+-------
+  Chemical	88.60	89.61	87.62
+         O	0.00	0.00	100.00
+      Gene	84.21	82.86	85.59
+Processed 228341 tokens with 15481 phrases; found: 15553 phrases; correct: 13412.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 304):
+	        F1	Prec	Recall
+Micro (Seg)	86.58	86.70	86.47
+Macro (Seg)	88.65	89.38	87.94
+-------
+  Chemical	88.65	89.38	87.94
+         O	0.00	0.00	100.00
+      Gene	84.43	83.95	84.92
+Processed 228341 tokens with 15481 phrases; found: 15440 phrases; correct: 13386.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 305):
+	        F1	Prec	Recall
+Micro (Seg)	86.57	86.27	86.87
+Macro (Seg)	88.81	89.12	88.50
+-------
+  Chemical	88.81	89.12	88.50
+         O	0.00	0.00	100.00
+      Gene	84.24	83.34	85.15
+Processed 228341 tokens with 15481 phrases; found: 15590 phrases; correct: 13449.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 306):
+	        F1	Prec	Recall
+Micro (Seg)	86.63	86.84	86.42
+Macro (Seg)	88.82	89.38	88.26
+-------
+  Chemical	88.82	89.38	88.26
+         O	0.00	0.00	100.00
+      Gene	84.33	84.20	84.46
+Processed 228341 tokens with 15481 phrases; found: 15406 phrases; correct: 13378.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 307):
+	        F1	Prec	Recall
+Micro (Seg)	86.62	86.46	86.79
+Macro (Seg)	88.72	88.93	88.52
+-------
+  Chemical	88.72	88.93	88.52
+         O	0.00	0.00	100.00
+      Gene	84.43	83.89	84.97
+Processed 228341 tokens with 15481 phrases; found: 15541 phrases; correct: 13436.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 308):
+	        F1	Prec	Recall
+Micro (Seg)	86.51	86.26	86.76
+Macro (Seg)	88.81	88.78	88.84
+-------
+  Chemical	88.81	88.78	88.84
+         O	0.00	0.00	100.00
+      Gene	84.09	83.64	84.56
+Processed 228341 tokens with 15481 phrases; found: 15570 phrases; correct: 13431.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 309):
+	        F1	Prec	Recall
+Micro (Seg)	86.67	87.31	86.04
+Macro (Seg)	88.80	90.14	87.50
+-------
+  Chemical	88.80	90.14	87.50
+         O	0.00	0.00	100.00
+      Gene	84.46	84.41	84.50
+Processed 228341 tokens with 15481 phrases; found: 15256 phrases; correct: 13320.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 310):
+	        F1	Prec	Recall
+Micro (Seg)	86.52	86.00	87.04
+Macro (Seg)	88.80	89.41	88.19
+-------
+  Chemical	88.80	89.41	88.19
+         O	0.00	0.00	100.00
+      Gene	84.18	82.59	85.83
+Processed 228341 tokens with 15481 phrases; found: 15668 phrases; correct: 13475.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 311):
+	        F1	Prec	Recall
+Micro (Seg)	86.35	86.05	86.65
+Macro (Seg)	88.70	89.93	87.50
+-------
+  Chemical	88.70	89.93	87.50
+         O	0.00	0.00	100.00
+      Gene	83.96	82.24	85.75
+Processed 228341 tokens with 15481 phrases; found: 15588 phrases; correct: 13414.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 312):
+	        F1	Prec	Recall
+Micro (Seg)	86.55	86.38	86.73
+Macro (Seg)	88.77	88.83	88.72
+-------
+  Chemical	88.77	88.83	88.72
+         O	0.00	0.00	100.00
+      Gene	84.22	83.82	84.62
+Processed 228341 tokens with 15481 phrases; found: 15543 phrases; correct: 13426.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 313):
+	        F1	Prec	Recall
+Micro (Seg)	86.66	86.29	87.02
+Macro (Seg)	88.83	88.96	88.70
+-------
+  Chemical	88.83	88.96	88.70
+         O	0.00	0.00	100.00
+      Gene	84.38	83.54	85.25
+Processed 228341 tokens with 15481 phrases; found: 15612 phrases; correct: 13472.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 314):
+	        F1	Prec	Recall
+Micro (Seg)	86.61	86.42	86.80
+Macro (Seg)	88.73	88.99	88.47
+-------
+  Chemical	88.73	88.99	88.47
+         O	0.00	0.00	100.00
+      Gene	84.40	83.76	85.05
+Processed 228341 tokens with 15481 phrases; found: 15550 phrases; correct: 13438.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 315):
+	        F1	Prec	Recall
+Micro (Seg)	86.49	86.31	86.67
+Macro (Seg)	88.68	90.42	87.01
+-------
+  Chemical	88.68	90.42	87.01
+         O	0.00	0.00	100.00
+      Gene	84.27	82.33	86.31
+Processed 228341 tokens with 15481 phrases; found: 15545 phrases; correct: 13417.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 316):
+	        F1	Prec	Recall
+Micro (Seg)	86.57	86.32	86.82
+Macro (Seg)	88.76	89.15	88.38
+-------
+  Chemical	88.76	89.15	88.38
+         O	0.00	0.00	100.00
+      Gene	84.28	83.42	85.17
+Processed 228341 tokens with 15481 phrases; found: 15570 phrases; correct: 13440.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 317):
+	        F1	Prec	Recall
+Micro (Seg)	86.54	86.13	86.96
+Macro (Seg)	88.85	89.18	88.52
+-------
+  Chemical	88.85	89.18	88.52
+         O	0.00	0.00	100.00
+      Gene	84.15	83.02	85.31
+Processed 228341 tokens with 15481 phrases; found: 15630 phrases; correct: 13462.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 318):
+	        F1	Prec	Recall
+Micro (Seg)	86.47	85.67	87.29
+Macro (Seg)	88.80	89.21	88.39
+-------
+  Chemical	88.80	89.21	88.39
+         O	0.00	0.00	100.00
+      Gene	84.09	82.14	86.12
+Processed 228341 tokens with 15481 phrases; found: 15773 phrases; correct: 13513.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 319):
+	        F1	Prec	Recall
+Micro (Seg)	86.53	86.48	86.58
+Macro (Seg)	88.73	89.21	88.26
+-------
+  Chemical	88.73	89.21	88.26
+         O	0.00	0.00	100.00
+      Gene	84.24	83.68	84.81
+Processed 228341 tokens with 15481 phrases; found: 15499 phrases; correct: 13404.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 320):
+	        F1	Prec	Recall
+Micro (Seg)	86.70	86.37	87.04
+Macro (Seg)	88.93	89.43	88.43
+-------
+  Chemical	88.93	89.43	88.43
+         O	0.00	0.00	100.00
+      Gene	84.40	83.26	85.57
+Processed 228341 tokens with 15481 phrases; found: 15601 phrases; correct: 13474.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 321):
+	        F1	Prec	Recall
+Micro (Seg)	86.58	86.28	86.87
+Macro (Seg)	88.77	89.08	88.45
+-------
+  Chemical	88.77	89.08	88.45
+         O	0.00	0.00	100.00
+      Gene	84.30	83.40	85.21
+Processed 228341 tokens with 15481 phrases; found: 15588 phrases; correct: 13449.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 322):
+	        F1	Prec	Recall
+Micro (Seg)	86.56	86.07	87.06
+Macro (Seg)	88.68	88.33	89.03
+-------
+  Chemical	88.68	88.33	89.03
+         O	0.00	0.00	100.00
+      Gene	84.32	83.69	84.97
+Processed 228341 tokens with 15481 phrases; found: 15659 phrases; correct: 13477.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 323):
+	        F1	Prec	Recall
+Micro (Seg)	86.49	85.76	87.23
+Macro (Seg)	88.69	88.06	89.33
+-------
+  Chemical	88.69	88.06	89.33
+         O	0.00	0.00	100.00
+      Gene	84.17	83.35	85.01
+Processed 228341 tokens with 15481 phrases; found: 15746 phrases; correct: 13504.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 324):
+	        F1	Prec	Recall
+Micro (Seg)	86.62	86.34	86.91
+Macro (Seg)	88.74	88.20	89.28
+-------
+  Chemical	88.74	88.20	89.28
+         O	0.00	0.00	100.00
+      Gene	84.38	84.36	84.41
+Processed 228341 tokens with 15481 phrases; found: 15584 phrases; correct: 13455.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 325):
+	        F1	Prec	Recall
+Micro (Seg)	86.63	85.71	87.57
+Macro (Seg)	88.73	88.42	89.04
+-------
+  Chemical	88.73	88.42	89.04
+         O	0.00	0.00	100.00
+      Gene	84.43	82.92	86.00
+Processed 228341 tokens with 15481 phrases; found: 15817 phrases; correct: 13556.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 326):
+	        F1	Prec	Recall
+Micro (Seg)	86.61	86.49	86.73
+Macro (Seg)	88.80	89.74	87.89
+-------
+  Chemical	88.80	89.74	87.89
+         O	0.00	0.00	100.00
+      Gene	84.34	83.21	85.50
+Processed 228341 tokens with 15481 phrases; found: 15524 phrases; correct: 13426.
+
+Lasted saved at epoch 283, batch 0
+
+Segment evaluation bc_dev (iteration 327):
+	        F1	Prec	Recall
+Micro (Seg)	86.87	86.71	87.03
+Macro (Seg)	88.94	88.86	89.02
+-------
+  Chemical	88.94	88.86	89.02
+         O	0.00	0.00	100.00
+      Gene	84.69	84.45	84.93
+Processed 228341 tokens with 15481 phrases; found: 15538 phrases; correct: 13473.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 328):
+	        F1	Prec	Recall
+Micro (Seg)	86.73	86.64	86.81
+Macro (Seg)	88.92	89.60	88.25
+-------
+  Chemical	88.92	89.60	88.25
+         O	0.00	0.00	100.00
+      Gene	84.45	83.62	85.29
+Processed 228341 tokens with 15481 phrases; found: 15511 phrases; correct: 13439.
+
+Lasted saved at epoch 327, batch 0
+
+Segment evaluation bc_dev (iteration 329):
+	        F1	Prec	Recall
+Micro (Seg)	86.73	86.42	87.04
+Macro (Seg)	88.97	88.99	88.94
+-------
+  Chemical	88.97	88.99	88.94
+         O	0.00	0.00	100.00
+      Gene	84.38	83.75	85.02
+Processed 228341 tokens with 15481 phrases; found: 15591 phrases; correct: 13474.
+
+Lasted saved at epoch 327, batch 0
+
+Segment evaluation bc_dev (iteration 330):
+	        F1	Prec	Recall
+Micro (Seg)	86.81	87.05	86.57
+Macro (Seg)	88.91	89.23	88.59
+-------
+  Chemical	88.91	89.23	88.59
+         O	0.00	0.00	100.00
+      Gene	84.59	84.75	84.44
+Processed 228341 tokens with 15481 phrases; found: 15396 phrases; correct: 13402.
+
+Lasted saved at epoch 327, batch 0
+
+Segment evaluation bc_dev (iteration 331):
+	        F1	Prec	Recall
+Micro (Seg)	86.66	86.22	87.09
+Macro (Seg)	88.96	89.54	88.39
+-------
+  Chemical	88.96	89.54	88.39
+         O	0.00	0.00	100.00
+      Gene	84.28	82.89	85.73
+Processed 228341 tokens with 15481 phrases; found: 15637 phrases; correct: 13483.
+
+Lasted saved at epoch 327, batch 0
+
+Segment evaluation bc_dev (iteration 332):
+	        F1	Prec	Recall
+Micro (Seg)	86.81	87.06	86.56
+Macro (Seg)	88.95	89.47	88.43
+-------
+  Chemical	88.95	89.47	88.43
+         O	0.00	0.00	100.00
+      Gene	84.56	84.54	84.58
+Processed 228341 tokens with 15481 phrases; found: 15392 phrases; correct: 13400.
+
+Lasted saved at epoch 327, batch 0
+
+Segment evaluation bc_dev (iteration 333):
+	        F1	Prec	Recall
+Micro (Seg)	86.58	86.55	86.62
+Macro (Seg)	88.88	89.13	88.63
+-------
+  Chemical	88.88	89.13	88.63
+         O	0.00	0.00	100.00
+      Gene	84.17	83.86	84.49
+Processed 228341 tokens with 15481 phrases; found: 15493 phrases; correct: 13409.
+
+Lasted saved at epoch 327, batch 0
+
+Segment evaluation bc_dev (iteration 334):
+	        F1	Prec	Recall
+Micro (Seg)	86.61	85.98	87.25
+Macro (Seg)	88.95	88.59	89.31
+-------
+  Chemical	88.95	88.59	89.31
+         O	0.00	0.00	100.00
+      Gene	84.16	83.26	85.08
+Processed 228341 tokens with 15481 phrases; found: 15709 phrases; correct: 13507.
+
+Lasted saved at epoch 327, batch 0
+
+Segment evaluation bc_dev (iteration 335):
+	        F1	Prec	Recall
+Micro (Seg)	86.78	86.50	87.06
+Macro (Seg)	89.08	88.97	89.18
+-------
+  Chemical	89.08	88.97	89.18
+         O	0.00	0.00	100.00
+      Gene	84.36	83.92	84.81
+Processed 228341 tokens with 15481 phrases; found: 15580 phrases; correct: 13477.
+
+Lasted saved at epoch 327, batch 0
+
+Segment evaluation bc_dev (iteration 336):
+	        F1	Prec	Recall
+Micro (Seg)	86.76	86.61	86.91
+Macro (Seg)	88.96	89.23	88.69
+-------
+  Chemical	88.96	89.23	88.69
+         O	0.00	0.00	100.00
+      Gene	84.46	83.90	85.04
+Processed 228341 tokens with 15481 phrases; found: 15535 phrases; correct: 13455.
+
+Lasted saved at epoch 327, batch 0
+
+Segment evaluation bc_dev (iteration 337):
+	        F1	Prec	Recall
+Micro (Seg)	86.52	86.22	86.83
+Macro (Seg)	88.81	89.05	88.57
+-------
+  Chemical	88.81	89.05	88.57
+         O	0.00	0.00	100.00
+      Gene	84.15	83.31	85.00
+Processed 228341 tokens with 15481 phrases; found: 15590 phrases; correct: 13442.
+
+Lasted saved at epoch 327, batch 0
+
+Segment evaluation bc_dev (iteration 338):
+	        F1	Prec	Recall
+Micro (Seg)	86.81	86.81	86.82
+Macro (Seg)	88.98	89.39	88.58
+-------
+  Chemical	88.98	89.39	88.58
+         O	0.00	0.00	100.00
+      Gene	84.55	84.14	84.96
+Processed 228341 tokens with 15481 phrases; found: 15482 phrases; correct: 13440.
+
+Lasted saved at epoch 327, batch 0
+
+Segment evaluation bc_dev (iteration 339):
+	        F1	Prec	Recall
+Micro (Seg)	86.54	86.03	87.06
+Macro (Seg)	88.81	88.81	88.82
+-------
+  Chemical	88.81	88.81	88.82
+         O	0.00	0.00	100.00
+      Gene	84.18	83.18	85.21
+Processed 228341 tokens with 15481 phrases; found: 15666 phrases; correct: 13478.
+
+Lasted saved at epoch 327, batch 0
+
+Segment evaluation bc_dev (iteration 340):
+	        F1	Prec	Recall
+Micro (Seg)	86.33	85.82	86.85
+Macro (Seg)	88.65	89.70	87.62
+-------
+  Chemical	88.65	89.70	87.62
+         O	0.00	0.00	100.00
+      Gene	83.97	82.01	86.03
+Processed 228341 tokens with 15481 phrases; found: 15666 phrases; correct: 13445.
+
+Lasted saved at epoch 327, batch 0
+
+Segment evaluation bc_dev (iteration 341):
+	        F1	Prec	Recall
+Micro (Seg)	86.57	85.90	87.26
+Macro (Seg)	88.92	88.78	89.07
+-------
+  Chemical	88.92	88.78	89.07
+         O	0.00	0.00	100.00
+      Gene	84.12	82.93	85.34
+Processed 228341 tokens with 15481 phrases; found: 15726 phrases; correct: 13508.
+
+Lasted saved at epoch 327, batch 0
+
+Segment evaluation bc_dev (iteration 342):
+	        F1	Prec	Recall
+Micro (Seg)	86.59	86.60	86.57
+Macro (Seg)	88.92	89.51	88.34
+-------
+  Chemical	88.92	89.51	88.34
+         O	0.00	0.00	100.00
+      Gene	84.16	83.62	84.70
+Processed 228341 tokens with 15481 phrases; found: 15475 phrases; correct: 13402.
+
+Lasted saved at epoch 327, batch 0
+
+Segment evaluation bc_dev (iteration 343):
+	        F1	Prec	Recall
+Micro (Seg)	86.55	86.17	86.93
+Macro (Seg)	88.75	88.45	89.04
+-------
+  Chemical	88.75	88.45	89.04
+         O	0.00	0.00	100.00
+      Gene	84.23	83.77	84.69
+Processed 228341 tokens with 15481 phrases; found: 15617 phrases; correct: 13457.
+
+Lasted saved at epoch 327, batch 0
+
+Segment evaluation bc_dev (iteration 344):
+	        F1	Prec	Recall
+Micro (Seg)	86.93	86.95	86.91
+Macro (Seg)	89.20	89.38	89.02
+-------
+  Chemical	89.20	89.38	89.02
+         O	0.00	0.00	100.00
+      Gene	84.55	84.41	84.69
+Processed 228341 tokens with 15481 phrases; found: 15474 phrases; correct: 13455.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 345):
+	        F1	Prec	Recall
+Micro (Seg)	86.71	86.45	86.98
+Macro (Seg)	88.97	88.88	89.06
+-------
+  Chemical	88.97	88.88	89.06
+         O	0.00	0.00	100.00
+      Gene	84.35	83.91	84.78
+Processed 228341 tokens with 15481 phrases; found: 15575 phrases; correct: 13465.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 346):
+	        F1	Prec	Recall
+Micro (Seg)	86.64	86.47	86.80
+Macro (Seg)	89.02	89.14	88.91
+-------
+  Chemical	89.02	89.14	88.91
+         O	0.00	0.00	100.00
+      Gene	84.13	83.68	84.58
+Processed 228341 tokens with 15481 phrases; found: 15541 phrases; correct: 13438.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 347):
+	        F1	Prec	Recall
+Micro (Seg)	86.71	87.01	86.42
+Macro (Seg)	88.95	90.20	87.74
+-------
+  Chemical	88.95	90.20	87.74
+         O	0.00	0.00	100.00
+      Gene	84.39	83.78	85.02
+Processed 228341 tokens with 15481 phrases; found: 15376 phrases; correct: 13378.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 348):
+	        F1	Prec	Recall
+Micro (Seg)	86.65	86.81	86.48
+Macro (Seg)	88.90	89.76	88.06
+-------
+  Chemical	88.90	89.76	88.06
+         O	0.00	0.00	100.00
+      Gene	84.30	83.80	84.81
+Processed 228341 tokens with 15481 phrases; found: 15422 phrases; correct: 13388.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 349):
+	        F1	Prec	Recall
+Micro (Seg)	86.55	86.31	86.79
+Macro (Seg)	88.89	89.61	88.19
+-------
+  Chemical	88.89	89.61	88.19
+         O	0.00	0.00	100.00
+      Gene	84.12	82.97	85.31
+Processed 228341 tokens with 15481 phrases; found: 15568 phrases; correct: 13436.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 350):
+	        F1	Prec	Recall
+Micro (Seg)	86.61	86.51	86.71
+Macro (Seg)	88.87	89.38	88.36
+-------
+  Chemical	88.87	89.38	88.36
+         O	0.00	0.00	100.00
+      Gene	84.25	83.56	84.96
+Processed 228341 tokens with 15481 phrases; found: 15517 phrases; correct: 13423.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 351):
+	        F1	Prec	Recall
+Micro (Seg)	86.77	86.67	86.87
+Macro (Seg)	88.91	88.88	88.94
+-------
+  Chemical	88.91	88.88	88.94
+         O	0.00	0.00	100.00
+      Gene	84.52	84.35	84.69
+Processed 228341 tokens with 15481 phrases; found: 15517 phrases; correct: 13449.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 352):
+	        F1	Prec	Recall
+Micro (Seg)	86.59	85.90	87.29
+Macro (Seg)	88.93	89.34	88.53
+-------
+  Chemical	88.93	89.34	88.53
+         O	0.00	0.00	100.00
+      Gene	84.18	82.44	85.99
+Processed 228341 tokens with 15481 phrases; found: 15733 phrases; correct: 13514.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 353):
+	        F1	Prec	Recall
+Micro (Seg)	86.83	86.61	87.05
+Macro (Seg)	89.05	89.76	88.34
+-------
+  Chemical	89.05	89.76	88.34
+         O	0.00	0.00	100.00
+      Gene	84.54	83.43	85.69
+Processed 228341 tokens with 15481 phrases; found: 15559 phrases; correct: 13476.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 354):
+	        F1	Prec	Recall
+Micro (Seg)	86.51	85.77	87.26
+Macro (Seg)	88.89	89.12	88.65
+-------
+  Chemical	88.89	89.12	88.65
+         O	0.00	0.00	100.00
+      Gene	84.05	82.38	85.79
+Processed 228341 tokens with 15481 phrases; found: 15751 phrases; correct: 13509.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 355):
+	        F1	Prec	Recall
+Micro (Seg)	86.81	86.78	86.85
+Macro (Seg)	88.94	89.69	88.20
+-------
+  Chemical	88.94	89.69	88.20
+         O	0.00	0.00	100.00
+      Gene	84.61	83.81	85.42
+Processed 228341 tokens with 15481 phrases; found: 15494 phrases; correct: 13445.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 356):
+	        F1	Prec	Recall
+Micro (Seg)	86.62	86.66	86.58
+Macro (Seg)	88.88	90.43	87.38
+-------
+  Chemical	88.88	90.43	87.38
+         O	0.00	0.00	100.00
+      Gene	84.31	82.93	85.74
+Processed 228341 tokens with 15481 phrases; found: 15468 phrases; correct: 13404.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 357):
+	        F1	Prec	Recall
+Micro (Seg)	86.71	86.61	86.80
+Macro (Seg)	88.92	89.21	88.63
+-------
+  Chemical	88.92	89.21	88.63
+         O	0.00	0.00	100.00
+      Gene	84.39	83.92	84.88
+Processed 228341 tokens with 15481 phrases; found: 15515 phrases; correct: 13438.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 358):
+	        F1	Prec	Recall
+Micro (Seg)	86.71	86.72	86.70
+Macro (Seg)	89.11	89.90	88.34
+-------
+  Chemical	89.11	89.90	88.34
+         O	0.00	0.00	100.00
+      Gene	84.21	83.47	84.97
+Processed 228341 tokens with 15481 phrases; found: 15478 phrases; correct: 13422.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 359):
+	        F1	Prec	Recall
+Micro (Seg)	86.70	86.52	86.89
+Macro (Seg)	88.93	88.72	89.13
+-------
+  Chemical	88.93	88.72	89.13
+         O	0.00	0.00	100.00
+      Gene	84.35	84.19	84.52
+Processed 228341 tokens with 15481 phrases; found: 15547 phrases; correct: 13451.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 360):
+	        F1	Prec	Recall
+Micro (Seg)	86.71	86.54	86.89
+Macro (Seg)	88.89	89.12	88.65
+-------
+  Chemical	88.89	89.12	88.65
+         O	0.00	0.00	100.00
+      Gene	84.44	83.85	85.04
+Processed 228341 tokens with 15481 phrases; found: 15545 phrases; correct: 13452.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 361):
+	        F1	Prec	Recall
+Micro (Seg)	86.55	85.77	87.35
+Macro (Seg)	88.81	88.97	88.65
+-------
+  Chemical	88.81	88.97	88.65
+         O	0.00	0.00	100.00
+      Gene	84.22	82.54	85.96
+Processed 228341 tokens with 15481 phrases; found: 15765 phrases; correct: 13522.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 362):
+	        F1	Prec	Recall
+Micro (Seg)	86.66	87.07	86.25
+Macro (Seg)	88.85	90.37	87.38
+-------
+  Chemical	88.85	90.37	87.38
+         O	0.00	0.00	100.00
+      Gene	84.39	83.75	85.05
+Processed 228341 tokens with 15481 phrases; found: 15335 phrases; correct: 13352.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 363):
+	        F1	Prec	Recall
+Micro (Seg)	86.64	86.40	86.89
+Macro (Seg)	88.93	89.15	88.70
+-------
+  Chemical	88.93	89.15	88.70
+         O	0.00	0.00	100.00
+      Gene	84.25	83.55	84.97
+Processed 228341 tokens with 15481 phrases; found: 15569 phrases; correct: 13451.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 364):
+	        F1	Prec	Recall
+Micro (Seg)	86.80	86.78	86.82
+Macro (Seg)	88.93	89.71	88.16
+-------
+  Chemical	88.93	89.71	88.16
+         O	0.00	0.00	100.00
+      Gene	84.60	83.80	85.41
+Processed 228341 tokens with 15481 phrases; found: 15488 phrases; correct: 13441.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 365):
+	        F1	Prec	Recall
+Micro (Seg)	86.73	86.27	87.19
+Macro (Seg)	88.98	88.91	89.04
+-------
+  Chemical	88.98	88.91	89.04
+         O	0.00	0.00	100.00
+      Gene	84.38	83.54	85.23
+Processed 228341 tokens with 15481 phrases; found: 15646 phrases; correct: 13498.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 366):
+	        F1	Prec	Recall
+Micro (Seg)	86.83	86.25	87.42
+Macro (Seg)	89.10	88.96	89.23
+-------
+  Chemical	89.10	88.96	89.23
+         O	0.00	0.00	100.00
+      Gene	84.46	83.45	85.50
+Processed 228341 tokens with 15481 phrases; found: 15690 phrases; correct: 13533.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 367):
+	        F1	Prec	Recall
+Micro (Seg)	86.57	86.04	87.11
+Macro (Seg)	88.82	89.32	88.33
+-------
+  Chemical	88.82	89.32	88.33
+         O	0.00	0.00	100.00
+      Gene	84.25	82.73	85.83
+Processed 228341 tokens with 15481 phrases; found: 15675 phrases; correct: 13486.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 368):
+	        F1	Prec	Recall
+Micro (Seg)	86.82	86.58	87.07
+Macro (Seg)	88.93	89.24	88.62
+-------
+  Chemical	88.93	89.24	88.62
+         O	0.00	0.00	100.00
+      Gene	84.62	83.83	85.43
+Processed 228341 tokens with 15481 phrases; found: 15569 phrases; correct: 13479.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 369):
+	        F1	Prec	Recall
+Micro (Seg)	86.72	86.95	86.48
+Macro (Seg)	88.94	90.26	87.66
+-------
+  Chemical	88.94	90.26	87.66
+         O	0.00	0.00	100.00
+      Gene	84.42	83.62	85.23
+Processed 228341 tokens with 15481 phrases; found: 15397 phrases; correct: 13388.
+
+Lasted saved at epoch 344, batch 0
+
+Segment evaluation bc_dev (iteration 370):
+	        F1	Prec	Recall
+Micro (Seg)	87.00	86.55	87.45
+Macro (Seg)	89.20	89.57	88.83
+-------
+  Chemical	89.20	89.57	88.83
+         O	0.00	0.00	100.00
+      Gene	84.71	83.48	85.99
+Processed 228341 tokens with 15481 phrases; found: 15642 phrases; correct: 13538.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 371):
+	        F1	Prec	Recall
+Micro (Seg)	86.75	86.18	87.33
+Macro (Seg)	89.00	89.10	88.91
+-------
+  Chemical	89.00	89.10	88.91
+         O	0.00	0.00	100.00
+      Gene	84.41	83.19	85.67
+Processed 228341 tokens with 15481 phrases; found: 15689 phrases; correct: 13520.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 372):
+	        F1	Prec	Recall
+Micro (Seg)	86.58	85.93	87.24
+Macro (Seg)	88.91	89.92	87.92
+-------
+  Chemical	88.91	89.92	87.92
+         O	0.00	0.00	100.00
+      Gene	84.21	82.02	86.52
+Processed 228341 tokens with 15481 phrases; found: 15718 phrases; correct: 13506.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 373):
+	        F1	Prec	Recall
+Micro (Seg)	86.87	86.66	87.09
+Macro (Seg)	89.05	89.61	88.50
+-------
+  Chemical	89.05	89.61	88.50
+         O	0.00	0.00	100.00
+      Gene	84.62	83.66	85.59
+Processed 228341 tokens with 15481 phrases; found: 15557 phrases; correct: 13482.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 374):
+	        F1	Prec	Recall
+Micro (Seg)	86.81	86.10	87.54
+Macro (Seg)	88.93	88.36	89.51
+-------
+  Chemical	88.93	88.36	89.51
+         O	0.00	0.00	100.00
+      Gene	84.58	83.73	85.46
+Processed 228341 tokens with 15481 phrases; found: 15740 phrases; correct: 13552.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 375):
+	        F1	Prec	Recall
+Micro (Seg)	86.90	86.73	87.07
+Macro (Seg)	89.10	89.65	88.57
+-------
+  Chemical	89.10	89.65	88.57
+         O	0.00	0.00	100.00
+      Gene	84.61	83.74	85.50
+Processed 228341 tokens with 15481 phrases; found: 15543 phrases; correct: 13480.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 376):
+	        F1	Prec	Recall
+Micro (Seg)	86.86	86.45	87.27
+Macro (Seg)	88.97	88.72	89.22
+-------
+  Chemical	88.97	88.72	89.22
+         O	0.00	0.00	100.00
+      Gene	84.64	84.07	85.22
+Processed 228341 tokens with 15481 phrases; found: 15629 phrases; correct: 13511.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 377):
+	        F1	Prec	Recall
+Micro (Seg)	86.70	86.56	86.85
+Macro (Seg)	89.00	89.56	88.45
+-------
+  Chemical	89.00	89.56	88.45
+         O	0.00	0.00	100.00
+      Gene	84.32	83.49	85.15
+Processed 228341 tokens with 15481 phrases; found: 15533 phrases; correct: 13445.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 378):
+	        F1	Prec	Recall
+Micro (Seg)	86.78	86.44	87.11
+Macro (Seg)	88.98	89.46	88.50
+-------
+  Chemical	88.98	89.46	88.50
+         O	0.00	0.00	100.00
+      Gene	84.50	83.38	85.65
+Processed 228341 tokens with 15481 phrases; found: 15601 phrases; correct: 13486.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 379):
+	        F1	Prec	Recall
+Micro (Seg)	86.80	87.02	86.58
+Macro (Seg)	88.96	90.32	87.65
+-------
+  Chemical	88.96	90.32	87.65
+         O	0.00	0.00	100.00
+      Gene	84.57	83.70	85.45
+Processed 228341 tokens with 15481 phrases; found: 15403 phrases; correct: 13403.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 380):
+	        F1	Prec	Recall
+Micro (Seg)	86.64	85.98	87.31
+Macro (Seg)	88.99	88.75	89.22
+-------
+  Chemical	88.99	88.75	89.22
+         O	0.00	0.00	100.00
+      Gene	84.19	83.12	85.30
+Processed 228341 tokens with 15481 phrases; found: 15721 phrases; correct: 13517.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 381):
+	        F1	Prec	Recall
+Micro (Seg)	86.69	86.33	87.06
+Macro (Seg)	88.92	89.85	88.01
+-------
+  Chemical	88.92	89.85	88.01
+         O	0.00	0.00	100.00
+      Gene	84.40	82.81	86.06
+Processed 228341 tokens with 15481 phrases; found: 15613 phrases; correct: 13478.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 382):
+	        F1	Prec	Recall
+Micro (Seg)	86.73	86.59	86.87
+Macro (Seg)	88.91	89.72	88.13
+-------
+  Chemical	88.91	89.72	88.13
+         O	0.00	0.00	100.00
+      Gene	84.48	83.44	85.55
+Processed 228341 tokens with 15481 phrases; found: 15531 phrases; correct: 13449.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 383):
+	        F1	Prec	Recall
+Micro (Seg)	86.73	86.94	86.53
+Macro (Seg)	88.78	90.04	87.55
+-------
+  Chemical	88.78	90.04	87.55
+         O	0.00	0.00	100.00
+      Gene	84.63	83.81	85.46
+Processed 228341 tokens with 15481 phrases; found: 15409 phrases; correct: 13396.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 384):
+	        F1	Prec	Recall
+Micro (Seg)	86.88	86.76	87.00
+Macro (Seg)	89.01	90.02	88.03
+-------
+  Chemical	89.01	90.02	88.03
+         O	0.00	0.00	100.00
+      Gene	84.69	83.49	85.92
+Processed 228341 tokens with 15481 phrases; found: 15525 phrases; correct: 13469.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 385):
+	        F1	Prec	Recall
+Micro (Seg)	86.86	86.97	86.74
+Macro (Seg)	88.98	89.52	88.45
+-------
+  Chemical	88.98	89.52	88.45
+         O	0.00	0.00	100.00
+      Gene	84.63	84.34	84.93
+Processed 228341 tokens with 15481 phrases; found: 15439 phrases; correct: 13428.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 386):
+	        F1	Prec	Recall
+Micro (Seg)	86.78	86.70	86.85
+Macro (Seg)	88.94	89.07	88.81
+-------
+  Chemical	88.94	89.07	88.81
+         O	0.00	0.00	100.00
+      Gene	84.51	84.23	84.80
+Processed 228341 tokens with 15481 phrases; found: 15508 phrases; correct: 13446.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 387):
+	        F1	Prec	Recall
+Micro (Seg)	86.70	86.10	87.30
+Macro (Seg)	89.01	89.50	88.53
+-------
+  Chemical	89.01	89.50	88.53
+         O	0.00	0.00	100.00
+      Gene	84.31	82.69	86.00
+Processed 228341 tokens with 15481 phrases; found: 15697 phrases; correct: 13515.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 388):
+	        F1	Prec	Recall
+Micro (Seg)	86.73	86.32	87.14
+Macro (Seg)	88.96	89.10	88.83
+-------
+  Chemical	88.96	89.10	88.83
+         O	0.00	0.00	100.00
+      Gene	84.40	83.46	85.35
+Processed 228341 tokens with 15481 phrases; found: 15628 phrases; correct: 13490.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 389):
+	        F1	Prec	Recall
+Micro (Seg)	86.78	86.39	87.17
+Macro (Seg)	89.17	90.18	88.18
+-------
+  Chemical	89.17	90.18	88.18
+         O	0.00	0.00	100.00
+      Gene	84.34	82.63	86.11
+Processed 228341 tokens with 15481 phrases; found: 15621 phrases; correct: 13495.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 390):
+	        F1	Prec	Recall
+Micro (Seg)	86.75	86.71	86.79
+Macro (Seg)	89.09	90.00	88.19
+-------
+  Chemical	89.09	90.00	88.19
+         O	0.00	0.00	100.00
+      Gene	84.33	83.38	85.31
+Processed 228341 tokens with 15481 phrases; found: 15496 phrases; correct: 13436.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 391):
+	        F1	Prec	Recall
+Micro (Seg)	86.90	86.48	87.33
+Macro (Seg)	89.16	89.81	88.52
+-------
+  Chemical	89.16	89.81	88.52
+         O	0.00	0.00	100.00
+      Gene	84.58	83.13	86.08
+Processed 228341 tokens with 15481 phrases; found: 15634 phrases; correct: 13520.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 392):
+	        F1	Prec	Recall
+Micro (Seg)	86.89	86.47	87.31
+Macro (Seg)	89.03	88.44	89.62
+-------
+  Chemical	89.03	88.44	89.62
+         O	0.00	0.00	100.00
+      Gene	84.62	84.37	84.88
+Processed 228341 tokens with 15481 phrases; found: 15632 phrases; correct: 13517.
+
+Lasted saved at epoch 370, batch 0
+
+Segment evaluation bc_dev (iteration 393):
+	        F1	Prec	Recall
+Micro (Seg)	87.02	87.17	86.88
+Macro (Seg)	89.22	89.98	88.47
+-------
+  Chemical	89.22	89.98	88.47
+         O	0.00	0.00	100.00
+      Gene	84.74	84.28	85.21
+Processed 228341 tokens with 15481 phrases; found: 15430 phrases; correct: 13450.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 394):
+	        F1	Prec	Recall
+Micro (Seg)	86.99	86.92	87.06
+Macro (Seg)	89.22	89.86	88.59
+-------
+  Chemical	89.22	89.86	88.59
+         O	0.00	0.00	100.00
+      Gene	84.68	83.92	85.45
+Processed 228341 tokens with 15481 phrases; found: 15506 phrases; correct: 13478.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 395):
+	        F1	Prec	Recall
+Micro (Seg)	86.74	86.06	87.43
+Macro (Seg)	88.96	88.48	89.45
+-------
+  Chemical	88.96	88.48	89.45
+         O	0.00	0.00	100.00
+      Gene	84.40	83.53	85.30
+Processed 228341 tokens with 15481 phrases; found: 15728 phrases; correct: 13535.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 396):
+	        F1	Prec	Recall
+Micro (Seg)	86.73	86.45	87.02
+Macro (Seg)	89.02	89.34	88.72
+-------
+  Chemical	89.02	89.34	88.72
+         O	0.00	0.00	100.00
+      Gene	84.35	83.49	85.22
+Processed 228341 tokens with 15481 phrases; found: 15582 phrases; correct: 13471.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 397):
+	        F1	Prec	Recall
+Micro (Seg)	86.89	86.71	87.07
+Macro (Seg)	89.13	89.90	88.36
+-------
+  Chemical	89.13	89.90	88.36
+         O	0.00	0.00	100.00
+      Gene	84.58	83.48	85.71
+Processed 228341 tokens with 15481 phrases; found: 15546 phrases; correct: 13480.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 398):
+	        F1	Prec	Recall
+Micro (Seg)	86.93	87.13	86.73
+Macro (Seg)	89.22	90.04	88.40
+-------
+  Chemical	89.22	90.04	88.40
+         O	0.00	0.00	100.00
+      Gene	84.55	84.14	84.96
+Processed 228341 tokens with 15481 phrases; found: 15409 phrases; correct: 13426.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 399):
+	        F1	Prec	Recall
+Micro (Seg)	86.83	86.68	86.98
+Macro (Seg)	89.06	89.01	89.12
+-------
+  Chemical	89.06	89.01	89.12
+         O	0.00	0.00	100.00
+      Gene	84.47	84.22	84.72
+Processed 228341 tokens with 15481 phrases; found: 15535 phrases; correct: 13465.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 400):
+	        F1	Prec	Recall
+Micro (Seg)	86.78	86.57	87.00
+Macro (Seg)	89.07	89.34	88.79
+-------
+  Chemical	89.07	89.34	88.79
+         O	0.00	0.00	100.00
+      Gene	84.40	83.71	85.10
+Processed 228341 tokens with 15481 phrases; found: 15557 phrases; correct: 13468.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 401):
+	        F1	Prec	Recall
+Micro (Seg)	87.01	87.11	86.92
+Macro (Seg)	89.19	89.51	88.88
+-------
+  Chemical	89.19	89.51	88.88
+         O	0.00	0.00	100.00
+      Gene	84.72	84.59	84.85
+Processed 228341 tokens with 15481 phrases; found: 15448 phrases; correct: 13456.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 402):
+	        F1	Prec	Recall
+Micro (Seg)	86.67	86.09	87.26
+Macro (Seg)	88.85	87.68	90.05
+-------
+  Chemical	88.85	87.68	90.05
+         O	0.00	0.00	100.00
+      Gene	84.33	84.36	84.30
+Processed 228341 tokens with 15481 phrases; found: 15691 phrases; correct: 13508.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 403):
+	        F1	Prec	Recall
+Micro (Seg)	86.71	86.64	86.78
+Macro (Seg)	88.92	90.56	87.33
+-------
+  Chemical	88.92	90.56	87.33
+         O	0.00	0.00	100.00
+      Gene	84.47	82.81	86.20
+Processed 228341 tokens with 15481 phrases; found: 15507 phrases; correct: 13435.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 404):
+	        F1	Prec	Recall
+Micro (Seg)	86.78	86.17	87.40
+Macro (Seg)	89.10	89.29	88.91
+-------
+  Chemical	89.10	89.29	88.91
+         O	0.00	0.00	100.00
+      Gene	84.38	83.00	85.82
+Processed 228341 tokens with 15481 phrases; found: 15703 phrases; correct: 13531.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 405):
+	        F1	Prec	Recall
+Micro (Seg)	86.96	86.63	87.29
+Macro (Seg)	89.11	88.86	89.37
+-------
+  Chemical	89.11	88.86	89.37
+         O	0.00	0.00	100.00
+      Gene	84.69	84.29	85.09
+Processed 228341 tokens with 15481 phrases; found: 15598 phrases; correct: 13513.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 406):
+	        F1	Prec	Recall
+Micro (Seg)	86.95	86.83	87.07
+Macro (Seg)	89.06	90.11	88.03
+-------
+  Chemical	89.06	90.11	88.03
+         O	0.00	0.00	100.00
+      Gene	84.78	83.54	86.06
+Processed 228341 tokens with 15481 phrases; found: 15524 phrases; correct: 13479.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 407):
+	        F1	Prec	Recall
+Micro (Seg)	86.88	86.88	86.87
+Macro (Seg)	88.94	89.76	88.13
+-------
+  Chemical	88.94	89.76	88.13
+         O	0.00	0.00	100.00
+      Gene	84.74	83.96	85.54
+Processed 228341 tokens with 15481 phrases; found: 15478 phrases; correct: 13448.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 408):
+	        F1	Prec	Recall
+Micro (Seg)	86.73	86.53	86.93
+Macro (Seg)	88.93	89.14	88.72
+-------
+  Chemical	88.93	89.14	88.72
+         O	0.00	0.00	100.00
+      Gene	84.42	83.82	85.04
+Processed 228341 tokens with 15481 phrases; found: 15552 phrases; correct: 13457.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 409):
+	        F1	Prec	Recall
+Micro (Seg)	86.73	86.43	87.03
+Macro (Seg)	89.14	89.79	88.49
+-------
+  Chemical	89.14	89.79	88.49
+         O	0.00	0.00	100.00
+      Gene	84.24	83.04	85.49
+Processed 228341 tokens with 15481 phrases; found: 15588 phrases; correct: 13473.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 410):
+	        F1	Prec	Recall
+Micro (Seg)	86.80	86.47	87.13
+Macro (Seg)	89.11	89.36	88.87
+-------
+  Chemical	89.11	89.36	88.87
+         O	0.00	0.00	100.00
+      Gene	84.39	83.50	85.30
+Processed 228341 tokens with 15481 phrases; found: 15599 phrases; correct: 13489.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 411):
+	        F1	Prec	Recall
+Micro (Seg)	86.83	86.73	86.93
+Macro (Seg)	89.10	89.49	88.70
+-------
+  Chemical	89.10	89.49	88.70
+         O	0.00	0.00	100.00
+      Gene	84.47	83.88	85.06
+Processed 228341 tokens with 15481 phrases; found: 15517 phrases; correct: 13458.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 412):
+	        F1	Prec	Recall
+Micro (Seg)	86.84	86.56	87.13
+Macro (Seg)	89.09	89.59	88.59
+-------
+  Chemical	89.09	89.59	88.59
+         O	0.00	0.00	100.00
+      Gene	84.51	83.47	85.58
+Processed 228341 tokens with 15481 phrases; found: 15582 phrases; correct: 13488.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 413):
+	        F1	Prec	Recall
+Micro (Seg)	86.96	86.97	86.95
+Macro (Seg)	89.16	89.54	88.79
+-------
+  Chemical	89.16	89.54	88.79
+         O	0.00	0.00	100.00
+      Gene	84.65	84.31	85.00
+Processed 228341 tokens with 15481 phrases; found: 15476 phrases; correct: 13460.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 414):
+	        F1	Prec	Recall
+Micro (Seg)	86.88	86.78	86.98
+Macro (Seg)	88.98	89.69	88.28
+-------
+  Chemical	88.98	89.69	88.28
+         O	0.00	0.00	100.00
+      Gene	84.71	83.83	85.61
+Processed 228341 tokens with 15481 phrases; found: 15516 phrases; correct: 13465.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 415):
+	        F1	Prec	Recall
+Micro (Seg)	86.85	86.69	87.02
+Macro (Seg)	89.08	89.21	88.94
+-------
+  Chemical	89.08	89.21	88.94
+         O	0.00	0.00	100.00
+      Gene	84.52	84.06	85.00
+Processed 228341 tokens with 15481 phrases; found: 15541 phrases; correct: 13472.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 416):
+	        F1	Prec	Recall
+Micro (Seg)	86.78	86.55	87.01
+Macro (Seg)	89.22	90.58	87.90
+-------
+  Chemical	89.22	90.58	87.90
+         O	0.00	0.00	100.00
+      Gene	84.30	82.59	86.07
+Processed 228341 tokens with 15481 phrases; found: 15563 phrases; correct: 13470.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 417):
+	        F1	Prec	Recall
+Micro (Seg)	87.02	86.91	87.13
+Macro (Seg)	89.28	89.18	89.37
+-------
+  Chemical	89.28	89.18	89.37
+         O	0.00	0.00	100.00
+      Gene	84.65	84.52	84.77
+Processed 228341 tokens with 15481 phrases; found: 15520 phrases; correct: 13489.
+
+Lasted saved at epoch 393, batch 0
+
+Segment evaluation bc_dev (iteration 418):
+	        F1	Prec	Recall
+Micro (Seg)	87.09	87.16	87.02
+Macro (Seg)	89.39	90.33	88.47
+-------
+  Chemical	89.39	90.33	88.47
+         O	0.00	0.00	100.00
+      Gene	84.71	83.95	85.49
+Processed 228341 tokens with 15481 phrases; found: 15455 phrases; correct: 13471.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+
+Segment evaluation bc_dev (iteration 419):
+	        F1	Prec	Recall
+Micro (Seg)	86.99	86.80	87.18
+Macro (Seg)	89.34	89.41	89.27
+-------
+  Chemical	89.34	89.41	89.27
+         O	0.00	0.00	100.00
+      Gene	84.53	84.08	84.98
+Processed 228341 tokens with 15481 phrases; found: 15550 phrases; correct: 13497.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 420):
+	        F1	Prec	Recall
+Micro (Seg)	86.89	86.98	86.80
+Macro (Seg)	89.06	90.30	87.85
+-------
+  Chemical	89.06	90.30	87.85
+         O	0.00	0.00	100.00
+      Gene	84.66	83.65	85.69
+Processed 228341 tokens with 15481 phrases; found: 15448 phrases; correct: 13437.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 421):
+	        F1	Prec	Recall
+Micro (Seg)	87.04	86.97	87.11
+Macro (Seg)	89.26	90.22	88.33
+-------
+  Chemical	89.26	90.22	88.33
+         O	0.00	0.00	100.00
+      Gene	84.74	83.69	85.82
+Processed 228341 tokens with 15481 phrases; found: 15506 phrases; correct: 13485.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 422):
+	        F1	Prec	Recall
+Micro (Seg)	86.98	86.70	87.26
+Macro (Seg)	89.19	90.26	88.14
+-------
+  Chemical	89.19	90.26	88.14
+         O	0.00	0.00	100.00
+      Gene	84.71	83.16	86.32
+Processed 228341 tokens with 15481 phrases; found: 15580 phrases; correct: 13508.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 423):
+	        F1	Prec	Recall
+Micro (Seg)	87.08	87.34	86.83
+Macro (Seg)	89.33	90.09	88.58
+-------
+  Chemical	89.33	90.09	88.58
+         O	0.00	0.00	100.00
+      Gene	84.75	84.51	84.98
+Processed 228341 tokens with 15481 phrases; found: 15390 phrases; correct: 13442.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 424):
+	        F1	Prec	Recall
+Micro (Seg)	87.01	87.39	86.64
+Macro (Seg)	89.25	90.05	88.47
+-------
+  Chemical	89.25	90.05	88.47
+         O	0.00	0.00	100.00
+      Gene	84.66	84.62	84.70
+Processed 228341 tokens with 15481 phrases; found: 15348 phrases; correct: 13412.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 425):
+	        F1	Prec	Recall
+Micro (Seg)	87.05	86.93	87.16
+Macro (Seg)	89.31	90.07	88.55
+-------
+  Chemical	89.31	90.07	88.55
+         O	0.00	0.00	100.00
+      Gene	84.71	83.75	85.69
+Processed 228341 tokens with 15481 phrases; found: 15521 phrases; correct: 13493.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 426):
+	        F1	Prec	Recall
+Micro (Seg)	86.69	86.47	86.91
+Macro (Seg)	89.03	90.13	87.96
+-------
+  Chemical	89.03	90.13	87.96
+         O	0.00	0.00	100.00
+      Gene	84.29	82.82	85.81
+Processed 228341 tokens with 15481 phrases; found: 15561 phrases; correct: 13455.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 427):
+	        F1	Prec	Recall
+Micro (Seg)	86.87	86.97	86.77
+Macro (Seg)	89.13	89.38	88.89
+-------
+  Chemical	89.13	89.38	88.89
+         O	0.00	0.00	100.00
+      Gene	84.49	84.45	84.53
+Processed 228341 tokens with 15481 phrases; found: 15445 phrases; correct: 13433.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 428):
+	        F1	Prec	Recall
+Micro (Seg)	86.74	86.96	86.53
+Macro (Seg)	89.08	89.39	88.77
+-------
+  Chemical	89.08	89.39	88.77
+         O	0.00	0.00	100.00
+      Gene	84.29	84.42	84.16
+Processed 228341 tokens with 15481 phrases; found: 15403 phrases; correct: 13395.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 429):
+	        F1	Prec	Recall
+Micro (Seg)	86.89	86.52	87.26
+Macro (Seg)	89.31	89.96	88.67
+-------
+  Chemical	89.31	89.96	88.67
+         O	0.00	0.00	100.00
+      Gene	84.39	83.06	85.77
+Processed 228341 tokens with 15481 phrases; found: 15612 phrases; correct: 13508.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 430):
+	        F1	Prec	Recall
+Micro (Seg)	86.92	87.35	86.49
+Macro (Seg)	89.14	90.16	88.15
+-------
+  Chemical	89.14	90.16	88.15
+         O	0.00	0.00	100.00
+      Gene	84.60	84.46	84.74
+Processed 228341 tokens with 15481 phrases; found: 15329 phrases; correct: 13390.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 431):
+	        F1	Prec	Recall
+Micro (Seg)	86.60	86.04	87.16
+Macro (Seg)	88.87	88.29	89.45
+-------
+  Chemical	88.87	88.29	89.45
+         O	0.00	0.00	100.00
+      Gene	84.20	83.66	84.76
+Processed 228341 tokens with 15481 phrases; found: 15684 phrases; correct: 13494.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 432):
+	        F1	Prec	Recall
+Micro (Seg)	86.99	87.02	86.97
+Macro (Seg)	89.31	89.59	89.02
+-------
+  Chemical	89.31	89.59	89.02
+         O	0.00	0.00	100.00
+      Gene	84.57	84.33	84.81
+Processed 228341 tokens with 15481 phrases; found: 15473 phrases; correct: 13464.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 433):
+	        F1	Prec	Recall
+Micro (Seg)	86.83	87.02	86.64
+Macro (Seg)	89.03	89.31	88.75
+-------
+  Chemical	89.03	89.31	88.75
+         O	0.00	0.00	100.00
+      Gene	84.52	84.62	84.41
+Processed 228341 tokens with 15481 phrases; found: 15413 phrases; correct: 13413.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 434):
+	        F1	Prec	Recall
+Micro (Seg)	86.83	86.63	87.04
+Macro (Seg)	89.04	89.34	88.74
+-------
+  Chemical	89.04	89.34	88.74
+         O	0.00	0.00	100.00
+      Gene	84.53	83.83	85.23
+Processed 228341 tokens with 15481 phrases; found: 15554 phrases; correct: 13474.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 435):
+	        F1	Prec	Recall
+Micro (Seg)	86.76	86.80	86.73
+Macro (Seg)	89.03	89.86	88.21
+-------
+  Chemical	89.03	89.86	88.21
+         O	0.00	0.00	100.00
+      Gene	84.41	83.68	85.15
+Processed 228341 tokens with 15481 phrases; found: 15468 phrases; correct: 13426.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 436):
+	        F1	Prec	Recall
+Micro (Seg)	86.84	86.63	87.05
+Macro (Seg)	89.02	88.84	89.21
+-------
+  Chemical	89.02	88.84	89.21
+         O	0.00	0.00	100.00
+      Gene	84.53	84.30	84.77
+Processed 228341 tokens with 15481 phrases; found: 15556 phrases; correct: 13476.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 437):
+	        F1	Prec	Recall
+Micro (Seg)	86.88	86.92	86.85
+Macro (Seg)	89.06	90.02	88.13
+-------
+  Chemical	89.06	90.02	88.13
+         O	0.00	0.00	100.00
+      Gene	84.63	83.78	85.50
+Processed 228341 tokens with 15481 phrases; found: 15469 phrases; correct: 13445.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 438):
+	        F1	Prec	Recall
+Micro (Seg)	86.95	87.03	86.86
+Macro (Seg)	89.24	89.75	88.74
+-------
+  Chemical	89.24	89.75	88.74
+         O	0.00	0.00	100.00
+      Gene	84.54	84.22	84.88
+Processed 228341 tokens with 15481 phrases; found: 15451 phrases; correct: 13447.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 439):
+	        F1	Prec	Recall
+Micro (Seg)	86.80	86.53	87.07
+Macro (Seg)	89.07	89.10	89.04
+-------
+  Chemical	89.07	89.10	89.04
+         O	0.00	0.00	100.00
+      Gene	84.41	83.85	84.98
+Processed 228341 tokens with 15481 phrases; found: 15578 phrases; correct: 13479.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 440):
+	        F1	Prec	Recall
+Micro (Seg)	86.84	86.73	86.96
+Macro (Seg)	89.11	89.14	89.08
+-------
+  Chemical	89.11	89.14	89.08
+         O	0.00	0.00	100.00
+      Gene	84.46	84.20	84.72
+Processed 228341 tokens with 15481 phrases; found: 15522 phrases; correct: 13462.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 441):
+	        F1	Prec	Recall
+Micro (Seg)	86.97	86.87	87.08
+Macro (Seg)	89.27	89.69	88.86
+-------
+  Chemical	89.27	89.69	88.86
+         O	0.00	0.00	100.00
+      Gene	84.58	83.96	85.21
+Processed 228341 tokens with 15481 phrases; found: 15519 phrases; correct: 13481.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 442):
+	        F1	Prec	Recall
+Micro (Seg)	86.75	86.71	86.79
+Macro (Seg)	88.99	89.42	88.57
+-------
+  Chemical	88.99	89.42	88.57
+         O	0.00	0.00	100.00
+      Gene	84.41	83.90	84.92
+Processed 228341 tokens with 15481 phrases; found: 15496 phrases; correct: 13436.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 443):
+	        F1	Prec	Recall
+Micro (Seg)	86.65	86.38	86.93
+Macro (Seg)	89.03	89.09	88.97
+-------
+  Chemical	89.03	89.09	88.97
+         O	0.00	0.00	100.00
+      Gene	84.17	83.57	84.77
+Processed 228341 tokens with 15481 phrases; found: 15578 phrases; correct: 13457.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 444):
+	        F1	Prec	Recall
+Micro (Seg)	86.70	86.87	86.53
+Macro (Seg)	88.96	89.76	88.18
+-------
+  Chemical	88.96	89.76	88.18
+         O	0.00	0.00	100.00
+      Gene	84.35	83.92	84.80
+Processed 228341 tokens with 15481 phrases; found: 15420 phrases; correct: 13396.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 445):
+	        F1	Prec	Recall
+Micro (Seg)	86.89	86.85	86.94
+Macro (Seg)	89.13	90.23	88.05
+-------
+  Chemical	89.13	90.23	88.05
+         O	0.00	0.00	100.00
+      Gene	84.60	83.46	85.77
+Processed 228341 tokens with 15481 phrases; found: 15497 phrases; correct: 13459.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 446):
+	        F1	Prec	Recall
+Micro (Seg)	86.61	86.31	86.92
+Macro (Seg)	88.97	90.30	87.67
+-------
+  Chemical	88.97	90.30	87.67
+         O	0.00	0.00	100.00
+      Gene	84.22	82.39	86.12
+Processed 228341 tokens with 15481 phrases; found: 15591 phrases; correct: 13456.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 447):
+	        F1	Prec	Recall
+Micro (Seg)	86.88	86.65	87.11
+Macro (Seg)	89.14	89.67	88.62
+-------
+  Chemical	89.14	89.67	88.62
+         O	0.00	0.00	100.00
+      Gene	84.54	83.58	85.51
+Processed 228341 tokens with 15481 phrases; found: 15562 phrases; correct: 13485.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 448):
+	        F1	Prec	Recall
+Micro (Seg)	86.69	86.64	86.74
+Macro (Seg)	88.95	89.66	88.25
+-------
+  Chemical	88.95	89.66	88.25
+         O	0.00	0.00	100.00
+      Gene	84.35	83.57	85.14
+Processed 228341 tokens with 15481 phrases; found: 15498 phrases; correct: 13428.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 449):
+	        F1	Prec	Recall
+Micro (Seg)	86.86	86.78	86.94
+Macro (Seg)	89.11	89.61	88.62
+-------
+  Chemical	89.11	89.61	88.62
+         O	0.00	0.00	100.00
+      Gene	84.51	83.87	85.17
+Processed 228341 tokens with 15481 phrases; found: 15510 phrases; correct: 13459.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 450):
+	        F1	Prec	Recall
+Micro (Seg)	86.69	86.01	87.38
+Macro (Seg)	88.97	88.70	89.25
+-------
+  Chemical	88.97	88.70	89.25
+         O	0.00	0.00	100.00
+      Gene	84.31	83.22	85.42
+Processed 228341 tokens with 15481 phrases; found: 15729 phrases; correct: 13528.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 451):
+	        F1	Prec	Recall
+Micro (Seg)	86.63	86.13	87.14
+Macro (Seg)	88.96	89.15	88.77
+-------
+  Chemical	88.96	89.15	88.77
+         O	0.00	0.00	100.00
+      Gene	84.22	83.05	85.42
+Processed 228341 tokens with 15481 phrases; found: 15662 phrases; correct: 13490.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 452):
+	        F1	Prec	Recall
+Micro (Seg)	86.72	87.00	86.45
+Macro (Seg)	89.03	89.98	88.10
+-------
+  Chemical	89.03	89.98	88.10
+         O	0.00	0.00	100.00
+      Gene	84.32	83.95	84.70
+Processed 228341 tokens with 15481 phrases; found: 15383 phrases; correct: 13383.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 453):
+	        F1	Prec	Recall
+Micro (Seg)	86.58	86.07	87.09
+Macro (Seg)	88.98	89.58	88.39
+-------
+  Chemical	88.98	89.58	88.39
+         O	0.00	0.00	100.00
+      Gene	84.10	82.54	85.71
+Processed 228341 tokens with 15481 phrases; found: 15664 phrases; correct: 13482.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 454):
+	        F1	Prec	Recall
+Micro (Seg)	86.91	87.01	86.81
+Macro (Seg)	89.10	90.50	87.75
+-------
+  Chemical	89.10	90.50	87.75
+         O	0.00	0.00	100.00
+      Gene	84.66	83.52	85.82
+Processed 228341 tokens with 15481 phrases; found: 15446 phrases; correct: 13439.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 455):
+	        F1	Prec	Recall
+Micro (Seg)	86.81	86.64	86.99
+Macro (Seg)	89.19	90.18	88.23
+-------
+  Chemical	89.19	90.18	88.23
+         O	0.00	0.00	100.00
+      Gene	84.37	83.09	85.69
+Processed 228341 tokens with 15481 phrases; found: 15544 phrases; correct: 13467.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 456):
+	        F1	Prec	Recall
+Micro (Seg)	86.92	87.24	86.62
+Macro (Seg)	89.27	90.15	88.42
+-------
+  Chemical	89.27	90.15	88.42
+         O	0.00	0.00	100.00
+      Gene	84.48	84.24	84.72
+Processed 228341 tokens with 15481 phrases; found: 15371 phrases; correct: 13409.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 457):
+	        F1	Prec	Recall
+Micro (Seg)	86.73	86.78	86.69
+Macro (Seg)	89.02	88.83	89.22
+-------
+  Chemical	89.02	88.83	89.22
+         O	0.00	0.00	100.00
+      Gene	84.30	84.60	84.01
+Processed 228341 tokens with 15481 phrases; found: 15464 phrases; correct: 13420.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 458):
+	        F1	Prec	Recall
+Micro (Seg)	86.89	86.92	86.85
+Macro (Seg)	89.15	89.82	88.48
+-------
+  Chemical	89.15	89.82	88.48
+         O	0.00	0.00	100.00
+      Gene	84.54	83.94	85.14
+Processed 228341 tokens with 15481 phrases; found: 15470 phrases; correct: 13446.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 459):
+	        F1	Prec	Recall
+Micro (Seg)	86.69	86.82	86.55
+Macro (Seg)	88.97	89.42	88.53
+-------
+  Chemical	88.97	89.42	88.53
+         O	0.00	0.00	100.00
+      Gene	84.29	84.12	84.46
+Processed 228341 tokens with 15481 phrases; found: 15433 phrases; correct: 13399.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 460):
+	        F1	Prec	Recall
+Micro (Seg)	86.80	87.26	86.34
+Macro (Seg)	89.11	89.53	88.70
+-------
+  Chemical	89.11	89.53	88.70
+         O	0.00	0.00	100.00
+      Gene	84.36	84.87	83.85
+Processed 228341 tokens with 15481 phrases; found: 15318 phrases; correct: 13367.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 461):
+	        F1	Prec	Recall
+Micro (Seg)	86.71	86.77	86.65
+Macro (Seg)	89.13	89.80	88.48
+-------
+  Chemical	89.13	89.80	88.48
+         O	0.00	0.00	100.00
+      Gene	84.18	83.65	84.72
+Processed 228341 tokens with 15481 phrases; found: 15460 phrases; correct: 13414.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 462):
+	        F1	Prec	Recall
+Micro (Seg)	86.59	86.63	86.54
+Macro (Seg)	88.97	88.83	89.12
+-------
+  Chemical	88.97	88.83	89.12
+         O	0.00	0.00	100.00
+      Gene	84.05	84.29	83.81
+Processed 228341 tokens with 15481 phrases; found: 15464 phrases; correct: 13397.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 463):
+	        F1	Prec	Recall
+Micro (Seg)	86.75	86.85	86.64
+Macro (Seg)	89.03	89.32	88.74
+-------
+  Chemical	89.03	89.32	88.74
+         O	0.00	0.00	100.00
+      Gene	84.35	84.27	84.42
+Processed 228341 tokens with 15481 phrases; found: 15444 phrases; correct: 13413.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 464):
+	        F1	Prec	Recall
+Micro (Seg)	86.69	86.89	86.49
+Macro (Seg)	88.98	89.72	88.25
+-------
+  Chemical	88.98	89.72	88.25
+         O	0.00	0.00	100.00
+      Gene	84.30	83.98	84.62
+Processed 228341 tokens with 15481 phrases; found: 15409 phrases; correct: 13389.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 465):
+	        F1	Prec	Recall
+Micro (Seg)	86.65	86.49	86.81
+Macro (Seg)	88.99	89.95	88.05
+-------
+  Chemical	88.99	89.95	88.05
+         O	0.00	0.00	100.00
+      Gene	84.24	83.02	85.50
+Processed 228341 tokens with 15481 phrases; found: 15538 phrases; correct: 13439.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 466):
+	        F1	Prec	Recall
+Micro (Seg)	86.83	86.47	87.20
+Macro (Seg)	89.06	88.84	89.28
+-------
+  Chemical	89.06	88.84	89.28
+         O	0.00	0.00	100.00
+      Gene	84.48	83.98	85.00
+Processed 228341 tokens with 15481 phrases; found: 15612 phrases; correct: 13499.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 467):
+	        F1	Prec	Recall
+Micro (Seg)	87.01	87.05	86.97
+Macro (Seg)	89.12	89.11	89.13
+-------
+  Chemical	89.12	89.11	89.13
+         O	0.00	0.00	100.00
+      Gene	84.78	84.87	84.69
+Processed 228341 tokens with 15481 phrases; found: 15467 phrases; correct: 13464.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 468):
+	        F1	Prec	Recall
+Micro (Seg)	86.75	86.14	87.37
+Macro (Seg)	89.17	89.66	88.68
+-------
+  Chemical	89.17	89.66	88.68
+         O	0.00	0.00	100.00
+      Gene	84.26	82.60	85.98
+Processed 228341 tokens with 15481 phrases; found: 15702 phrases; correct: 13525.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 469):
+	        F1	Prec	Recall
+Micro (Seg)	86.76	86.35	87.18
+Macro (Seg)	89.27	90.02	88.53
+-------
+  Chemical	89.27	90.02	88.53
+         O	0.00	0.00	100.00
+      Gene	84.19	82.67	85.77
+Processed 228341 tokens with 15481 phrases; found: 15631 phrases; correct: 13497.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 470):
+	        F1	Prec	Recall
+Micro (Seg)	86.82	86.95	86.68
+Macro (Seg)	89.13	89.14	89.12
+-------
+  Chemical	89.13	89.14	89.12
+         O	0.00	0.00	100.00
+      Gene	84.36	84.62	84.11
+Processed 228341 tokens with 15481 phrases; found: 15433 phrases; correct: 13419.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 471):
+	        F1	Prec	Recall
+Micro (Seg)	86.86	86.67	87.06
+Macro (Seg)	89.11	88.68	89.55
+-------
+  Chemical	89.11	88.68	89.55
+         O	0.00	0.00	100.00
+      Gene	84.47	84.53	84.42
+Processed 228341 tokens with 15481 phrases; found: 15550 phrases; correct: 13477.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 472):
+	        F1	Prec	Recall
+Micro (Seg)	86.96	86.60	87.33
+Macro (Seg)	89.28	89.60	88.96
+-------
+  Chemical	89.28	89.60	88.96
+         O	0.00	0.00	100.00
+      Gene	84.56	83.54	85.61
+Processed 228341 tokens with 15481 phrases; found: 15610 phrases; correct: 13519.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 473):
+	        F1	Prec	Recall
+Micro (Seg)	86.73	86.61	86.85
+Macro (Seg)	89.14	89.53	88.75
+-------
+  Chemical	89.14	89.53	88.75
+         O	0.00	0.00	100.00
+      Gene	84.22	83.61	84.85
+Processed 228341 tokens with 15481 phrases; found: 15524 phrases; correct: 13446.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 474):
+	        F1	Prec	Recall
+Micro (Seg)	86.54	86.96	86.12
+Macro (Seg)	89.08	89.79	88.39
+-------
+  Chemical	89.08	89.79	88.39
+         O	0.00	0.00	100.00
+      Gene	83.87	84.01	83.72
+Processed 228341 tokens with 15481 phrases; found: 15331 phrases; correct: 13332.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 475):
+	        F1	Prec	Recall
+Micro (Seg)	86.79	86.98	86.60
+Macro (Seg)	89.08	89.76	88.42
+-------
+  Chemical	89.08	89.76	88.42
+         O	0.00	0.00	100.00
+      Gene	84.40	84.11	84.69
+Processed 228341 tokens with 15481 phrases; found: 15414 phrases; correct: 13407.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 476):
+	        F1	Prec	Recall
+Micro (Seg)	86.81	86.84	86.78
+Macro (Seg)	89.06	90.19	87.96
+-------
+  Chemical	89.06	90.19	87.96
+         O	0.00	0.00	100.00
+      Gene	84.49	83.49	85.53
+Processed 228341 tokens with 15481 phrases; found: 15469 phrases; correct: 13434.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 477):
+	        F1	Prec	Recall
+Micro (Seg)	87.01	87.14	86.87
+Macro (Seg)	89.33	90.35	88.33
+-------
+  Chemical	89.33	90.35	88.33
+         O	0.00	0.00	100.00
+      Gene	84.60	83.89	85.33
+Processed 228341 tokens with 15481 phrases; found: 15432 phrases; correct: 13448.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 478):
+	        F1	Prec	Recall
+Micro (Seg)	87.02	86.71	87.34
+Macro (Seg)	89.42	90.00	88.86
+-------
+  Chemical	89.42	90.00	88.86
+         O	0.00	0.00	100.00
+      Gene	84.54	83.37	85.74
+Processed 228341 tokens with 15481 phrases; found: 15594 phrases; correct: 13521.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 479):
+	        F1	Prec	Recall
+Micro (Seg)	86.89	86.81	86.96
+Macro (Seg)	89.26	89.79	88.74
+-------
+  Chemical	89.26	89.79	88.74
+         O	0.00	0.00	100.00
+      Gene	84.41	83.74	85.09
+Processed 228341 tokens with 15481 phrases; found: 15509 phrases; correct: 13463.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 480):
+	        F1	Prec	Recall
+Micro (Seg)	86.80	87.09	86.51
+Macro (Seg)	89.10	89.19	89.02
+-------
+  Chemical	89.10	89.19	89.02
+         O	0.00	0.00	100.00
+      Gene	84.35	84.85	83.87
+Processed 228341 tokens with 15481 phrases; found: 15379 phrases; correct: 13393.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 481):
+	        F1	Prec	Recall
+Micro (Seg)	86.75	87.39	86.12
+Macro (Seg)	89.11	90.04	88.20
+-------
+  Chemical	89.11	90.04	88.20
+         O	0.00	0.00	100.00
+      Gene	84.27	84.63	83.92
+Processed 228341 tokens with 15481 phrases; found: 15256 phrases; correct: 13332.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 482):
+	        F1	Prec	Recall
+Micro (Seg)	86.94	87.10	86.79
+Macro (Seg)	89.37	89.97	88.78
+-------
+  Chemical	89.37	89.97	88.78
+         O	0.00	0.00	100.00
+      Gene	84.41	84.13	84.69
+Processed 228341 tokens with 15481 phrases; found: 15426 phrases; correct: 13436.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 483):
+	        F1	Prec	Recall
+Micro (Seg)	86.92	87.27	86.58
+Macro (Seg)	89.27	90.37	88.20
+-------
+  Chemical	89.27	90.37	88.20
+         O	0.00	0.00	100.00
+      Gene	84.48	84.09	84.88
+Processed 228341 tokens with 15481 phrases; found: 15360 phrases; correct: 13404.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 484):
+	        F1	Prec	Recall
+Micro (Seg)	86.84	86.53	87.15
+Macro (Seg)	89.15	89.09	89.22
+-------
+  Chemical	89.15	89.09	89.22
+         O	0.00	0.00	100.00
+      Gene	84.41	83.87	84.97
+Processed 228341 tokens with 15481 phrases; found: 15592 phrases; correct: 13492.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 485):
+	        F1	Prec	Recall
+Micro (Seg)	87.01	87.34	86.69
+Macro (Seg)	89.28	89.51	89.06
+-------
+  Chemical	89.28	89.51	89.06
+         O	0.00	0.00	100.00
+      Gene	84.61	85.04	84.19
+Processed 228341 tokens with 15481 phrases; found: 15365 phrases; correct: 13420.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 486):
+	        F1	Prec	Recall
+Micro (Seg)	86.86	86.55	87.17
+Macro (Seg)	89.45	89.44	89.46
+-------
+  Chemical	89.45	89.44	89.46
+         O	0.00	0.00	100.00
+      Gene	84.14	83.54	84.76
+Processed 228341 tokens with 15481 phrases; found: 15593 phrases; correct: 13495.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 487):
+	        F1	Prec	Recall
+Micro (Seg)	86.77	86.79	86.74
+Macro (Seg)	89.35	90.88	87.86
+-------
+  Chemical	89.35	90.88	87.86
+         O	0.00	0.00	100.00
+      Gene	84.13	82.76	85.55
+Processed 228341 tokens with 15481 phrases; found: 15471 phrases; correct: 13428.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 488):
+	        F1	Prec	Recall
+Micro (Seg)	86.96	87.02	86.90
+Macro (Seg)	89.26	90.06	88.48
+-------
+  Chemical	89.26	90.06	88.48
+         O	0.00	0.00	100.00
+      Gene	84.57	83.91	85.23
+Processed 228341 tokens with 15481 phrases; found: 15460 phrases; correct: 13453.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 489):
+	        F1	Prec	Recall
+Micro (Seg)	86.90	86.58	87.22
+Macro (Seg)	89.29	90.04	88.55
+-------
+  Chemical	89.29	90.04	88.55
+         O	0.00	0.00	100.00
+      Gene	84.44	83.10	85.82
+Processed 228341 tokens with 15481 phrases; found: 15596 phrases; correct: 13503.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 490):
+	        F1	Prec	Recall
+Micro (Seg)	86.97	86.85	87.09
+Macro (Seg)	89.26	90.06	88.47
+-------
+  Chemical	89.26	90.06	88.47
+         O	0.00	0.00	100.00
+      Gene	84.61	83.59	85.65
+Processed 228341 tokens with 15481 phrases; found: 15525 phrases; correct: 13483.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 491):
+	        F1	Prec	Recall
+Micro (Seg)	86.79	86.57	87.00
+Macro (Seg)	89.11	89.01	89.22
+-------
+  Chemical	89.11	89.01	89.22
+         O	0.00	0.00	100.00
+      Gene	84.34	84.02	84.66
+Processed 228341 tokens with 15481 phrases; found: 15558 phrases; correct: 13469.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 492):
+	        F1	Prec	Recall
+Micro (Seg)	86.96	87.13	86.79
+Macro (Seg)	89.34	90.29	88.42
+-------
+  Chemical	89.34	90.29	88.42
+         O	0.00	0.00	100.00
+      Gene	84.49	83.92	85.08
+Processed 228341 tokens with 15481 phrases; found: 15420 phrases; correct: 13436.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 493):
+	        F1	Prec	Recall
+Micro (Seg)	86.80	86.31	87.30
+Macro (Seg)	89.17	90.13	88.23
+-------
+  Chemical	89.17	90.13	88.23
+         O	0.00	0.00	100.00
+      Gene	84.39	82.54	86.32
+Processed 228341 tokens with 15481 phrases; found: 15658 phrases; correct: 13515.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 494):
+	        F1	Prec	Recall
+Micro (Seg)	86.91	86.85	86.96
+Macro (Seg)	89.19	89.53	88.86
+-------
+  Chemical	89.19	89.53	88.86
+         O	0.00	0.00	100.00
+      Gene	84.51	84.06	84.97
+Processed 228341 tokens with 15481 phrases; found: 15502 phrases; correct: 13463.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 495):
+	        F1	Prec	Recall
+Micro (Seg)	86.84	86.44	87.25
+Macro (Seg)	89.16	89.37	88.96
+-------
+  Chemical	89.16	89.37	88.96
+         O	0.00	0.00	100.00
+      Gene	84.43	83.44	85.45
+Processed 228341 tokens with 15481 phrases; found: 15625 phrases; correct: 13507.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 496):
+	        F1	Prec	Recall
+Micro (Seg)	86.69	86.75	86.64
+Macro (Seg)	89.10	90.41	87.82
+-------
+  Chemical	89.10	90.41	87.82
+         O	0.00	0.00	100.00
+      Gene	84.23	83.11	85.38
+Processed 228341 tokens with 15481 phrases; found: 15460 phrases; correct: 13412.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 497):
+	        F1	Prec	Recall
+Micro (Seg)	86.96	87.06	86.85
+Macro (Seg)	89.20	90.35	88.09
+-------
+  Chemical	89.20	90.35	88.09
+         O	0.00	0.00	100.00
+      Gene	84.64	83.75	85.55
+Processed 228341 tokens with 15481 phrases; found: 15444 phrases; correct: 13446.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 498):
+	        F1	Prec	Recall
+Micro (Seg)	86.57	86.92	86.22
+Macro (Seg)	88.86	89.72	88.03
+-------
+  Chemical	88.86	89.72	88.03
+         O	0.00	0.00	100.00
+      Gene	84.17	84.03	84.32
+Processed 228341 tokens with 15481 phrases; found: 15357 phrases; correct: 13348.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 499):
+	        F1	Prec	Recall
+Micro (Seg)	86.76	86.82	86.70
+Macro (Seg)	89.15	89.33	88.98
+-------
+  Chemical	89.15	89.33	88.98
+         O	0.00	0.00	100.00
+      Gene	84.24	84.18	84.29
+Processed 228341 tokens with 15481 phrases; found: 15460 phrases; correct: 13422.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 500):
+	        F1	Prec	Recall
+Micro (Seg)	86.86	86.50	87.23
+Macro (Seg)	89.19	89.71	88.68
+-------
+  Chemical	89.19	89.71	88.68
+         O	0.00	0.00	100.00
+      Gene	84.45	83.25	85.70
+Processed 228341 tokens with 15481 phrases; found: 15612 phrases; correct: 13504.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 501):
+	        F1	Prec	Recall
+Micro (Seg)	86.96	87.12	86.81
+Macro (Seg)	89.15	89.49	88.82
+-------
+  Chemical	89.15	89.49	88.82
+         O	0.00	0.00	100.00
+      Gene	84.66	84.63	84.69
+Processed 228341 tokens with 15481 phrases; found: 15426 phrases; correct: 13439.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 502):
+	        F1	Prec	Recall
+Micro (Seg)	86.94	87.03	86.85
+Macro (Seg)	89.17	89.93	88.42
+-------
+  Chemical	89.17	89.93	88.42
+         O	0.00	0.00	100.00
+      Gene	84.63	84.07	85.21
+Processed 228341 tokens with 15481 phrases; found: 15449 phrases; correct: 13446.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 503):
+	        F1	Prec	Recall
+Micro (Seg)	86.77	87.13	86.42
+Macro (Seg)	89.16	90.11	88.24
+-------
+  Chemical	89.16	90.11	88.24
+         O	0.00	0.00	100.00
+      Gene	84.28	84.06	84.50
+Processed 228341 tokens with 15481 phrases; found: 15356 phrases; correct: 13379.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 504):
+	        F1	Prec	Recall
+Micro (Seg)	86.90	87.26	86.55
+Macro (Seg)	89.27	89.61	88.94
+-------
+  Chemical	89.27	89.61	88.94
+         O	0.00	0.00	100.00
+      Gene	84.40	84.78	84.03
+Processed 228341 tokens with 15481 phrases; found: 15355 phrases; correct: 13399.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 505):
+	        F1	Prec	Recall
+Micro (Seg)	86.76	86.52	87.00
+Macro (Seg)	89.30	90.47	88.16
+-------
+  Chemical	89.30	90.47	88.16
+         O	0.00	0.00	100.00
+      Gene	84.16	82.61	85.77
+Processed 228341 tokens with 15481 phrases; found: 15566 phrases; correct: 13468.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 506):
+	        F1	Prec	Recall
+Micro (Seg)	86.93	87.25	86.62
+Macro (Seg)	89.34	89.33	89.35
+-------
+  Chemical	89.34	89.33	89.35
+         O	0.00	0.00	100.00
+      Gene	84.37	85.01	83.73
+Processed 228341 tokens with 15481 phrases; found: 15369 phrases; correct: 13409.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 507):
+	        F1	Prec	Recall
+Micro (Seg)	86.85	86.71	86.98
+Macro (Seg)	89.36	90.26	88.48
+-------
+  Chemical	89.36	90.26	88.48
+         O	0.00	0.00	100.00
+      Gene	84.25	83.14	85.39
+Processed 228341 tokens with 15481 phrases; found: 15528 phrases; correct: 13465.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 508):
+	        F1	Prec	Recall
+Micro (Seg)	86.68	86.98	86.38
+Macro (Seg)	89.21	89.39	89.03
+-------
+  Chemical	89.21	89.39	89.03
+         O	0.00	0.00	100.00
+      Gene	83.99	84.42	83.57
+Processed 228341 tokens with 15481 phrases; found: 15374 phrases; correct: 13372.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 509):
+	        F1	Prec	Recall
+Micro (Seg)	86.93	87.12	86.75
+Macro (Seg)	89.36	90.02	88.72
+-------
+  Chemical	89.36	90.02	88.72
+         O	0.00	0.00	100.00
+      Gene	84.39	84.12	84.66
+Processed 228341 tokens with 15481 phrases; found: 15415 phrases; correct: 13429.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 510):
+	        F1	Prec	Recall
+Micro (Seg)	86.78	86.98	86.58
+Macro (Seg)	89.27	90.44	88.14
+-------
+  Chemical	89.27	90.44	88.14
+         O	0.00	0.00	100.00
+      Gene	84.20	83.48	84.93
+Processed 228341 tokens with 15481 phrases; found: 15410 phrases; correct: 13403.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 511):
+	        F1	Prec	Recall
+Micro (Seg)	86.75	86.65	86.85
+Macro (Seg)	89.20	90.20	88.23
+-------
+  Chemical	89.20	90.20	88.23
+         O	0.00	0.00	100.00
+      Gene	84.23	83.09	85.41
+Processed 228341 tokens with 15481 phrases; found: 15517 phrases; correct: 13446.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 512):
+	        F1	Prec	Recall
+Micro (Seg)	86.58	86.24	86.92
+Macro (Seg)	89.12	89.97	88.28
+-------
+  Chemical	89.12	89.97	88.28
+         O	0.00	0.00	100.00
+      Gene	83.97	82.51	85.49
+Processed 228341 tokens with 15481 phrases; found: 15603 phrases; correct: 13456.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 513):
+	        F1	Prec	Recall
+Micro (Seg)	86.88	86.92	86.85
+Macro (Seg)	89.33	89.87	88.79
+-------
+  Chemical	89.33	89.87	88.79
+         O	0.00	0.00	100.00
+      Gene	84.34	83.88	84.80
+Processed 228341 tokens with 15481 phrases; found: 15468 phrases; correct: 13445.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 514):
+	        F1	Prec	Recall
+Micro (Seg)	86.79	86.64	86.94
+Macro (Seg)	89.35	89.82	88.88
+-------
+  Chemical	89.35	89.82	88.88
+         O	0.00	0.00	100.00
+      Gene	84.12	83.37	84.89
+Processed 228341 tokens with 15481 phrases; found: 15535 phrases; correct: 13459.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 515):
+	        F1	Prec	Recall
+Micro (Seg)	86.83	86.74	86.91
+Macro (Seg)	89.34	90.05	88.64
+-------
+  Chemical	89.34	90.05	88.64
+         O	0.00	0.00	100.00
+      Gene	84.23	83.38	85.09
+Processed 228341 tokens with 15481 phrases; found: 15511 phrases; correct: 13455.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 516):
+	        F1	Prec	Recall
+Micro (Seg)	86.80	86.60	87.00
+Macro (Seg)	89.26	89.30	89.22
+-------
+  Chemical	89.26	89.30	89.22
+         O	0.00	0.00	100.00
+      Gene	84.22	83.77	84.66
+Processed 228341 tokens with 15481 phrases; found: 15554 phrases; correct: 13469.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 517):
+	        F1	Prec	Recall
+Micro (Seg)	86.79	86.42	87.16
+Macro (Seg)	89.22	89.39	89.04
+-------
+  Chemical	89.22	89.39	89.04
+         O	0.00	0.00	100.00
+      Gene	84.25	83.35	85.17
+Processed 228341 tokens with 15481 phrases; found: 15614 phrases; correct: 13493.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 518):
+	        F1	Prec	Recall
+Micro (Seg)	86.92	87.13	86.71
+Macro (Seg)	89.48	90.26	88.70
+-------
+  Chemical	89.48	90.26	88.70
+         O	0.00	0.00	100.00
+      Gene	84.26	83.92	84.60
+Processed 228341 tokens with 15481 phrases; found: 15405 phrases; correct: 13423.
+
+Lasted saved at epoch 418, batch 0
+
+Segment evaluation bc_dev (iteration 519):
+	        F1	Prec	Recall
+Micro (Seg)	86.83	87.00	86.65
+Macro (Seg)	89.38	90.52	88.26
+-------
+  Chemical	89.38	90.52	88.26
+         O	0.00	0.00	100.00
+      Gene	84.19	83.44	84.96
+Processed 228341 tokens with 15481 phrases; found: 15420 phrases; correct: 13415.
+
+Lasted saved at epoch 418, batch 0
+
+Training complete. Loading best model
+
+Model loaded from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/exp5_300_0.8.ckpt
+Best model results:
+Segment evaluation cdr_train_weak:
+	        F1	Prec	Recall
+Micro (Seg)	92.26	91.27	93.27
+Macro (Seg)	87.35	86.81	87.90
+-------
+   Disease	87.35	86.81	87.90
+         O	0.00	0.00	100.00
+  Chemical	95.92	93.79	98.15
+   Species	98.31	98.79	97.84
+      Gene	75.75	74.78	76.74
+ProteinMutation	0.00	0.00	0.00
+DNAMutation	0.00	0.00	0.00
+       SNP	0.00	0.00	0.00
+Processed 4508694 tokens with 387546 phrases; found: 396045 phrases; correct: 361473.
+
+Segment evaluation cdr_train_gold:
+	        F1	Prec	Recall
+Micro (Seg)	0.39	0.24	0.96
+Macro (Seg)	0.57	0.36	1.33
+-------
+  Chemical	0.57	0.36	1.33
+         O	0.00	0.00	100.00
+   Disease	0.19	0.12	0.51
+Processed 122251 tokens with 9075 phrases; found: 35861 phrases; correct: 87.
+
+Segment evaluation bc_train:
+	        F1	Prec	Recall
+Micro (Seg)	98.90	98.44	99.36
+Macro (Seg)	98.96	98.40	99.53
+-------
+  Chemical	98.96	98.40	99.53
+         O	0.00	0.00	100.00
+      Gene	98.83	98.47	99.19
+Processed 369395 tokens with 25107 phrases; found: 25342 phrases; correct: 24946.
+
+Segment evaluation cdr_dev:
+	        F1	Prec	Recall
+Micro (Seg)	0.38	0.24	0.93
+Macro (Seg)	0.58	0.37	1.33
+-------
+  Chemical	0.58	0.37	1.33
+         O	0.00	0.00	100.00
+   Disease	0.16	0.10	0.43
+Processed 122368 tokens with 9369 phrases; found: 36457 phrases; correct: 87.
+
+Segment evaluation bc_dev:
+	        F1	Prec	Recall
+Micro (Seg)	87.09	87.16	87.02
+Macro (Seg)	89.39	90.33	88.47
+-------
+  Chemical	89.39	90.33	88.47
+         O	0.00	0.00	100.00
+      Gene	84.71	83.95	85.49
+Processed 228341 tokens with 15481 phrases; found: 15455 phrases; correct: 13471.
+
+Segment evaluation cdr_test:
+	        F1	Prec	Recall
+Micro (Seg)	0.28	0.17	0.69
+Macro (Seg)	0.34	0.22	0.80
+-------
+  Chemical	0.34	0.22	0.80
+         O	0.00	0.00	100.00
+   Disease	0.21	0.13	0.57
+Processed 127861 tokens with 9356 phrases; found: 37755 phrases; correct: 65.
+
+Segment evaluation bc_test:
+	        F1	Prec	Recall
+Micro (Seg)	87.56	87.90	87.22
+Macro (Seg)	89.24	90.92	87.63
+-------
+  Chemical	89.24	90.92	87.63
+         O	0.00	0.00	100.00
+      Gene	85.81	84.86	86.78
+Processed 289928 tokens with 20044 phrases; found: 19888 phrases; correct: 17482.
+
+/home/ngreenberg/miniconda3/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+/home/ngreenberg/miniconda3/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:96: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+/mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/code/eval_f1.py:100: RuntimeWarning: invalid value encountered in double_scalars
+  f1_macro = 2 * precision_macro * recall_macro / (precision_macro + recall_macro)

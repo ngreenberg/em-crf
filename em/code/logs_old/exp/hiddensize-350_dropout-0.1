@@ -1,0 +1,1299 @@
+Loading vocab from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/embeddings/glove.6B/glove.6B.100d.txt
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/cdr/ner_CDR_TrainingSet.PubTator.txt
+Embeddings coverage: 96.14%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/cdr/ner_CDR_DevelopmentSet.PubTator.txt
+Embeddings coverage: 98.77%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/cdr/ner_CDR_TestSet.PubTator.txt
+Embeddings coverage: 98.71%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/bc/ner_CDR_train.txt
+Embeddings coverage: 99.77%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/bc/ner_CDR_dev.txt
+Embeddings coverage: 99.89%
+
+Loading data from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/bc/ner_CDR_test.txt
+Embeddings coverage: 99.89%
+
+Loading embeddings from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/embeddings/glove.6B/glove.6B.100d.txt
+Loaded 400000/405815 embeddings (98.57% coverage)
+
+LSTM char embedding model
+embedding dim:  25
+out dim:  50
+Segment evaluation cdr_dev (iteration 0):
+	        F1	Prec	Recall
+Micro (Seg)	nan	0.00	0.00
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	0.00	0.00	0.00
+   Disease	0.00	0.00	0.00
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 90718 phrases; correct: 0.
+
+Segment evaluation bc_dev (iteration 0):
+	        F1	Prec	Recall
+Micro (Seg)	0.23	0.13	1.45
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	0.00	0.00	0.00
+   Disease	0.00	0.00	100.00
+      Gene	0.24	0.13	2.97
+Processed 228341 tokens with 15481 phrases; found: 176212 phrases; correct: 224.
+
+Lasted saved at N/A
+
+Segment evaluation cdr_dev (iteration 1):
+	        F1	Prec	Recall
+Micro (Seg)	1.13	2.58	0.73
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	2.12	27.54	1.10
+   Disease	0.51	6.92	0.26
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 2636 phrases; correct: 68.
+
+Segment evaluation bc_dev (iteration 1):
+	        F1	Prec	Recall
+Micro (Seg)	2.49	3.29	2.01
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	3.51	18.90	1.94
+   Disease	0.00	0.00	100.00
+      Gene	1.94	1.82	2.08
+Processed 228341 tokens with 15481 phrases; found: 9452 phrases; correct: 311.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 2):
+	        F1	Prec	Recall
+Micro (Seg)	28.25	27.07	29.54
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	37.41	40.67	34.63
+   Disease	26.36	30.42	23.26
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10227 phrases; correct: 2768.
+
+Segment evaluation bc_dev (iteration 2):
+	        F1	Prec	Recall
+Micro (Seg)	16.67	15.13	18.56
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	18.46	19.32	17.69
+   Disease	0.00	0.00	100.00
+      Gene	16.18	13.83	19.49
+Processed 228341 tokens with 15481 phrases; found: 18995 phrases; correct: 2874.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 3):
+	        F1	Prec	Recall
+Micro (Seg)	33.63	30.33	37.74
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	43.45	42.58	44.35
+   Disease	29.96	30.34	29.58
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 11660 phrases; correct: 3536.
+
+Segment evaluation bc_dev (iteration 3):
+	        F1	Prec	Recall
+Micro (Seg)	23.31	19.23	29.60
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	27.61	23.81	32.86
+   Disease	0.00	0.00	100.00
+      Gene	21.97	18.94	26.16
+Processed 228341 tokens with 15481 phrases; found: 23832 phrases; correct: 4582.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 4):
+	        F1	Prec	Recall
+Micro (Seg)	33.65	26.91	44.89
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	50.92	48.80	53.24
+   Disease	28.35	24.02	34.59
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 15628 phrases; correct: 4206.
+
+Segment evaluation bc_dev (iteration 4):
+	        F1	Prec	Recall
+Micro (Seg)	29.43	22.08	44.11
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	37.37	36.96	37.79
+   Disease	0.00	0.00	100.00
+      Gene	31.80	23.14	50.79
+Processed 228341 tokens with 15481 phrases; found: 30933 phrases; correct: 6829.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 5):
+	        F1	Prec	Recall
+Micro (Seg)	45.14	42.38	48.28
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	58.68	58.07	59.30
+   Disease	37.44	40.70	34.66
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10672 phrases; correct: 4523.
+
+Segment evaluation bc_dev (iteration 5):
+	        F1	Prec	Recall
+Micro (Seg)	35.70	31.19	41.72
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	43.77	41.91	45.81
+   Disease	0.00	0.00	100.00
+      Gene	30.93	26.37	37.39
+Processed 228341 tokens with 15481 phrases; found: 20703 phrases; correct: 6458.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 6):
+	        F1	Prec	Recall
+Micro (Seg)	46.66	40.07	55.84
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	62.99	64.01	62.01
+   Disease	41.16	35.90	48.23
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 13058 phrases; correct: 5232.
+
+Segment evaluation bc_dev (iteration 6):
+	        F1	Prec	Recall
+Micro (Seg)	36.91	29.88	48.24
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	47.28	49.71	45.07
+   Disease	0.00	0.00	100.00
+      Gene	36.08	27.74	51.59
+Processed 228341 tokens with 15481 phrases; found: 24990 phrases; correct: 7468.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 7):
+	        F1	Prec	Recall
+Micro (Seg)	53.93	47.21	62.87
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	68.24	63.02	74.41
+   Disease	45.30	42.41	48.62
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 12476 phrases; correct: 5890.
+
+Segment evaluation bc_dev (iteration 7):
+	        F1	Prec	Recall
+Micro (Seg)	41.68	34.60	52.43
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	52.76	47.52	59.28
+   Disease	0.00	0.00	100.00
+      Gene	36.51	30.63	45.19
+Processed 228341 tokens with 15481 phrases; found: 23460 phrases; correct: 8116.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 8):
+	        F1	Prec	Recall
+Micro (Seg)	56.64	51.26	63.28
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	71.05	68.31	74.02
+   Disease	48.36	46.80	50.02
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 11566 phrases; correct: 5929.
+
+Segment evaluation bc_dev (iteration 8):
+	        F1	Prec	Recall
+Micro (Seg)	44.22	38.28	52.36
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	55.29	52.07	58.93
+   Disease	0.00	0.00	100.00
+      Gene	38.28	33.07	45.43
+Processed 228341 tokens with 15481 phrases; found: 21178 phrases; correct: 8106.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 9):
+	        F1	Prec	Recall
+Micro (Seg)	57.36	51.32	65.00
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	73.24	72.63	73.87
+   Disease	49.62	45.86	54.06
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 11866 phrases; correct: 6090.
+
+Segment evaluation bc_dev (iteration 9):
+	        F1	Prec	Recall
+Micro (Seg)	45.18	38.50	54.67
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	57.25	56.63	57.89
+   Disease	0.00	0.00	100.00
+      Gene	41.38	34.68	51.28
+Processed 228341 tokens with 15481 phrases; found: 21984 phrases; correct: 8464.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 10):
+	        F1	Prec	Recall
+Micro (Seg)	59.81	54.56	66.18
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	74.40	75.39	73.44
+   Disease	51.00	46.01	57.20
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 11364 phrases; correct: 6200.
+
+Segment evaluation bc_dev (iteration 10):
+	        F1	Prec	Recall
+Micro (Seg)	44.50	39.11	51.62
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	57.27	57.03	57.51
+   Disease	0.00	0.00	100.00
+      Gene	39.98	35.71	45.41
+Processed 228341 tokens with 15481 phrases; found: 20437 phrases; correct: 7992.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 11):
+	        F1	Prec	Recall
+Micro (Seg)	60.56	53.75	69.35
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	76.72	75.43	78.06
+   Disease	53.18	48.69	58.59
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 12088 phrases; correct: 6497.
+
+Segment evaluation bc_dev (iteration 11):
+	        F1	Prec	Recall
+Micro (Seg)	48.31	41.70	57.39
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	60.11	61.32	58.94
+   Disease	0.00	0.00	100.00
+      Gene	44.23	36.66	55.76
+Processed 228341 tokens with 15481 phrases; found: 21306 phrases; correct: 8885.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 12):
+	        F1	Prec	Recall
+Micro (Seg)	63.86	57.76	71.40
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	78.20	74.94	81.75
+   Disease	54.95	51.73	58.61
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 11580 phrases; correct: 6689.
+
+Segment evaluation bc_dev (iteration 12):
+	        F1	Prec	Recall
+Micro (Seg)	48.77	42.25	57.66
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	60.45	56.39	65.14
+   Disease	0.00	0.00	100.00
+      Gene	42.70	37.40	49.75
+Processed 228341 tokens with 15481 phrases; found: 21126 phrases; correct: 8926.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 13):
+	        F1	Prec	Recall
+Micro (Seg)	64.26	57.99	72.06
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	78.85	77.43	80.32
+   Disease	56.06	51.26	61.86
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 11642 phrases; correct: 6751.
+
+Segment evaluation bc_dev (iteration 13):
+	        F1	Prec	Recall
+Micro (Seg)	50.69	44.20	59.41
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	63.03	61.15	65.02
+   Disease	0.00	0.00	100.00
+      Gene	46.28	40.78	53.50
+Processed 228341 tokens with 15481 phrases; found: 20810 phrases; correct: 9198.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 14):
+	        F1	Prec	Recall
+Micro (Seg)	64.94	57.38	74.80
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	80.72	78.36	83.23
+   Disease	56.26	49.96	64.38
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 12213 phrases; correct: 7008.
+
+Segment evaluation bc_dev (iteration 14):
+	        F1	Prec	Recall
+Micro (Seg)	52.30	44.65	63.10
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	65.27	62.53	68.25
+   Disease	0.00	0.00	100.00
+      Gene	48.82	42.33	57.67
+Processed 228341 tokens with 15481 phrases; found: 21879 phrases; correct: 9769.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 15):
+	        F1	Prec	Recall
+Micro (Seg)	66.25	58.60	76.20
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	80.91	77.63	84.47
+   Disease	59.42	54.04	65.98
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 12183 phrases; correct: 7139.
+
+Segment evaluation bc_dev (iteration 15):
+	        F1	Prec	Recall
+Micro (Seg)	54.24	46.41	65.24
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	65.80	61.77	70.39
+   Disease	0.00	0.00	100.00
+      Gene	51.06	44.55	59.81
+Processed 228341 tokens with 15481 phrases; found: 21762 phrases; correct: 10100.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 16):
+	        F1	Prec	Recall
+Micro (Seg)	68.04	61.75	75.75
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	82.71	82.04	83.39
+   Disease	60.86	56.23	66.32
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 11493 phrases; correct: 7097.
+
+Segment evaluation bc_dev (iteration 16):
+	        F1	Prec	Recall
+Micro (Seg)	55.47	48.99	63.92
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	67.23	67.40	67.06
+   Disease	0.00	0.00	100.00
+      Gene	52.13	45.73	60.62
+Processed 228341 tokens with 15481 phrases; found: 20201 phrases; correct: 9896.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 17):
+	        F1	Prec	Recall
+Micro (Seg)	69.16	63.69	75.65
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	83.52	84.69	82.38
+   Disease	62.35	58.04	67.34
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 11129 phrases; correct: 7088.
+
+Segment evaluation bc_dev (iteration 17):
+	        F1	Prec	Recall
+Micro (Seg)	56.28	50.44	63.65
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	67.37	69.50	65.37
+   Disease	0.00	0.00	100.00
+      Gene	52.78	46.04	61.82
+Processed 228341 tokens with 15481 phrases; found: 19534 phrases; correct: 9853.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 18):
+	        F1	Prec	Recall
+Micro (Seg)	70.99	65.78	77.09
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	84.37	83.73	85.01
+   Disease	63.12	59.42	67.32
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10981 phrases; correct: 7223.
+
+Segment evaluation bc_dev (iteration 18):
+	        F1	Prec	Recall
+Micro (Seg)	57.88	52.09	65.12
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	69.24	67.85	70.68
+   Disease	0.00	0.00	100.00
+      Gene	53.87	49.37	59.26
+Processed 228341 tokens with 15481 phrases; found: 19354 phrases; correct: 10082.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 19):
+	        F1	Prec	Recall
+Micro (Seg)	70.82	65.33	77.31
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	84.54	85.65	83.47
+   Disease	62.82	57.17	69.70
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 11087 phrases; correct: 7243.
+
+Segment evaluation bc_dev (iteration 19):
+	        F1	Prec	Recall
+Micro (Seg)	58.03	52.58	64.74
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	69.25	69.44	69.06
+   Disease	0.00	0.00	100.00
+      Gene	55.49	51.46	60.19
+Processed 228341 tokens with 15481 phrases; found: 19063 phrases; correct: 10023.
+
+Lasted saved at epoch 18, batch 0
+
+Segment evaluation cdr_dev (iteration 20):
+	        F1	Prec	Recall
+Micro (Seg)	72.03	68.73	75.65
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	83.91	84.79	83.04
+   Disease	64.70	62.97	66.53
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10313 phrases; correct: 7088.
+
+Segment evaluation bc_dev (iteration 20):
+	        F1	Prec	Recall
+Micro (Seg)	58.35	54.20	63.20
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	68.64	68.51	68.77
+   Disease	0.00	0.00	100.00
+      Gene	54.96	52.78	57.32
+Processed 228341 tokens with 15481 phrases; found: 18053 phrases; correct: 9784.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 21):
+	        F1	Prec	Recall
+Micro (Seg)	71.20	66.74	76.30
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	85.74	86.30	85.18
+   Disease	65.12	64.91	65.34
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10712 phrases; correct: 7149.
+
+Segment evaluation bc_dev (iteration 21):
+	        F1	Prec	Recall
+Micro (Seg)	61.76	55.55	69.52
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	72.07	72.70	71.45
+   Disease	0.00	0.00	100.00
+      Gene	57.13	49.53	67.49
+Processed 228341 tokens with 15481 phrases; found: 19375 phrases; correct: 10763.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 22):
+	        F1	Prec	Recall
+Micro (Seg)	72.70	68.43	77.53
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	85.97	85.90	86.03
+   Disease	66.22	65.42	67.03
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10615 phrases; correct: 7264.
+
+Segment evaluation bc_dev (iteration 22):
+	        F1	Prec	Recall
+Micro (Seg)	62.72	57.09	69.57
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	72.21	72.38	72.04
+   Disease	0.00	0.00	100.00
+      Gene	59.44	53.44	66.96
+Processed 228341 tokens with 15481 phrases; found: 18864 phrases; correct: 10770.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 23):
+	        F1	Prec	Recall
+Micro (Seg)	74.81	71.38	78.60
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	86.83	87.08	86.58
+   Disease	67.55	66.39	68.75
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10317 phrases; correct: 7364.
+
+Segment evaluation bc_dev (iteration 23):
+	        F1	Prec	Recall
+Micro (Seg)	62.88	58.18	68.41
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	72.79	70.68	75.03
+   Disease	0.00	0.00	100.00
+      Gene	58.54	55.92	61.41
+Processed 228341 tokens with 15481 phrases; found: 18202 phrases; correct: 10590.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 24):
+	        F1	Prec	Recall
+Micro (Seg)	74.17	70.64	78.08
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	86.47	87.66	85.32
+   Disease	67.69	66.32	69.13
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10355 phrases; correct: 7315.
+
+Segment evaluation bc_dev (iteration 24):
+	        F1	Prec	Recall
+Micro (Seg)	62.90	58.10	68.56
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	72.41	73.04	71.79
+   Disease	0.00	0.00	100.00
+      Gene	59.71	55.10	65.16
+Processed 228341 tokens with 15481 phrases; found: 18268 phrases; correct: 10614.
+
+Lasted saved at epoch 23, batch 0
+
+Segment evaluation cdr_dev (iteration 25):
+	        F1	Prec	Recall
+Micro (Seg)	74.42	69.33	80.33
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	87.29	87.85	86.73
+   Disease	67.80	63.73	72.42
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10856 phrases; correct: 7526.
+
+Segment evaluation bc_dev (iteration 25):
+	        F1	Prec	Recall
+Micro (Seg)	62.44	56.19	70.26
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	73.44	72.14	74.78
+   Disease	0.00	0.00	100.00
+      Gene	59.62	54.71	65.49
+Processed 228341 tokens with 15481 phrases; found: 19359 phrases; correct: 10877.
+
+Lasted saved at epoch 23, batch 0
+
+Segment evaluation cdr_dev (iteration 26):
+	        F1	Prec	Recall
+Micro (Seg)	75.73	72.23	79.60
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	87.62	86.95	88.29
+   Disease	69.26	69.65	68.87
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10326 phrases; correct: 7458.
+
+Segment evaluation bc_dev (iteration 26):
+	        F1	Prec	Recall
+Micro (Seg)	64.76	59.91	70.45
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	73.96	72.52	75.46
+   Disease	0.00	0.00	100.00
+      Gene	60.91	57.17	65.17
+Processed 228341 tokens with 15481 phrases; found: 18205 phrases; correct: 10907.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 27):
+	        F1	Prec	Recall
+Micro (Seg)	77.13	74.57	79.86
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	88.01	88.36	87.66
+   Disease	69.68	69.14	70.23
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10033 phrases; correct: 7482.
+
+Segment evaluation bc_dev (iteration 27):
+	        F1	Prec	Recall
+Micro (Seg)	63.28	59.97	66.97
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	73.46	70.93	76.19
+   Disease	0.00	0.00	100.00
+      Gene	58.17	59.14	57.24
+Processed 228341 tokens with 15481 phrases; found: 17288 phrases; correct: 10368.
+
+Lasted saved at epoch 26, batch 0
+
+Segment evaluation cdr_dev (iteration 28):
+	        F1	Prec	Recall
+Micro (Seg)	76.30	70.95	82.52
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	86.99	84.20	89.97
+   Disease	70.35	67.63	73.31
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10896 phrases; correct: 7731.
+
+Segment evaluation bc_dev (iteration 28):
+	        F1	Prec	Recall
+Micro (Seg)	64.84	58.27	73.08
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	73.45	67.45	80.63
+   Disease	0.00	0.00	100.00
+      Gene	62.57	60.22	65.10
+Processed 228341 tokens with 15481 phrases; found: 19415 phrases; correct: 11313.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 29):
+	        F1	Prec	Recall
+Micro (Seg)	76.39	72.88	80.26
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	87.96	89.44	86.54
+   Disease	70.70	68.97	72.52
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10319 phrases; correct: 7520.
+
+Segment evaluation bc_dev (iteration 29):
+	        F1	Prec	Recall
+Micro (Seg)	66.00	60.97	71.93
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	74.81	76.19	73.48
+   Disease	0.00	0.00	100.00
+      Gene	64.28	59.22	70.30
+Processed 228341 tokens with 15481 phrases; found: 18264 phrases; correct: 11136.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 30):
+	        F1	Prec	Recall
+Micro (Seg)	76.93	72.38	82.08
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	87.82	86.02	89.70
+   Disease	70.40	68.27	72.66
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10624 phrases; correct: 7690.
+
+Segment evaluation bc_dev (iteration 30):
+	        F1	Prec	Recall
+Micro (Seg)	66.08	60.37	72.98
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	75.03	70.44	80.26
+   Disease	0.00	0.00	100.00
+      Gene	63.29	61.41	65.29
+Processed 228341 tokens with 15481 phrases; found: 18715 phrases; correct: 11298.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 31):
+	        F1	Prec	Recall
+Micro (Seg)	77.36	75.22	79.62
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	88.43	90.51	86.44
+   Disease	70.47	69.74	71.21
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 9917 phrases; correct: 7460.
+
+Segment evaluation bc_dev (iteration 31):
+	        F1	Prec	Recall
+Micro (Seg)	66.91	63.41	70.82
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	76.10	76.37	75.82
+   Disease	0.00	0.00	100.00
+      Gene	63.94	62.42	65.53
+Processed 228341 tokens with 15481 phrases; found: 17290 phrases; correct: 10963.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 32):
+	        F1	Prec	Recall
+Micro (Seg)	77.14	73.52	81.13
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	88.16	88.73	87.60
+   Disease	70.91	68.81	73.14
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10339 phrases; correct: 7601.
+
+Segment evaluation bc_dev (iteration 32):
+	        F1	Prec	Recall
+Micro (Seg)	66.98	61.96	72.88
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	76.11	76.17	76.05
+   Disease	0.00	0.00	100.00
+      Gene	65.00	61.02	69.53
+Processed 228341 tokens with 15481 phrases; found: 18208 phrases; correct: 11282.
+
+Lasted saved at epoch 31, batch 0
+
+Segment evaluation cdr_dev (iteration 33):
+	        F1	Prec	Recall
+Micro (Seg)	77.48	75.27	79.83
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	88.38	89.45	87.33
+   Disease	70.96	71.36	70.56
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 9936 phrases; correct: 7479.
+
+Segment evaluation bc_dev (iteration 33):
+	        F1	Prec	Recall
+Micro (Seg)	67.61	63.39	72.42
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	75.78	74.48	77.12
+   Disease	0.00	0.00	100.00
+      Gene	65.25	63.17	67.47
+Processed 228341 tokens with 15481 phrases; found: 17687 phrases; correct: 11212.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 34):
+	        F1	Prec	Recall
+Micro (Seg)	76.73	71.93	82.21
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	88.52	88.42	88.62
+   Disease	70.84	67.70	74.28
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10707 phrases; correct: 7702.
+
+Segment evaluation bc_dev (iteration 34):
+	        F1	Prec	Recall
+Micro (Seg)	68.01	62.17	75.05
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	76.93	75.50	78.42
+   Disease	0.00	0.00	100.00
+      Gene	66.21	61.66	71.49
+Processed 228341 tokens with 15481 phrases; found: 18686 phrases; correct: 11618.
+
+Lasted saved at epoch 33, batch 0
+
+Segment evaluation cdr_dev (iteration 35):
+	        F1	Prec	Recall
+Micro (Seg)	76.32	72.19	80.96
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	88.79	91.15	86.56
+   Disease	71.44	69.01	74.05
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10507 phrases; correct: 7585.
+
+Segment evaluation bc_dev (iteration 35):
+	        F1	Prec	Recall
+Micro (Seg)	67.72	62.53	73.86
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	75.43	79.99	71.36
+   Disease	0.00	0.00	100.00
+      Gene	66.64	59.03	76.50
+Processed 228341 tokens with 15481 phrases; found: 18287 phrases; correct: 11434.
+
+Lasted saved at epoch 33, batch 0
+
+Segment evaluation cdr_dev (iteration 36):
+	        F1	Prec	Recall
+Micro (Seg)	78.34	75.22	81.73
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	88.56	89.11	88.02
+   Disease	72.13	70.41	73.95
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10179 phrases; correct: 7657.
+
+Segment evaluation bc_dev (iteration 36):
+	        F1	Prec	Recall
+Micro (Seg)	68.64	64.38	73.50
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	76.76	74.73	78.91
+   Disease	0.00	0.00	100.00
+      Gene	66.51	65.29	67.79
+Processed 228341 tokens with 15481 phrases; found: 17672 phrases; correct: 11378.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 37):
+	        F1	Prec	Recall
+Micro (Seg)	78.45	76.04	81.02
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	88.78	91.08	86.59
+   Disease	73.09	72.06	74.14
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 9983 phrases; correct: 7591.
+
+Segment evaluation bc_dev (iteration 37):
+	        F1	Prec	Recall
+Micro (Seg)	68.79	65.19	72.81
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	76.51	79.21	73.99
+   Disease	0.00	0.00	100.00
+      Gene	67.44	63.76	71.57
+Processed 228341 tokens with 15481 phrases; found: 17291 phrases; correct: 11272.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 38):
+	        F1	Prec	Recall
+Micro (Seg)	78.56	75.61	81.75
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	89.31	90.39	88.26
+   Disease	72.61	71.54	73.71
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10130 phrases; correct: 7659.
+
+Segment evaluation bc_dev (iteration 38):
+	        F1	Prec	Recall
+Micro (Seg)	69.36	64.69	74.75
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	77.55	76.90	78.20
+   Disease	0.00	0.00	100.00
+      Gene	67.39	64.05	71.11
+Processed 228341 tokens with 15481 phrases; found: 17888 phrases; correct: 11572.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 39):
+	        F1	Prec	Recall
+Micro (Seg)	79.08	76.89	81.41
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	88.87	89.53	88.22
+   Disease	73.52	74.06	73.00
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 9920 phrases; correct: 7627.
+
+Segment evaluation bc_dev (iteration 39):
+	        F1	Prec	Recall
+Micro (Seg)	69.54	66.25	73.17
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	77.69	76.29	79.13
+   Disease	0.00	0.00	100.00
+      Gene	66.33	65.79	66.88
+Processed 228341 tokens with 15481 phrases; found: 17098 phrases; correct: 11328.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 40):
+	        F1	Prec	Recall
+Micro (Seg)	78.86	76.18	81.73
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	89.33	90.28	88.41
+   Disease	73.70	73.93	73.47
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10051 phrases; correct: 7657.
+
+Segment evaluation bc_dev (iteration 40):
+	        F1	Prec	Recall
+Micro (Seg)	70.84	66.43	75.87
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	78.56	77.81	79.32
+   Disease	0.00	0.00	100.00
+      Gene	68.66	65.42	72.23
+Processed 228341 tokens with 15481 phrases; found: 17683 phrases; correct: 11746.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 41):
+	        F1	Prec	Recall
+Micro (Seg)	79.29	76.69	82.08
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	89.51	90.93	88.14
+   Disease	73.46	72.35	74.59
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10027 phrases; correct: 7690.
+
+Segment evaluation bc_dev (iteration 41):
+	        F1	Prec	Recall
+Micro (Seg)	69.96	66.15	74.24
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	78.69	77.60	79.80
+   Disease	0.00	0.00	100.00
+      Gene	67.15	65.97	68.37
+Processed 228341 tokens with 15481 phrases; found: 17375 phrases; correct: 11493.
+
+Lasted saved at epoch 40, batch 0
+
+Segment evaluation cdr_dev (iteration 42):
+	        F1	Prec	Recall
+Micro (Seg)	79.18	76.52	82.03
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	89.64	90.72	88.58
+   Disease	73.23	72.54	73.93
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10043 phrases; correct: 7685.
+
+Segment evaluation bc_dev (iteration 42):
+	        F1	Prec	Recall
+Micro (Seg)	70.54	66.53	75.05
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	78.85	78.72	78.99
+   Disease	0.00	0.00	100.00
+      Gene	68.34	65.97	70.89
+Processed 228341 tokens with 15481 phrases; found: 17463 phrases; correct: 11619.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 43):
+	        F1	Prec	Recall
+Micro (Seg)	79.91	78.05	81.86
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	89.54	90.75	88.35
+   Disease	73.42	73.01	73.83
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 9826 phrases; correct: 7669.
+
+Segment evaluation bc_dev (iteration 43):
+	        F1	Prec	Recall
+Micro (Seg)	68.87	66.69	71.19
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	77.23	75.49	79.04
+   Disease	0.00	0.00	100.00
+      Gene	65.74	68.85	62.90
+Processed 228341 tokens with 15481 phrases; found: 16526 phrases; correct: 11021.
+
+Lasted saved at epoch 42, batch 0
+
+Segment evaluation cdr_dev (iteration 44):
+	        F1	Prec	Recall
+Micro (Seg)	79.61	76.93	82.50
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	89.93	89.61	90.26
+   Disease	73.74	74.59	72.90
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10047 phrases; correct: 7729.
+
+Segment evaluation bc_dev (iteration 44):
+	        F1	Prec	Recall
+Micro (Seg)	71.30	67.00	76.20
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	78.79	76.27	81.48
+   Disease	0.00	0.00	100.00
+      Gene	68.58	66.65	70.61
+Processed 228341 tokens with 15481 phrases; found: 17607 phrases; correct: 11796.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 45):
+	        F1	Prec	Recall
+Micro (Seg)	78.54	75.23	82.15
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	89.86	90.63	89.11
+   Disease	72.80	72.06	73.57
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10231 phrases; correct: 7697.
+
+Segment evaluation bc_dev (iteration 45):
+	        F1	Prec	Recall
+Micro (Seg)	71.59	66.74	77.19
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	79.21	79.46	78.96
+   Disease	0.00	0.00	100.00
+      Gene	69.70	64.85	75.33
+Processed 228341 tokens with 15481 phrases; found: 17905 phrases; correct: 11950.
+
+Lasted saved at epoch 44, batch 0
+
+Segment evaluation cdr_dev (iteration 46):
+	        F1	Prec	Recall
+Micro (Seg)	79.36	77.88	80.89
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	89.41	91.29	87.62
+   Disease	74.56	76.63	72.59
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 9732 phrases; correct: 7579.
+
+Segment evaluation bc_dev (iteration 46):
+	        F1	Prec	Recall
+Micro (Seg)	71.89	68.09	76.14
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	78.77	80.20	77.40
+   Disease	0.00	0.00	100.00
+      Gene	70.18	66.08	74.82
+Processed 228341 tokens with 15481 phrases; found: 17312 phrases; correct: 11788.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 47):
+	        F1	Prec	Recall
+Micro (Seg)	79.49	76.76	82.42
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	89.95	91.49	88.47
+   Disease	73.90	72.88	74.95
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10060 phrases; correct: 7722.
+
+Segment evaluation bc_dev (iteration 47):
+	        F1	Prec	Recall
+Micro (Seg)	71.96	67.77	76.70
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	79.26	80.10	78.44
+   Disease	0.00	0.00	100.00
+      Gene	70.57	66.75	74.86
+Processed 228341 tokens with 15481 phrases; found: 17520 phrases; correct: 11874.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 48):
+	        F1	Prec	Recall
+Micro (Seg)	79.72	77.85	81.68
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	89.79	90.31	89.28
+   Disease	74.50	76.83	72.30
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 9830 phrases; correct: 7653.
+
+Segment evaluation bc_dev (iteration 48):
+	        F1	Prec	Recall
+Micro (Seg)	72.23	68.21	76.74
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	78.74	77.47	80.04
+   Disease	0.00	0.00	100.00
+      Gene	70.10	67.20	73.26
+Processed 228341 tokens with 15481 phrases; found: 17416 phrases; correct: 11880.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 49):
+	        F1	Prec	Recall
+Micro (Seg)	80.56	77.90	83.40
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	90.08	90.62	89.55
+   Disease	75.09	74.37	75.81
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10031 phrases; correct: 7814.
+
+Segment evaluation bc_dev (iteration 49):
+	        F1	Prec	Recall
+Micro (Seg)	71.83	68.07	76.04
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	79.10	77.88	80.36
+   Disease	0.00	0.00	100.00
+      Gene	70.14	68.85	71.48
+Processed 228341 tokens with 15481 phrases; found: 17295 phrases; correct: 11772.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 50):
+	        F1	Prec	Recall
+Micro (Seg)	80.16	77.33	83.20
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	89.98	91.72	88.31
+   Disease	75.30	73.79	76.88
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 10080 phrases; correct: 7795.
+
+Segment evaluation bc_dev (iteration 50):
+	        F1	Prec	Recall
+Micro (Seg)	71.05	66.48	76.30
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	78.93	79.33	78.53
+   Disease	0.00	0.00	100.00
+      Gene	70.59	67.52	73.95
+Processed 228341 tokens with 15481 phrases; found: 17769 phrases; correct: 11812.
+
+Lasted saved at epoch 49, batch 0
+
+Segment evaluation cdr_dev (iteration 51):
+	        F1	Prec	Recall
+Micro (Seg)	80.58	78.07	83.25
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	90.21	91.82	88.66
+   Disease	75.70	74.84	76.57
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 9991 phrases; correct: 7800.
+
+Segment evaluation bc_dev (iteration 51):
+	        F1	Prec	Recall
+Micro (Seg)	71.82	67.81	76.34
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	79.39	79.35	79.42
+   Disease	0.00	0.00	100.00
+      Gene	70.99	69.02	73.08
+Processed 228341 tokens with 15481 phrases; found: 17428 phrases; correct: 11818.
+
+Model saved in file: /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_350_0.1.ckpt
+
+Segment evaluation cdr_dev (iteration 52):
+	        F1	Prec	Recall
+Micro (Seg)	81.07	79.49	82.72
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	90.06	91.22	88.93
+   Disease	76.24	77.47	75.05
+      Gene	0.00	0.00	100.00
+Processed 122368 tokens with 9369 phrases; found: 9750 phrases; correct: 7750.
+
+Segment evaluation bc_dev (iteration 52):
+	        F1	Prec	Recall
+Micro (Seg)	72.43	69.22	75.94
+Macro (Seg)	0.00	0.00	100.00
+-------
+         O	0.00	0.00	100.00
+  Chemical	79.28	77.80	80.83
+   Disease	0.00	0.00	100.00
+      Gene	70.84	70.89	70.79
+Processed 228341 tokens with 15481 phrases; found: 16984 phrases; correct: 11757.
+srun: Force Terminated job 3629129
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 3629129.0 ON node077 CANCELLED AT 2018-04-13T15:31:00 ***
+srun: error: node077: task 0: Terminated

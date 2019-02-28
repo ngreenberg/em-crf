@@ -1,6 +1,0 @@
-srun: interrupt (one more within 1 sec to abort)
-srun: task 0: unknown
-srun: Force Terminated job 3629123
-srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
-slurmstepd: error: *** STEP 3629123.0 ON node076 CANCELLED AT 2018-04-13T12:07:26 ***
-srun: error: node076: task 0: Terminated

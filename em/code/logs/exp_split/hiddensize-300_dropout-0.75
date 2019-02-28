@@ -1,9 +1,0 @@
-/home/ngreenberg/miniconda3/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
-  return f(*args, **kwds)
-Loading vocab from /mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/embeddings/glove.6B/glove.6B.100d.txt
-
-Traceback (most recent call last):
-  File "exp_split.py", line 67, in <module>
-    dp.read_file(pubmed + 'train_split_A_modified', 'A_train', 'A', update=True)
-NameError: name 'pubmed' is not defined
-srun: error: node084: task 0: Exited with exit code 1

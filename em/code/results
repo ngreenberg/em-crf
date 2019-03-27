@@ -2,7 +2,7 @@ Lasted saved at epoch 151, batch 0
 
 Training complete. Loading best model
 
-Model loaded from /mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/exp_split_300_0.5.ckpt
+Model loaded from modelpath/exp_split_300_0.5.ckpt
 Best model results:
 Segment evaluation A_train:
                 F1      Prec    Recall

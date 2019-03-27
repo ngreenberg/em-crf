@@ -51,7 +51,7 @@ batch_size = 32
 # process data #
 ################
 
-data_path = '/mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/'
+data_path = 'datapath/'
 
 path = data_path + 'pubmed/'
 
@@ -493,7 +493,7 @@ for i in range(epochs):
             f1, _ = run_evaluation(
             	dev_batches, 'full', 'dev (iteration %d)' % i)
 
-            model_path = '/mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/'
+            model_path = 'modelpath/3_sets/'
 
             if f1 > max_f1:
                 save_path = saver.save(

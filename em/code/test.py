@@ -52,7 +52,7 @@ batch_size = 32
 # process data #
 ################
 
-data_path = '/mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/'
+data_path = 'datapath/'
 
 cdr_path = data_path + 'cdr/'
 bc_path = data_path + 'bc/'

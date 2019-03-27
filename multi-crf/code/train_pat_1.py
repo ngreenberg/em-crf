@@ -51,7 +51,7 @@ batch_size = 32
 # process data #
 ################
 
-data_path = '/iesl/canvas/ngreenberg/disjoint-dataset/data/'
+data_path = 'datapath/'
 
 cdr_path = '/iesl/data/meta/pubtator/ner_paper/processed/train_peng_10000/'
 bc_path = '/home/pat/canvas/cdr_ie/data/BC_VI_Task5/processed_ctd/'
@@ -310,7 +310,7 @@ for i in range(epochs):
             f1_C, _ = run_evaluation(
             	dev_batches_C, 'A', 'bc_dev (iteration %d)' % i)
 
-            model_path = '/iesl/canvas/ngreenberg/disjoint-dataset/models/joint/'
+            model_path = 'modelpath/joint/'
             f1 = np.mean((f1_B, f1_C))
 
             if f1 > max_f1:

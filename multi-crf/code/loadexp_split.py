@@ -51,7 +51,7 @@ batch_size = 32
 # process data #
 ################
 
-data_path = '/mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/'
+data_path = 'datapath/'
 
 path = data_path + 'pubmed/'
 
@@ -456,7 +456,7 @@ def train(batch, batch_dataset):
 
 test_batches = dp.get_batches('test', batch_size, random=False)
 
-model_path = '/mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/'
+model_path = 'modelpath/3_sets/'
 save_path = model_path + 'exp_split_%d_%.1f.ckpt' % (hidden_size, args.dropout)
 
 saver.restore(sess, save_path)

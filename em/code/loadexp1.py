@@ -52,7 +52,7 @@ batch_size = 32
 # process data #
 ################
 
-data_path = '/mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/'
+data_path = 'datapath/'
 
 cdr_path = data_path + 'cdr/'
 bc_path = data_path + 'bc/'
@@ -265,7 +265,7 @@ test_batches_bc = dp.get_batches('bc_test', batch_size, random=False)
 
 samples_batches = dp.get_batches('samples', 2, random=False)
 
-model_path = '/mnt/nfs/work1/696ds-s18/ngreenberg/em-disjoint-dataset/models/'
+model_path = 'modelpath/'
 save_path = model_path + 'exp1_%d_%.1f.ckpt' % (hidden_size, args.dropout)
 
 print('Loading best model')

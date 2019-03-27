@@ -53,7 +53,7 @@ batch_size = 32
 ################
 
 dataset = args.dataset
-data_path = '/iesl/canvas/ngreenberg/disjoint-dataset/data/'
+data_path = 'datapath/'
 
 cdr_path = '/iesl/data/meta/pubtator/ner_paper/processed/train_peng_10000/'
 bc_path = data_path + 'BC_VI_Task5/ner_CDR_BC_VI_'
@@ -348,13 +348,13 @@ for i in range(epochs):
             	dev_batches_B, 'bc_dev (iteration %d)' % i, A=False)
 
             if dataset == 'joint':
-            	model_path = '/iesl/canvas/ngreenberg/disjoint-dataset/models/joint/'
+            	model_path = 'modelpath/joint/'
             	f1 = np.mean((f1_A, f1_B))
             elif dataset == 'A':
-            	model_path = '/iesl/canvas/ngreenberg/disjoint-dataset/models/A/'
+            	model_path = 'modelpath/A/'
             	f1 = f1_A
             elif dataset == 'B':
-            	model_path = '/iesl/canvas/ngreenberg/disjoint-dataset/models/B/'
+            	model_path = 'modelpath/B/'
             	f1 = f1_B
 
             if f1 > max_f1:

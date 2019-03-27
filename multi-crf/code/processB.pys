@@ -48,7 +48,7 @@ batch_size = 32
 # process data #
 ################
 
-data_path = '/iesl/canvas/ngreenberg/disjoint-dataset/data/'
+data_path = 'datapath/'
 
 cdr_path = data_path + 'cdr/ner_CDR_'
 bc_path = data_path + 'BC_VI_Task5/ner_CDR_BC_VI_'
@@ -268,7 +268,7 @@ for i in range(epochs):
 
     # if np.mean((f1_A, f1_B)) > max_f1:
     if f1_A > max_f1:
-        model_path = '/iesl/canvas/ngreenberg/disjoint-dataset/models/cdr/'
+        model_path = 'modelpath/cdr/'
         save_path = saver.save(sess, model_path + 'model_%d_%.1f.ckpt' % (hidden_size, args.dropout))
         print('Model saved in file: %s' % save_path)
         # max_f1 = np.mean((f1_A, f1_B))

@@ -53,7 +53,7 @@ batch_size = 32
 # process data #
 ################
 
-data_path = '/mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/'
+data_path = 'datapath/'
 
 cdr_path = data_path + 'cdr/'
 bc_path = data_path + 'bc/'
@@ -397,7 +397,7 @@ def train(batch, batch_dataset):
 test_batches_B = dp.get_batches('cdr_test', batch_size, random=False)
 test_batches_C = dp.get_batches('bc_test', batch_size, random=False)
 
-model_path = '/mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/'
+model_path = 'modelpath/3_sets/'
 save_path = model_path + 'exp2_%d_%.1f.ckpt' % (hidden_size, args.dropout)
 
 saver.restore(sess, save_path)

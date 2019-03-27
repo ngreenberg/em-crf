@@ -51,7 +51,7 @@ batch_size = 32
 # process data #
 ################
 
-data_path = '/mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/data/'
+data_path = 'datapath/'
 
 cdr_path = data_path + 'cdr/'
 bc_path = data_path + 'bc/'
@@ -376,7 +376,7 @@ for i in range(epochs):
             f1_C, _ = run_evaluation(
             	dev_batches_C, 'C', 'bc_dev (iteration %d)' % i)
 
-            model_path = '/mnt/nfs/work1/696ds-s18/ngreenberg/disjoint-dataset/models/3_sets/'
+            model_path = 'modelpath/3_sets/'
             f1 = np.mean((f1_B, f1_C))
 
             if f1 > max_f1:

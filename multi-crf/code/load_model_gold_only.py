@@ -34,7 +34,7 @@ batch_size = 32
 # process data #
 ################
 
-data_path = '/iesl/canvas/ngreenberg/disjoint-dataset/data/'
+data_path = 'datapath/'
 
 cdr_path = '/iesl/data/meta/pubtator/ner_paper/processed/train_peng_10000/'
 bc_path = data_path + 'BC_VI_Task5/ner_CDR_BC_VI_'
@@ -123,7 +123,7 @@ saver = tf.train.Saver()
 
 sess = tf.Session()
 
-model_path = '/iesl/canvas/ngreenberg/disjoint-dataset/models/%s.ckpt' % args.model
+model_path = 'modelpath/%s.ckpt' % args.model
 saver.restore(sess, model_path)
 print('\nModel loaded from %s' % model_path)
 
